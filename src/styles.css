@@ -1,1 +1,223 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,300,600|Metrophobic:400");
+
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/60530ffaa21bc9f20171b298.60530ffc4ee4fd829b853c62.J1OtQsf.hcp.png");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root { 
+    --absolute-zero: #0144e4;
+    --black: #000000;
+    --blue: #3a74ff;
+    --mercury: #e6e6e6;
+    --mercury-2: #e7e7e7;
+    --mist-gray: #c4c4c4;
+    --monza: #d61212;
+    --slimy-green: #1fc011;
+    --stack: #8a8a8a;
+    --white: #ffffff;
+   
+    --font-size-l: 14px;
+    --font-size-m: 12px;
+    --font-size-s: 11px;
+    --font-size-xl: 18px;
+    --font-size-xs: 9px;
+    --font-size-xxl: 24px;
+    --font-size-xxs: 8px;
+   
+    --font-family-metrophobic: "Metrophobic", Helvetica;
+    --font-family-poppins: "Poppins", Helvetica;
+    --font-family-poppins-medium: "Poppins-Medium", Helvetica;
+  }
+  .poppins-normal-black-12px {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .poppins-normal-stack-12px {
+    color: var(--stack);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .poppins-normal-stack-11px {
+    color: var(--stack);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .poppins-semi-bold-absolute-zero-18px {
+    color: var(--absolute-zero);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .poppins-normal-black-9px {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xs);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .poppins-normal-black-18px {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .poppins-normal-absolute-zero-11px {
+    color: var(--absolute-zero);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .metrophobic-normal-white-11px {
+    color: var(--white);
+    font-family: var(--font-family-metrophobic);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .poppins-normal-mist-gray-12px {
+    color: var(--mist-gray);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .poppins-semi-bold-black-18px {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .poppins-normal-slimy-green-11px {
+    color: var(--slimy-green);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .poppins-light-stack-12px {
+    color: var(--stack);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 300;
+  }
+  
+  .poppins-normal-stack-18px {
+    color: var(--stack);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .metrophobic-normal-white-14px {
+    color: var(--white);
+    font-family: var(--font-family-metrophobic);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .poppins-semi-bold-absolute-zero-24px {
+    color: var(--absolute-zero);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .poppins-light-stack-11px {
+    color: var(--stack);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 300;
+  }
+  
+  .poppins-normal-stack-8px {
+    color: var(--stack);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xxs);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .poppins-normal-black-8px {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xxs);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .border-1px-mercury {
+    border: 1px solid var(--mercury);
+  }
+  
+  .border-1px-mercury-2 {
+    border: 1px solid var(--mercury-2);
+  }
+  
+  .border-1px-absolute-zero {
+    border: 1px solid var(--absolute-zero);
+  }
+  
+  .border-1px-mist-gray {
+    border: 1px solid var(--mist-gray);
+  }
+  

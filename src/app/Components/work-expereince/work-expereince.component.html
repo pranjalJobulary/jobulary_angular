@@ -1,0 +1,10 @@
+<p>work-expereince works!</p>
+
+<div class="container">
+    <span *ngFor="let item of workExp">
+        <p>{{item.designation}}</p>
+        <p>{{item.company}}</p>
+        <p>{{item.verified}}</p>
+    </span>
+</div>
+<button (click)="addWork()">Add</button>
