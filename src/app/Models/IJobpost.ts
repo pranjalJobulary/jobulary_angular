@@ -1,0 +1,22 @@
+export interface IJobpost{
+   documentId:string
+   userId:string
+   employerID:string
+   jobPostHeadLine:string
+   employmentType:string
+   jobdescripition:string
+   keySkill:string
+   currency:string
+   minAnnualSalary:string
+   maxAnnualSalary:string
+   location:string
+   functionArea:string
+   referencecode:string
+   eductionQualification:string
+   asktoQuestion:string
+   companyName:string
+   numberOfVacancies:string
+   createdatdatetime:Date
+   workExperienceMin:string
+   workExperienceMax:string
+}
