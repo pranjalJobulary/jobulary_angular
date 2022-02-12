@@ -12,13 +12,15 @@ import { TimelinePostsComponent } from './Components/timeline-posts/timeline-pos
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { WorkExpereinceComponent } from './Components/work-expereince/work-expereince.component';
 import { EduDetailsComponent } from './Components/edu-details/edu-details.component';
+import { AboutMeComponent } from './Components/about-me/about-me.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TimelinePostsComponent,
     WorkExpereinceComponent,
-    EduDetailsComponent
+    EduDetailsComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,
