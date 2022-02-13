@@ -16,8 +16,8 @@
                     About me
                   </div>
                 </div>
-                <input class="frame-367 border-1px-mist-gray">
-                <img class="group-363" src="img/group-363@2x.svg" />
+                <input type="text" class="frame-367 border-1px-mist-gray" name="aboutMe" [(ngModel)]="example">
+                <img class="group-363" src="img/group-363@2x.svg" (click)="addAboutme()" />
               </div>
             </div>
           </div>
@@ -26,5 +26,3 @@
         </div>
       </div>
     </div>
-<input type="text" name="aboutMe" [(ngModel)]="example" />
-<button (click)="addAboutme()">Add</button>
