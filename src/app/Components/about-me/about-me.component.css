@@ -574,6 +574,10 @@
   margin-right: 84px;
   margin-top: 38px;
   width: 152px;
+  background-color: var(--blue);
+  color: var(--white);
+  border: none;
+  border-radius: 10px;
 }
 
 .aboutme .frame-container {
