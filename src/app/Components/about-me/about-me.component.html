@@ -1,14 +1,30 @@
-<div class="frame-359 border-1px-mist-gray">
-  <div class="frame-365 border-1px-mercury">
-    <div class="about-me poppins-normal-stack-14px">About me</div>
-    <div class="flex-col-9">
-      <div class="frame-364 border-1px-absolute-zero">
-        <div class="about-me-1 poppins-normal-absolute-zero-11px">About me</div>
+    <input type="hidden" id="anPageName" name="page" value="aboutme" />
+    <div class="container-center-horizontal">
+      <div class="aboutme screen">
+        <!-- top nav bar -->
+
+        <div class="flex-row-1">
+          <!-- Side nav bar -->
+          <div class="flex-col-7"></div>
+          <!-- Middle content -->
+          <div class="frame-359 border-1px-mist-gray">
+            <div class="frame-365 border-1px-mercury">
+              <div class="about-me poppins-normal-stack-14px">About me</div>
+              <div class="flex-col-9">
+                <div class="frame-364 border-1px-absolute-zero">
+                  <div class="about-me-1 poppins-normal-absolute-zero-11px">
+                    About me
+                  </div>
+                </div>
+                <input class="frame-367 border-1px-mist-gray">
+                <img class="group-363" src="img/group-363@2x.svg" />
+              </div>
+            </div>
+          </div>
+          <!-- right content -->
+          <div class="frame-container"></div>
+        </div>
       </div>
-      <div class="frame-367 border-1px-mist-gray"></div>
-      <img class="group-363" src="img/group-363@2x.svg" />
     </div>
-  </div>
-</div>
 <input type="text" name="aboutMe" [(ngModel)]="example" />
 <button (click)="addAboutme()">Add</button>
