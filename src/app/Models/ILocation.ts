@@ -1,4 +1,4 @@
-export interface ICurrentStatus{
+export interface ILocation{
   documentId:string
   userId:string
   country:string
