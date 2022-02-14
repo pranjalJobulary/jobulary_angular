@@ -14,7 +14,14 @@ export class JobpostService {
   addJobPost(jobPost:IJobpost){
    return this.firestore.collection('employer').doc('employerID').collection('jobpost').add(this.addJobPost);
   }
-  getJobPost(jobPost:IJobpost){
+
+  // To get all job post from specific Employer
+  getAllJobPost(){
     return this.firestore.collection('employer').doc('employerID').collection('jobpost');
+   }
+
+   //To get specific jobpost from specific employer
+   getSpecificJobPost(){
+     return this.firestore.collection('employer').doc('employerID').collection('jobpost').doc('jobpostID').snapshotChanges;
    }
 }
