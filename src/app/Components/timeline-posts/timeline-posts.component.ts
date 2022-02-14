@@ -98,7 +98,7 @@ debugger
    async signIn () {
     this.email = 'pranjal@jobulary.io';
     this.password = 'Pranjal@1';
-    this.timeline.signIn(this.email, this.password);
+    // this.timeline.signIn(this.email, this.password);
    }
   // getTimelinePosts(): Observable<any>{
   //     this.timeline.getTimelinePost().subscribe(res => (this.timelinePosts = res));

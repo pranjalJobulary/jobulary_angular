@@ -21,11 +21,11 @@ export class TimelinePostServiceService {
   }
 
   getUserExperience() {
-    return this.firestore.collection("users").doc('OObdeBoIdodZLcQtPk0E52qm4aj1').collection('newJob').snapshotChanges();
+    return this.firestore.collection("users").doc(this.id).collection('newJob').snapshotChanges();
   }
 
   getUserBasicDetails() {
-    return this.firestore.collection("users").doc('OObdeBoIdodZLcQtPk0E52qm4aj1').collection('basicDetail').snapshotChanges();
+    return this.firestore.collection("users").doc(this.id).collection('basicDetail').snapshotChanges();
   }
 
   createPost(post: ITimeline){
@@ -34,19 +34,5 @@ export class TimelinePostServiceService {
 
   getUserDetails() {
     return this.firestore.collection("users").snapshotChanges();
-  }
-
-  signIn(email: string, password: string){
-    this.authAngular.signInWithEmailAndPassword(email, password)
-    .then(value => {
-      this.id = value.user?.uid ?? "Not available";
-      console.log("Nice it worked!");
-      console.log('Sucess', value.user?.uid),
-      console.log("value.additionalUserInfo?.providerId");
-      console.log(this.id);
-      this.getUserDetails();
-    }).catch(error => {
-      console.log(error);
-    })
   }
 }
