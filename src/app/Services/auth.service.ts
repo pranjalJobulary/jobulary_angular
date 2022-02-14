@@ -21,8 +21,10 @@ export class AuthService {
       console.log(value.additionalUserInfo?.providerId);
       console.log(this.userId);
       this.userDetails.getUserDetails();
+      return "Success";
     }).catch(error => {
       console.log(error);
+      return error;
     })
   }
 
