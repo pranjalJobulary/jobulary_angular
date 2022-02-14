@@ -1,28 +1,35 @@
-    <input type="hidden" id="anPageName" name="page" value="aboutme" />
-    <div class="container-center-horizontal">
-      <div class="aboutme screen">
-        <!-- top nav bar -->
+<input type="hidden" id="anPageName" name="page" value="aboutme" />
+<div class="container-center-horizontal">
+  <div class="aboutme screen">
+    <!-- top nav bar -->
 
-        <div class="flex-row-1">
-          <!-- Side nav bar -->
-          <div class="flex-col-7"></div>
-          <!-- Middle content -->
-          <div class="frame-359 border-1px-mist-gray">
-            <div class="frame-365 border-1px-mercury">
-              <div class="about-me poppins-normal-stack-14px">About me</div>
-              <div class="flex-col-9">
-                <div class="frame-364 border-1px-absolute-zero">
-                  <div class="about-me-1 poppins-normal-absolute-zero-11px">
-                    About me
-                  </div>
-                </div>
-                <input type="text" class="frame-367 border-1px-mist-gray" name="aboutMe" [(ngModel)]="example">
-                <button type="button" class="group-363"  (click)="addAboutme()" >Add About Me</button>
+    <div class="flex-row-1">
+      <!-- Side nav bar -->
+      <div class="flex-col-7"></div>
+      <!-- Middle content -->
+      <div class="frame-359 border-1px-mist-gray">
+        <div class="frame-365 border-1px-mercury">
+          <div class="about-me poppins-normal-stack-14px">About me</div>
+          <div class="flex-col-9">
+            <div class="frame-364 border-1px-absolute-zero">
+              <div class="about-me-1 poppins-normal-absolute-zero-11px">
+                About me
               </div>
             </div>
+            <textarea
+              type="text"
+              class="frame-367 border-1px-mist-gray"
+              name="aboutMe"
+              [(ngModel)]="example"
+            ></textarea>
+            <button type="button" class="group-363" (click)="addAboutme()">
+              Add About Me
+            </button>
           </div>
-          <!-- right content -->
-          <div class="frame-container"></div>
         </div>
       </div>
+      <!-- right content -->
+      <div class="frame-container"></div>
     </div>
+  </div>
+</div>
