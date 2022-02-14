@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule  } from '@angular/forms';
+import { AngularFireStorageModule } from '@angular/fire/compat/storage';
 
 import { environment } from "src/environments/environment";
 import { AngularFireModule } from "@angular/fire/compat";
@@ -88,6 +89,7 @@ import { AssessmentCertificateComponent } from './Components/assessment-certific
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFirestoreModule,
     AngularFireAuthModule,
+    AngularFireStorageModule,
     FormsModule
   ],
   providers: [],
