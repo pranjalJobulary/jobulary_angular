@@ -8,12 +8,12 @@
                 <div class="login-1 poppins-normal-absolute-zero-11px">Login</div>
               </div>
               <div class="email-mobile poppins-normal-stack-14px">Email/Mobile</div>
-              <div class="password poppins-normal-stack-14px">Password</div>
+              <div class="password poppins-normal-stack-14px" >Password</div>
             </div>
             <div class="flex-col-8">
-              <input class="frame-365-1 border-1px-mist-gray">
-              <input class="frame-367 border-1px-mist-gray">
-              <button class="group-363" src="" >Login</button>
+              <input class="frame-365-1 border-1px-mist-gray" name="email" [(ngModel)]="email">
+              <input class="frame-367 border-1px-mist-gray" name="pass" [(ngModel)]="pass">
+              <button class="group-363" src="" (click)="signIn()">Login</button>
             </div>
           </div>
         </div>
