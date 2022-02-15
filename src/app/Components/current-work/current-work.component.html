@@ -1,0 +1,10 @@
+<p>current-work works!</p>
+
+<p>current-work works!</p>
+
+Company: <input type="text" id="company" name="company" [(ngModel)]="currentWork.company" #company>
+Designation: <input type="text" id="designation" name="designation" [(ngModel)]="currentWork.designation" #designation>
+Start Date: <input type="date" id="start_date" name="start_date" [(ngModel)]="currentWork.start_date" #start_date>
+Description: <input type="text" id="description" name="description" [(ngModel)]="currentWork.description" #description>
+
+<button (click)="addCurrentWork()">Add Current Work</button>

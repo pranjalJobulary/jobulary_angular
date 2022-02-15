@@ -10,6 +10,7 @@ import { WorkExperienceService } from 'src/app/Services/work-experience.service'
 export class WorkExpereinceComponent implements OnInit {
 
   workExp!: IWorkExperience[]
+  work!: IWorkExperience
 
   constructor(private workService: WorkExperienceService) { }
 
@@ -25,7 +26,7 @@ export class WorkExpereinceComponent implements OnInit {
   }
 
   addWork() {
-    this.workService.addWork().then(data => {
+    this.workService.addWork(this.work).then(data => {
       return(
         console.log(data)
       )

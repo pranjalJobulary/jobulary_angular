@@ -46,6 +46,7 @@ import { AssessmentDetailsReportComponent } from './Components/assessment-detail
 import { AssessmentCertificateComponent } from './Components/assessment-certificate/assessment-certificate.component';
 import { ProfileComponent } from './Components/profile/profile.component';
 import { CompanyComponent } from './Components/company/company.component';
+import { CurrentWorkComponent } from './Components/current-work/current-work.component';
 
 @NgModule({
   declarations: [
@@ -85,7 +86,8 @@ import { CompanyComponent } from './Components/company/company.component';
     AssessmentDetailsReportComponent,
     AssessmentCertificateComponent,
     ProfileComponent,
-    CompanyComponent
+    CompanyComponent,
+    CurrentWorkComponent
   ],
   imports: [
     BrowserModule,

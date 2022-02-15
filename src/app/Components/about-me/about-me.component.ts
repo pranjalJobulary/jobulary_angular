@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { IAboutMe } from 'src/app/Models/IAboutme';
 import { AboutMeService } from 'src/app/Services/about-me.service';
 
@@ -11,7 +12,7 @@ export class AboutMeComponent implements OnInit {
   aboutMe!: IAboutMe;
 
   example!: string
-  constructor(private aboutme: AboutMeService) { }
+  constructor(private aboutme: AboutMeService, private route: Router) { }
 
   ngOnInit(): void {
   }
@@ -22,6 +23,7 @@ export class AboutMeComponent implements OnInit {
     }
     this.aboutme.addAboutMe(this.aboutMe).then(() => {
       console.log('Added');
+      this.route.navigate(['timeline']);
     }).catch(error => console.log(error));
   }
 
