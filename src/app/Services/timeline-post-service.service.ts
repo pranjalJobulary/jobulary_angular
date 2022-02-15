@@ -3,6 +3,7 @@ import { AngularFirestore, AngularFirestoreCollection } from '@angular/fire/comp
 import { AngularFireAuth } from '@angular/fire/compat/auth';
 import { Observable } from 'rxjs';
 import { ITimeline } from '../Models/ITimeline';
+import { AuthService } from './auth.service';
 
 
 @Injectable({
@@ -14,7 +15,7 @@ export class TimelinePostServiceService {
   timelinePosts!: Observable<ITimeline[]>
   id!: string;
 
-  constructor(private firestore: AngularFirestore, private authAngular: AngularFireAuth) {  }
+  constructor(private firestore: AngularFirestore, private authAngular: AngularFireAuth,private auth:AuthService) {  }
 
   getTimelinePost() {
     return this.firestore.collection("TimeLinePosts").snapshotChanges();
@@ -34,5 +35,11 @@ export class TimelinePostServiceService {
 
   getUserDetails() {
     return this.firestore.collection("users").snapshotChanges();
+  }
+
+  addTimeLinePost(timelinePosts:ITimeline){
+   return this.firestore.collection('users').doc(this.auth.userId).collection('TimeLinePosts').add(timelinePosts).then(data=>{
+    console.log("Success" + data.id)
+  }).catch(error => console.log(error));
   }
 }

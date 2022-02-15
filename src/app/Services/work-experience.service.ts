@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { IWorkExperience } from '../Models/IWorkExpereince';
+import { AuthService } from './auth.service';
 
 @Injectable({
   providedIn: 'root'
@@ -8,7 +9,7 @@ import { IWorkExperience } from '../Models/IWorkExpereince';
 export class WorkExperienceService {
 
   workExpereince!: IWorkExperience
-  constructor(private firestore: AngularFirestore) { }
+  constructor(private firestore: AngularFirestore, private auth:AuthService) { }
 
   addWork() {
     this.workExpereince = {
@@ -21,10 +22,12 @@ export class WorkExperienceService {
       verified: false,
       verifiedBy: ''
     }
-    return this.firestore.collection("users").doc('OObdeBoIdodZLcQtPk0E52qm4aj1').collection('workExpereince').add(this.workExpereince);
+    return this.firestore.collection("users").doc(this.auth.userId).collection('workExpereince').add(this.workExpereince).then(data=>{
+      console.log("Success" + data.id)
+    }).catch(error => console.log(error));
   }
 
   getWork() {
-    return this.firestore.collection("users").doc('OObdeBoIdodZLcQtPk0E52qm4aj1').collection('workExpereince').snapshotChanges();
+    return this.firestore.collection("users").doc(this.auth.userId).collection('workExpereince').snapshotChanges();
   }
 }

@@ -1,28 +1,20 @@
 import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { IBasicDetails } from '../Models/IBasicDetails';
+import { AuthService } from './auth.service';
 @Injectable({
   providedIn: 'root'
 })
 export class BasicdetailsService {
 
 basicDetails!:IBasicDetails;
-  constructor(private firestore:AngularFirestore) { }
+  constructor(private firestore:AngularFirestore,private auth:AuthService) { }
 
-  addBasicDetails(){
-    this.basicDetails = {
-      createdOn: new Date(Date.now()),
-      dob: '02-01-1998',
-      firstName: 'xyz',
-      gender: 'male',
-      lastName: 'abc',
-      userBasicDetails:true,
-      userId:'OObdeBoIdodZLcQtPk0E52qm4aj1',
-      mobileNumber:'8825885479',
-      profileImage:'url',
-      backGroundImage: 'url',
-    }
-    return this.firestore.collection("users").doc('OObdeBoIdodZLcQtPk0E52qm4aj1').collection('basicdetails').add(this.basicDetails);
+  addBasicDetails(basicDetails:IBasicDetails){
+
+    return this.firestore.collection("users").doc('OObdeBoIdodZLcQtPk0E52qm4aj1').collection('basicdetails').add(this.basicDetails).then(data=>{
+      console.log("Success" + data.id)
+    }).catch(error => console.log(error));
   }
 
   getBasicDetails() {

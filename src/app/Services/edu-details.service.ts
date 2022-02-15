@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { IEducationDetails } from '../Models/IEducationDetails';
+import { AuthService } from './auth.service';
 
 @Injectable({
   providedIn: 'root'
@@ -8,23 +9,14 @@ import { IEducationDetails } from '../Models/IEducationDetails';
 export class EduDetailsService {
 
   eduDetails!: IEducationDetails;
-  constructor(private firestore: AngularFirestore) { }
+  constructor(private firestore: AngularFirestore,private auth:AuthService) { }
 
-  addEdu() {
-    this.eduDetails = {
-      typeOfEdu: 'Graduation',
-      instituteName: 'SRM IST',
-      qualifications: 'B.Tech',
-      major: 'IT',
-      percentage: '76.8',
-      startYear: 'July 2015',
-      endYear: 'June 2019',
-      description: 'Great expereience',
-      verified: false,
-      verifiedBy: ''
-    }
+  addEdu(eduDetails: IEducationDetails) {
 
-    return this.firestore.collection("users").doc('OObdeBoIdodZLcQtPk0E52qm4aj1').collection('educationDetails').add(this.eduDetails);
+
+    return this.firestore.collection("users").doc(this.auth.userId).collection('educationDetails').add(this.eduDetails).then(data=>{
+      console.log("Success" + data.id)
+    }).catch(error => console.log(error));
   }
 
   getEdu() {
