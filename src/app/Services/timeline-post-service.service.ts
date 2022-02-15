@@ -26,7 +26,7 @@ export class TimelinePostServiceService {
   }
 
   getUserBasicDetails() {
-    return this.firestore.collection("users").doc(this.id).collection('basicDetail').snapshotChanges();
+    return this.firestore.collection("users").doc(this.auth.userId).collection('basicDetail').snapshotChanges();
   }
 
   createPost(post: ITimeline){

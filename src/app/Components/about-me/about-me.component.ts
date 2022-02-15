@@ -20,7 +20,6 @@ export class AboutMeComponent implements OnInit {
     this.aboutMe = {
       aboutme: this.example
     }
-    debugger
     this.aboutme.addAboutMe(this.aboutMe).then(() => {
       console.log('Added');
     }).catch(error => console.log(error));

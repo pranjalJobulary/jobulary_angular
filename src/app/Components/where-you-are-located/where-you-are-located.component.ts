@@ -24,7 +24,6 @@ export class WhereYouAreLocatedComponent implements OnInit {
   }
 
   addLocation() {
-    debugger
     this.locationVar.userId = this.auth.userId;
     this.location.addLocation(this.locationVar)
   }
