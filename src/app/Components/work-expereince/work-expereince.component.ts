@@ -27,7 +27,7 @@ export class WorkExpereinceComponent implements OnInit {
   addWork() {
     this.workService.addWork().then(data => {
       return(
-        console.log(data.id)
+        console.log(data)
       )
     }).catch(error => console.log(error));
   }
