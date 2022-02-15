@@ -1,17 +1,20 @@
 import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { ILocation } from '../Models/ILocation';
+import { AuthService } from './auth.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class LocationService {
   location!:ILocation;
-  constructor(private firestore:AngularFirestore) { }
+  constructor(private firestore:AngularFirestore, private auth: AuthService) { }
   addLocation(location:ILocation){
-    return this.firestore.collection('users').doc('OObdeBoIdodZLcQtPk0E52qm4aj1').collection('location').add(location);
+    return this.firestore.collection('users').doc(this.auth.userId).collection('location').add(location).then(data =>{
+      console.log("Success" + data.id)
+    }).catch(error => console.log(error));
   }
   getLocation(){
-    return this.firestore.collection('users').doc('OObdeBoIdodZLcQtPk0E52qm4aj1').collection('location').snapshotChanges;
+    return this.firestore.collection('users').doc(this.auth.userId).collection('location').snapshotChanges;
   }
 }

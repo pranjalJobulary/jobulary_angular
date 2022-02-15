@@ -22,7 +22,7 @@ export class AuthService {
       console.log(value.additionalUserInfo?.providerId);
       console.log(this.userId);
       this.userDetails.id = this.userId;
-      this.route.navigate(['timeline']);
+      this.route.navigate(['located']);
       return "Success";
     }).catch(error => {
       console.log(error);

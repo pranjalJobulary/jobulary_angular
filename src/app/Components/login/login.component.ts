@@ -18,7 +18,6 @@ export class LoginComponent implements OnInit {
   }
 
   signIn() {
-    debugger
     this.auth.signIn(this.email, this.pass);
   }
 }

@@ -1,1 +1,6 @@
 <p>where-you-are-located works!</p>
+
+<input type="text" name="country" [(ngModel)]="locationVar.country" #country>
+<input type="text" name="state" [(ngModel)]="locationVar.state" #state>
+<input type="text" name="city" [(ngModel)]="locationVar.city" #city>
+<button (click)="addLocation()">Add</button>
