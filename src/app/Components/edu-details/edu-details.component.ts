@@ -88,9 +88,9 @@ export class EduDetailsComponent implements OnInit {
     })
   }
 
-  addEdu() {
-    this.eduService.addEdu().then( () => {
-      console.log('Added successfully!')
-    }).catch(error => console.log(error))
-  }
+  // addEdu() {
+  //   this.eduService.addEdu().then( () => {
+  //     console.log('Added successfully!')
+  //   }).catch(error => console.log(error))
+  // }
 }
