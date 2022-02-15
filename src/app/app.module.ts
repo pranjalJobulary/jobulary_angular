@@ -44,6 +44,7 @@ import { AssessmentQuestionsComponent } from './Components/assessment-questions/
 import { AssessmentBriefReportComponent } from './Components/assessment-brief-report/assessment-brief-report.component';
 import { AssessmentDetailsReportComponent } from './Components/assessment-details-report/assessment-details-report.component';
 import { AssessmentCertificateComponent } from './Components/assessment-certificate/assessment-certificate.component';
+import { ProfileComponent } from './Components/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -81,7 +82,8 @@ import { AssessmentCertificateComponent } from './Components/assessment-certific
     AssessmentQuestionsComponent,
     AssessmentBriefReportComponent,
     AssessmentDetailsReportComponent,
-    AssessmentCertificateComponent
+    AssessmentCertificateComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
