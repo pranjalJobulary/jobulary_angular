@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
-import { error } from 'console';
 import { IAboutMe } from '../Models/IAboutme';
 import { AuthService } from './auth.service';
 

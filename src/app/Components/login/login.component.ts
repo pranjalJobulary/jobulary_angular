@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from 'src/app/Services/auth.service';
+import { ImageuploadService } from 'src/app/Services/imageupload.service';
 
 @Component({
   selector: 'app-login',
@@ -12,7 +13,7 @@ export class LoginComponent implements OnInit {
 
   email!: string;
   pass!: string;
-  constructor(private auth: AuthService) { }
+  constructor(private auth: AuthService,private imageUpload:ImageuploadService) { }
 
   ngOnInit(): void {
   }
@@ -20,4 +21,10 @@ export class LoginComponent implements OnInit {
   signIn() {
     this.auth.signIn(this.email, this.pass);
   }
+  upload(event:any){
+   this.imageUpload.upload(event);
+  }
+uploadImage(){
+this.imageUpload.uploadImage();
+}
 }

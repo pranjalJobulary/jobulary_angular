@@ -6,12 +6,19 @@ import { AngularFireStorage } from '@angular/fire/compat/storage';
   providedIn: 'root'
 })
 export class ImageuploadService {
+  filePath:String | undefined
 
   constructor(private firestorage:AngularFireStorage,){
   }
 
+  upload(event:any) {
+    this.filePath = event.target.files[0]
+  }
 
   uploadImage(){
-    return this.firestorage.upload('\image',Math.random())
+    console.log(this.filePath)
+    this.firestorage.upload('/images'+Math.random()+this.filePath, this.filePath);
+
+
   }
 }
