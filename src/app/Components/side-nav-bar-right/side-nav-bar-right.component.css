@@ -1,0 +1,370 @@
+/* screen - right-nav-bar */
+
+.right-nav-bar {
+  align-items: flex-end;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1691px;
+  padding: 150px 31px;
+  width: 1440px;
+}
+
+.right-nav-bar .frame-351 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 474px;
+  justify-content: flex-end;
+  min-width: 233px;
+  padding: 24px 26px;
+}
+
+.right-nav-bar .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 420px;
+  width: 105px;
+}
+
+.right-nav-bar .network {
+  letter-spacing: 0;
+  min-height: 36px;
+}
+
+.right-nav-bar .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 354px;
+  margin-top: 30px;
+  min-width: 105px;
+}
+
+.right-nav-bar .unsplash-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 354px;
+  width: 46px;
+}
+
+.right-nav-bar .unsplashuya-tt9u6-av-i {
+  height: 46px;
+  width: 46px;
+}
+
+.right-nav-bar .unsplash {
+  height: 46px;
+  margin-top: 31px;
+  object-fit: cover;
+  width: 46px;
+}
+
+.right-nav-bar .unsplash-container-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  min-height: 354px;
+  width: 46px;
+}
+
+.right-nav-bar .unsplashuya-tt9u6-av-i-1 {
+  height: 46px;
+  object-fit: cover;
+  width: 46px;
+}
+
+.right-nav-bar .flex-col-1 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  margin-top: 3px;
+  min-height: 411px;
+  width: 59px;
+}
+
+.right-nav-bar .see-all {
+  align-self: flex-end;
+  letter-spacing: 0;
+  min-height: 18px;
+  min-width: 38px;
+}
+
+.right-nav-bar .unsplashuya-tt9u6-av-i-2 {
+  height: 46px;
+  margin-top: 39px;
+  object-fit: cover;
+  width: 46px;
+}
+
+.right-nav-bar .frame-232 {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  min-height: 308px;
+  padding: 12px 10px;
+  width: 233px;
+}
+
+.right-nav-bar .analytics {
+  align-self: flex-start;
+  letter-spacing: 0;
+  margin-left: 5px;
+  min-height: 27px;
+}
+
+.right-nav-bar .group-332 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 27px;
+  min-height: 26px;
+  width: 204px;
+}
+
+.right-nav-bar .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 12px;
+  min-width: 200px;
+}
+
+.right-nav-bar .activity {
+  letter-spacing: 0;
+  min-height: 12px;
+  min-width: 30px;
+}
+
+.right-nav-bar .percent {
+  letter-spacing: 0;
+  margin-left: 153px;
+  min-height: 12px;
+}
+
+.right-nav-bar .progressbar-60100 {
+  align-items: center;
+  background-color: var(--black);
+  border-radius: 1px;
+  display: flex;
+  height: 8px;
+  margin-top: 6px;
+  overflow: hidden;
+  padding: 0 2px;
+  width: 200px;
+}
+
+.right-nav-bar .rectangle-1 {
+  background-color: var(--white);
+  border-radius: 1px;
+  height: 4px;
+  width: 162px;
+}
+
+.right-nav-bar .group-33 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 21px;
+  min-height: 26px;
+  width: 204px;
+}
+
+.right-nav-bar .visitors {
+  letter-spacing: 0;
+  min-height: 12px;
+  min-width: 29px;
+}
+
+.right-nav-bar .percent-1 {
+  letter-spacing: 0;
+  margin-left: 154px;
+  min-height: 12px;
+}
+
+.right-nav-bar .rectangle-2 {
+  background-color: var(--white);
+  border-radius: 1px;
+  height: 4px;
+  width: 105px;
+}
+
+.right-nav-bar .post-value {
+  letter-spacing: 0;
+  min-height: 12px;
+  min-width: 42px;
+}
+
+.right-nav-bar .percent-2 {
+  letter-spacing: 0;
+  margin-left: 141px;
+  min-height: 12px;
+}
+
+.right-nav-bar .rectangle {
+  background-color: var(--white);
+  border-radius: 1px;
+  height: 4px;
+  width: 137px;
+}
+
+.right-nav-bar .post-report {
+  letter-spacing: 0;
+  min-height: 12px;
+  min-width: 46px;
+}
+
+.right-nav-bar .percent-3 {
+  letter-spacing: 0;
+  margin-left: 137px;
+  min-height: 12px;
+}
+
+.right-nav-bar .job-post {
+  letter-spacing: 0;
+  min-height: 12px;
+  min-width: 34px;
+}
+
+.right-nav-bar .percent-4 {
+  letter-spacing: 0;
+  margin-left: 149px;
+  min-height: 12px;
+}
+
+.right-nav-bar .rectangle-3 {
+  background-color: var(--white);
+  border-radius: 1px;
+  height: 4px;
+  width: 126px;
+}
+
+.right-nav-bar .frame-351-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  min-height: 255px;
+  padding: 12px 14px;
+  width: 233px;
+}
+
+.right-nav-bar .kyc {
+  letter-spacing: 0;
+  margin-left: 1px;
+  min-height: 27px;
+}
+
+.right-nav-bar .frame-346 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  justify-content: flex-end;
+  margin-top: 16px;
+  min-width: 203px;
+  padding: 0 87px;
+}
+
+.right-nav-bar .place {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 28px;
+}
+
+.right-nav-bar .frame-347 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  margin-top: 2px;
+  min-width: 203px;
+  padding: 0 80px;
+}
+
+.right-nav-bar .full-kyc {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 43px;
+}
+
+.right-nav-bar .frame-348 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  justify-content: flex-end;
+  margin-top: 2px;
+  min-width: 203px;
+  padding: 0 46px;
+}
+
+.right-nav-bar .career-councelling {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 110px;
+}
+
+.right-nav-bar .frame-349 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  justify-content: flex-end;
+  margin-top: 2px;
+  min-width: 203px;
+  padding: 0 66px;
+}
+
+.right-nav-bar .mentorship {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 62px;
+}
+
+.right-nav-bar .frame-350 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  margin-top: 2px;
+  min-width: 203px;
+  padding: 0 74px;
+}
+
+.right-nav-bar .internship {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 55px;
+}
+
+.right-nav-bar .frame-351-2 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  margin-top: 2px;
+  min-width: 203px;
+  padding: 0 75px;
+}
+
+.right-nav-bar .exprience {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 53px;
+}

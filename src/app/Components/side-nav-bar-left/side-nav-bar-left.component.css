@@ -1,0 +1,272 @@
+/* screen - side-nav-bar */
+
+.side-nav-bar {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1691px;
+  width: 1440px;
+}
+
+.side-nav-bar .flex-col {
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: 4px 4px 6px #00000040;
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  min-height: 1541px;
+  padding: 14.5px 0;
+  width: 248px;
+}
+
+.side-nav-bar .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 55px;
+  margin-right: 50.0px;
+  min-width: 138px;
+}
+
+.side-nav-bar .unsplash-jo-m_l-c1-w-an-e {
+  align-self: flex-end;
+  height: 53px;
+  width: 46px;
+}
+
+.side-nav-bar .name-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  min-height: 50px;
+  width: 79px;
+}
+
+.side-nav-bar .name {
+  letter-spacing: 0;
+  min-height: 20px;
+  width: 79px;
+}
+
+.side-nav-bar .name-1 {
+  letter-spacing: 0;
+  margin-top: 10px;
+  min-height: 20px;
+  width: 37px;
+}
+
+.side-nav-bar .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 84px;
+  min-height: 842px;
+  width: 192px;
+}
+
+.side-nav-bar .group-312 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 27px;
+  margin-left: 10px;
+  min-width: 121px;
+}
+
+.side-nav-bar .study {
+  height: 28px;
+  margin-top: -0.63px;
+  object-fit: cover;
+  width: 24px;
+}
+
+.side-nav-bar .assesment {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 67px;
+}
+
+.side-nav-bar .group-313 {
+  align-items: flex-start;
+  display: flex;
+  height: 27px;
+  margin-left: 10px;
+  margin-top: 47px;
+  min-width: 128px;
+}
+
+.side-nav-bar .admin-tools {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 74px;
+}
+
+.side-nav-bar .group-314 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 10px;
+  margin-top: 49px;
+  min-width: 104px;
+}
+
+.side-nav-bar .study-1 {
+  height: 27px;
+  margin-top: -0.13px;
+  object-fit: cover;
+  width: 24px;
+}
+
+.side-nav-bar .courses {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 50px;
+}
+
+.side-nav-bar .group-315 {
+  align-items: flex-start;
+  display: flex;
+  height: 27px;
+  margin-left: 10px;
+  margin-top: 45px;
+  min-width: 123px;
+}
+
+.side-nav-bar .certificates {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 69px;
+}
+
+.side-nav-bar .group-316 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 10px;
+  margin-top: 47px;
+  min-width: 95px;
+}
+
+.side-nav-bar .history {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 41px;
+}
+
+.side-nav-bar .group-31 {
+  align-items: flex-start;
+  display: flex;
+  height: 27px;
+  margin-left: 10px;
+  margin-top: 47px;
+  min-width: 140px;
+}
+
+.side-nav-bar .announcment {
+  align-self: center;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  margin-left: 28px;
+  min-height: 20px;
+  width: 86px;
+}
+
+.side-nav-bar .group-318 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 10px;
+  margin-top: 47px;
+  min-width: 102px;
+}
+
+.side-nav-bar .support {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 48px;
+}
+
+.side-nav-bar .varified-profile {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 86px;
+}
+
+.side-nav-bar .group-320 {
+  align-items: flex-start;
+  display: flex;
+  height: 27px;
+  margin-left: 10px;
+  margin-top: 47px;
+  min-width: 115px;
+}
+
+.side-nav-bar .langauge {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 61px;
+}
+
+.side-nav-bar .courses-you-may-like {
+  letter-spacing: 0;
+  margin-top: 47px;
+  min-height: 30px;
+  width: 192px;
+}
+
+.side-nav-bar .group-321 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 10px;
+  margin-top: 49px;
+  min-width: 122px;
+}
+
+.side-nav-bar .block-chain {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 68px;
+}
+
+.side-nav-bar .group-322 {
+  align-items: flex-start;
+  display: flex;
+  height: 27px;
+  margin-left: 10px;
+  margin-top: 47px;
+  min-width: 118px;
+}
+
+.side-nav-bar .java-script {
+  align-self: center;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  margin-left: 28px;
+  min-height: 20px;
+  width: 64px;
+}
