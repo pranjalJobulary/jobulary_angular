@@ -47,6 +47,12 @@ import { AssessmentCertificateComponent } from './Components/assessment-certific
 import { ProfileComponent } from './Components/profile/profile.component';
 import { CompanyComponent } from './Components/company/company.component';
 import { CurrentWorkComponent } from './Components/current-work/current-work.component';
+import { FormsComponent } from './Components/forms/forms.component';
+import { CompanyProfileComponent } from './Components/company-profile/company-profile.component';
+import { CompanyDashboardComponent } from './Components/company-dashboard/company-dashboard.component';
+import { CompanyHomepageComponent } from './Components/company-homepage/company-homepage.component';
+import { ELearningDashboardComponent } from './Components/e-learning-dashboard/e-learning-dashboard.component';
+import { JosComponent } from './Components/jos/jos.component';
 
 @NgModule({
   declarations: [
@@ -87,7 +93,13 @@ import { CurrentWorkComponent } from './Components/current-work/current-work.com
     AssessmentCertificateComponent,
     ProfileComponent,
     CompanyComponent,
-    CurrentWorkComponent
+    CurrentWorkComponent,
+    FormsComponent,
+    CompanyProfileComponent,
+    CompanyDashboardComponent,
+    CompanyHomepageComponent,
+    ELearningDashboardComponent,
+    JosComponent
   ],
   imports: [
     BrowserModule,

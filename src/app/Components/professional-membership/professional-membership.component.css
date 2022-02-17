@@ -6,7 +6,6 @@
   display: flex;
   flex-direction: column;
   height: 1691px;
-  overflow: hidden;
   width: 1440px;
 }
 
@@ -239,7 +238,7 @@
 .proffisonal-membership .flex-row-1 {
   align-items: flex-start;
   display: flex;
-  height: 2179px;
+  height: 1541px;
   margin-top: 51px;
   min-width: 1409px;
 }
@@ -250,7 +249,7 @@
   box-shadow: 4px 4px 6px #00000040;
   display: flex;
   flex-direction: column;
-  min-height: 2179px;
+  min-height: 1541px;
   padding: 14.5px 0;
   width: 248px;
 }
@@ -517,7 +516,7 @@
 }
 
 .proffisonal-membership .unsplashhpxhfsqy-container {
-  background-image: url();
+  background-image: url(../img/unsplash-hpx01hfs9qy-1@1x.svg);
   background-size: 100% 100%;
   height: 180px;
   position: relative;
@@ -563,7 +562,7 @@
   width: 120px;
 }
 
-.proffisonal-membership .title {
+.proffisonal-membership .yahoo {
   letter-spacing: 0;
   min-height: 36px;
 }
@@ -639,12 +638,12 @@
   min-width: 36px;
 }
 
-.proffisonal-membership .yahoo {
+.proffisonal-membership .yahoo-1 {
   letter-spacing: 0;
   min-height: 36px;
 }
 
-.proffisonal-membership .yahoo-1 {
+.proffisonal-membership .yahoo-2 {
   letter-spacing: 0;
   min-height: 36px;
 }
