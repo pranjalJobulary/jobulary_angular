@@ -20,4 +20,17 @@ basicDetails!:IBasicDetails;
   getBasicDetails() {
     return this.firestore.collection("users").doc('OObdeBoIdodZLcQtPk0E52qm4aj1').collection('basicdetails').snapshotChanges();
   }
+
+
+//Example of cchecking the collection is exists or not
+  checkbasicDetails() {
+    return this.firestore.collection("users").doc('OObdeBoIdodZLcQtPk0E52qm4aj1').collection('basicdetails').get().subscribe(data=>{
+      if (data.empty) {
+        console.log('not present')
+      } else {
+        console.log('present')
+        console.log(data.size)
+      }
+    });
+  }
 }
