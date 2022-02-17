@@ -12,7 +12,6 @@ import { LocationService } from 'src/app/Services/location.service';
 export class WhereYouAreLocatedComponent implements OnInit {
 
   locationVar: ILocation = {
-    documentId: '',
     country: '',
     state: '',
     city: '',
@@ -27,7 +26,7 @@ export class WhereYouAreLocatedComponent implements OnInit {
   addLocation() {
     this.locationVar.userId = this.auth.userId;
     this.location.addLocation(this.locationVar).then(() => {
-      this.route.navigate(['currentWork'])
+      this.route.navigate(['currentWork']);
     }).catch(error => console.log(error))
   }
 }

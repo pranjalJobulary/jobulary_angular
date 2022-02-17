@@ -1,5 +1,5 @@
 export interface ILocation{
-  documentId:string
+  //documentId:string
   userId:string
   country:string
   state:string

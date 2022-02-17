@@ -33,4 +33,7 @@ this.imageUpload.uploadImage();
 checkBasicDetailCollectionExist(){
 this.basicdetails.checkbasicDetails();
 }
+signInWithGoogle(){
+  this.auth.signInWithGoogle();
+}
 }
