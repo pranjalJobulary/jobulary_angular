@@ -53,6 +53,8 @@ import { CompanyDashboardComponent } from './Components/company-dashboard/compan
 import { CompanyHomepageComponent } from './Components/company-homepage/company-homepage.component';
 import { ELearningDashboardComponent } from './Components/e-learning-dashboard/e-learning-dashboard.component';
 import { JosComponent } from './Components/jos/jos.component';
+import { VerifyEmailComponent } from './Components/verify-email/verify-email.component';
+
 
 @NgModule({
   declarations: [
@@ -99,7 +101,8 @@ import { JosComponent } from './Components/jos/jos.component';
     CompanyDashboardComponent,
     CompanyHomepageComponent,
     ELearningDashboardComponent,
-    JosComponent
+    JosComponent,
+    VerifyEmailComponent
   ],
   imports: [
     BrowserModule,
