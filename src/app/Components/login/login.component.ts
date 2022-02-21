@@ -36,4 +36,8 @@ this.basicdetails.checkbasicDetails();
 signInWithGoogle(){
   this.auth.signInWithGoogle();
 }
+
+registration(){
+  this.auth.registerPage();
+}
 }

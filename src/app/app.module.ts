@@ -53,8 +53,13 @@ import { CompanyDashboardComponent } from './Components/company-dashboard/compan
 import { CompanyHomepageComponent } from './Components/company-homepage/company-homepage.component';
 import { ELearningDashboardComponent } from './Components/e-learning-dashboard/e-learning-dashboard.component';
 import { JosComponent } from './Components/jos/jos.component';
+<<<<<<< HEAD
 import { ActivityComponent } from './Components/activity/activity.component';
 import { EmailVarificationComponent } from './Components/email-varification/email-varification.component';
+=======
+import { VerifyEmailComponent } from './Components/verify-email/verify-email.component';
+
+>>>>>>> b534aa41bf49b74ee95a97d96837823a3d951c3d
 
 @NgModule({
   declarations: [
@@ -102,8 +107,12 @@ import { EmailVarificationComponent } from './Components/email-varification/emai
     CompanyHomepageComponent,
     ELearningDashboardComponent,
     JosComponent,
+<<<<<<< HEAD
     ActivityComponent,
     EmailVarificationComponent
+=======
+    VerifyEmailComponent
+>>>>>>> b534aa41bf49b74ee95a97d96837823a3d951c3d
   ],
   imports: [
     BrowserModule,
