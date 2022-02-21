@@ -3,12 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FormsModule  } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 import { AngularFireStorageModule } from '@angular/fire/compat/storage';
 
-import { environment } from "src/environments/environment";
-import { AngularFireModule } from "@angular/fire/compat";
-import { AngularFirestoreModule } from "@angular/fire/compat/firestore";
+import { environment } from 'src/environments/environment';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { TimelinePostsComponent } from './Components/timeline-posts/timeline-posts.component';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { WorkExpereinceComponent } from './Components/work-expereince/work-expereince.component';
@@ -53,13 +53,10 @@ import { CompanyDashboardComponent } from './Components/company-dashboard/compan
 import { CompanyHomepageComponent } from './Components/company-homepage/company-homepage.component';
 import { ELearningDashboardComponent } from './Components/e-learning-dashboard/e-learning-dashboard.component';
 import { JosComponent } from './Components/jos/jos.component';
-<<<<<<< HEAD
+
 import { ActivityComponent } from './Components/activity/activity.component';
 import { EmailVarificationComponent } from './Components/email-varification/email-varification.component';
-=======
 import { VerifyEmailComponent } from './Components/verify-email/verify-email.component';
-
->>>>>>> b534aa41bf49b74ee95a97d96837823a3d951c3d
 
 @NgModule({
   declarations: [
@@ -107,12 +104,10 @@ import { VerifyEmailComponent } from './Components/verify-email/verify-email.com
     CompanyHomepageComponent,
     ELearningDashboardComponent,
     JosComponent,
-<<<<<<< HEAD
     ActivityComponent,
-    EmailVarificationComponent
-=======
-    VerifyEmailComponent
->>>>>>> b534aa41bf49b74ee95a97d96837823a3d951c3d
+    EmailVarificationComponent,
+
+    VerifyEmailComponent,
   ],
   imports: [
     BrowserModule,
@@ -121,9 +116,9 @@ import { VerifyEmailComponent } from './Components/verify-email/verify-email.com
     AngularFirestoreModule,
     AngularFireAuthModule,
     AngularFireStorageModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
