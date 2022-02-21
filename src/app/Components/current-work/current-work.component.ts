@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { ICurrentStatus } from 'src/app/Models/ICurrentStatus';
 import { IWorkExperience } from 'src/app/Models/IWorkExpereince';
 import { WorkExperienceService } from 'src/app/Services/work-experience.service';
 
@@ -9,6 +10,8 @@ import { WorkExperienceService } from 'src/app/Services/work-experience.service'
   styleUrls: ['./current-work.component.css']
 })
 export class CurrentWorkComponent implements OnInit {
+
+  currentWorkll!:IWorkExperience[]
 
   currentWork: IWorkExperience = {
     company: '',
@@ -24,6 +27,14 @@ export class CurrentWorkComponent implements OnInit {
   constructor(private workService: WorkExperienceService, private route: Router) { }
 
   ngOnInit(): void {
+    this.workService.getWork().subscribe(data => {
+      this.currentWorkll = data.map(e =>{
+       return {
+         id: e.payload.doc.id,
+         ...e.payload.doc.data() as IWorkExperience
+       }
+      })
+     })
   }
 
   addCurrentWork() {

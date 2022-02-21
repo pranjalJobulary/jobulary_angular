@@ -17,4 +17,9 @@ export class AboutMeService {
       console.log("Success" + data.id)
     }).catch(error => console.log(error));
   }
+
+
+  getAboutMe(){
+    return this.firestore.collection('users').doc(this.auth.userId).collection('aboutMe').snapshotChanges();
+  }
 }

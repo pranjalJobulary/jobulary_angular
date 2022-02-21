@@ -15,11 +15,11 @@ export class LocationService {
     }).catch(error => console.log(error));
   }
   getLocation(){
-    return this.firestore.collection('users').doc(this.auth.userId).collection('location').snapshotChanges;
+    return this.firestore.collection('users').doc(this.auth.userId).collection('location').snapshotChanges();
   }
 
    checkbasicDetails() {
-     this.firestore.collection("users").doc(this.auth.userId).collection('').get().subscribe(data=>{
+     this.firestore.collection("users").doc(this.auth.userId).collection('location').get().subscribe(data=>{
       if (data.empty) {
         console.log('not present')
       } else {

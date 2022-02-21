@@ -10,11 +10,19 @@ import { AboutMeService } from 'src/app/Services/about-me.service';
 })
 export class AboutMeComponent implements OnInit {
   aboutMe!: IAboutMe;
-
+  aboutMell!:IAboutMe[];
   example!: string
   constructor(private aboutme: AboutMeService, private route: Router) { }
 
   ngOnInit(): void {
+    this.aboutme.getAboutMe().subscribe(data => {
+      this.aboutMell = data.map(e =>{
+       return {
+         id: e.payload.doc.id,
+         ...e.payload.doc.data() as IAboutMe
+       }
+      })
+     })
   }
 
   addAboutme() {

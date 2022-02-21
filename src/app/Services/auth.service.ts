@@ -46,10 +46,11 @@ export class AuthService {
 
   signInWithGoogle(){
    return this.authAngular.signInWithPopup(new firebase.auth.GoogleAuthProvider()).then(value =>{
+    this.SetUserData(value.user!);
+    this.route.navigate(['timeline'])
      console.log(value.user);
    }).catch(error => {
-    console.log(error);
-    return error;
+    window.alert(error)
   })
   }
 
@@ -60,9 +61,25 @@ export class AuthService {
         this.route.navigate(['located']);
         console.log('not present')
       } else {
+        this.firestore.collection("users").doc(this.userId).collection('workExpereince').get().subscribe(data=>{
+          if (data.empty) {
+            this.route.navigate(['currentWork']);
+            console.log('currentWork not present')
+          } else {
+            this.firestore.collection("users").doc(this.userId).collection('aboutMe').get().subscribe(data=>{
+              if (data.empty) {
+                this.route.navigate(['aboutMe']);
+                console.log('aboutMe not present')
+              } else {
+                this.route.navigate(['timeline']);
+                console.log(' timeline present')
+                console.log(data.size)
+              }
+            });
+          }
+        });
 
-        this.route.navigate(['currentWork']);
-        console.log('present')
+        console.log('location present')
         console.log(data.size)
       }
     });
@@ -75,7 +92,7 @@ export class AuthService {
     SendVerificationEMail() {
       return this.authAngular.currentUser.then((user)=>{
         user!.sendEmailVerification()
-        window.alert('We sent a verification link'+ user!.email)
+        window.alert('We sent a verification link '+ user!.email)
         this.route.navigate(['verify-email'])
       }).catch((error)=>{
         window.alert(error)
@@ -111,5 +128,22 @@ export class AuthService {
       }).catch((error) => {
         window.alert(error.message)
       })
+  }
+
+  // Reset Password
+  ForgotPassword(passwordResetEmail:string){
+    return this.authAngular.sendPasswordResetEmail(passwordResetEmail).then(() => {
+      window.alert('Password reset email sent, check your inbox.');
+    }).catch((error) => {
+      window.alert(error)
+    })
+  }
+
+  //SignOut
+  SignOut(){
+    return this.authAngular.signOut().then(() => {
+      localStorage.removeItem('user');
+      this.route.navigate(['login']);
+    })
   }
 }

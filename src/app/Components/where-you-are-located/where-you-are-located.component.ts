@@ -11,6 +11,8 @@ import { LocationService } from 'src/app/Services/location.service';
 })
 export class WhereYouAreLocatedComponent implements OnInit {
 
+  locations!: ILocation[]
+
   locationVar: ILocation = {
     country: '',
     state: '',
@@ -18,14 +20,22 @@ export class WhereYouAreLocatedComponent implements OnInit {
     userId: '',
     createdOn : new Date
   }
-  constructor(private location: LocationService, private auth: AuthService, private route: Router) { }
+  constructor(private locationservice: LocationService, private auth: AuthService, private route: Router) { }
 
   ngOnInit(): void {
+    this.locationservice.getLocation().subscribe(data => {
+     this.locations = data.map(e =>{
+      return {
+        id: e.payload.doc.id,
+        ...e.payload.doc.data() as ILocation
+      }
+     })
+    })
   }
 
   addLocation() {
     this.locationVar.userId = this.auth.userId;
-    this.location.addLocation(this.locationVar).then(() => {
+    this.locationservice.addLocation(this.locationVar).then(() => {
       this.route.navigate(['currentWork']);
     }).catch(error => console.log(error))
   }

@@ -34,10 +34,16 @@ checkBasicDetailCollectionExist(){
 this.basicdetails.checkbasicDetails();
 }
 signInWithGoogle(){
-  this.auth.signInWithGoogle();
+  this.auth.signInWithGoogle()
 }
 
 registration(){
   this.auth.registerPage();
+}
+
+//reset password
+forgotPassword(){
+
+  this.auth.ForgotPassword(this.email)
 }
 }
