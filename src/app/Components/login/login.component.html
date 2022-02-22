@@ -21,8 +21,9 @@
     </div>
     <label for="file">File:</label>
 <input type="file" (change)="upload($event)" accept=".png,.jpg" />
-<button (click)="uploadImage()">Upload Image</button>
-
+<button (click)="uploadProfileImage()">Profile Image</button>
+<input type="file" (change)="upload($event)" accept=".png,.jpg" />
+<button (click)="uploadBackgroundImage()">Background Image</button>
 <button (click)="signInWithGoogle()">Google signIn</button>
 
 <button (click)="registration()">Register</button>

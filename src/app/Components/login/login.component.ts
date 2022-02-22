@@ -26,10 +26,12 @@ export class LoginComponent implements OnInit {
   upload(event:any){
    this.imageUpload.upload(event);
   }
-uploadImage(){
-this.imageUpload.uploadImage();
+uploadProfileImage(){
+this.imageUpload.uploadProfileImage();
 }
-
+uploadBackgroundImage(){
+  this.imageUpload.uploadBacgroundImage();
+  }
 checkBasicDetailCollectionExist(){
 this.basicdetails.checkbasicDetails();
 }
@@ -46,4 +48,6 @@ forgotPassword(){
 
   this.auth.ForgotPassword(this.email)
 }
+
+
 }

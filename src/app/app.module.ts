@@ -57,6 +57,7 @@ import { JosComponent } from './Components/jos/jos.component';
 import { ActivityComponent } from './Components/activity/activity.component';
 import { EmailVarificationComponent } from './Components/email-varification/email-varification.component';
 import { VerifyEmailComponent } from './Components/verify-email/verify-email.component';
+import { HotToastModule } from '@ngneat/hot-toast';
 
 @NgModule({
   declarations: [
@@ -117,6 +118,7 @@ import { VerifyEmailComponent } from './Components/verify-email/verify-email.com
     AngularFireAuthModule,
     AngularFireStorageModule,
     FormsModule,
+    HotToastModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent],
