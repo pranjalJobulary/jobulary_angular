@@ -34,6 +34,10 @@ export class ImageuploadService {
     )
   }
 
+
+  getProfileImage(){
+    return this.firestore.collection('users').doc(this.authService.userId).collection('profileImage').snapshotChanges();
+  }
   uploadBacgroundImage(){
     console.log(this.filePath)
   return  this.firestorage.upload('/background'+Math.random()+this.filePath, this.filePath).then((data)=>{
