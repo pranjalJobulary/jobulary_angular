@@ -107,7 +107,6 @@ import { HotToastModule } from '@ngneat/hot-toast';
     JosComponent,
     ActivityComponent,
     EmailVarificationComponent,
-
     VerifyEmailComponent,
   ],
   imports: [
