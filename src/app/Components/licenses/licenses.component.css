@@ -1,0 +1,1193 @@
+/* screen - lisences */
+
+.lisences {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1691px;
+  width: 1440px;
+}
+
+.lisences .overlap-group2 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  height: 99px;
+  min-width: 1440px;
+  padding: 7px 21px;
+}
+
+.lisences .avatar-12 {
+  align-self: flex-end;
+  height: 76px;
+  width: 76px;
+}
+
+.lisences .sanni {
+  letter-spacing: 0;
+  margin-left: 48px;
+  margin-top: 9.0px;
+  min-height: 18px;
+  min-width: 34px;
+}
+
+.lisences .help {
+  letter-spacing: 0;
+  margin-left: 31px;
+  margin-top: 9.0px;
+  min-height: 18px;
+  min-width: 27px;
+}
+
+.lisences .account {
+  letter-spacing: 0;
+  margin-left: 31px;
+  margin-top: 9.0px;
+  min-height: 18px;
+  min-width: 51px;
+}
+
+.lisences .place {
+  letter-spacing: 0;
+  margin-left: 31px;
+  margin-top: 9.0px;
+  min-height: 18px;
+  min-width: 30px;
+}
+
+.lisences .bithree-dots-vertical {
+  height: 24px;
+  margin-left: 71px;
+  margin-top: 7.0px;
+  width: 24px;
+}
+
+.lisences .group-298 {
+  align-self: flex-end;
+  height: 55px;
+  margin-bottom: 7px;
+  margin-left: 30px;
+  width: 451px;
+}
+
+.lisences .group-323 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  height: 54px;
+  margin-bottom: 5px;
+  margin-left: 61px;
+  min-width: 379px;
+}
+
+.lisences .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 54px;
+  width: 27px;
+}
+
+.lisences .study {
+  height: 24px;
+  margin-left: 2px;
+  object-fit: cover;
+  width: 24px;
+}
+
+.lisences .place-1 {
+  letter-spacing: 0;
+  margin-top: 16px;
+  min-height: 14px;
+}
+
+.lisences .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  min-height: 54px;
+  width: 27px;
+}
+
+.lisences .study-3 {
+  height: 24px;
+  margin-left: 1px;
+  object-fit: cover;
+  width: 24px;
+}
+
+.lisences .points {
+  letter-spacing: 0;
+  margin-top: 16px;
+  min-height: 14px;
+}
+
+.lisences .flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  min-height: 54px;
+  width: 28px;
+}
+
+.lisences .profile {
+  letter-spacing: 0;
+  margin-top: 16px;
+  min-height: 14px;
+}
+
+.lisences .flex-col-3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  min-height: 54px;
+  width: 37px;
+}
+
+.lisences .study-4 {
+  height: 24px;
+  margin-left: 1.0px;
+  object-fit: cover;
+  width: 24px;
+}
+
+.lisences .network {
+  letter-spacing: 0;
+  margin-top: 16px;
+  min-height: 14px;
+  min-width: 37px;
+}
+
+.lisences .flex-col-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 23px;
+  min-height: 54px;
+  width: 30px;
+}
+
+.lisences .study-5 {
+  height: 24px;
+  margin-left: 3px;
+  object-fit: cover;
+  width: 24px;
+}
+
+.lisences .report {
+  letter-spacing: 0;
+  margin-top: 16px;
+  min-height: 14px;
+}
+
+.lisences .flex-col-5 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 21px;
+  min-height: 54px;
+  width: 52px;
+}
+
+.lisences .study-6 {
+  height: 24px;
+  object-fit: cover;
+  width: 24px;
+}
+
+.lisences .notification-container {
+  height: 14px;
+  margin-top: 16px;
+  position: relative;
+  width: 52px;
+}
+
+.lisences .notification {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+}
+
+.lisences .flex-col-6 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  min-height: 54px;
+  width: 32px;
+}
+
+.lisences .study-7 {
+  height: 24px;
+  margin-left: 4px;
+  object-fit: cover;
+  width: 24px;
+}
+
+.lisences .setting {
+  letter-spacing: 0;
+  margin-top: 16px;
+  min-height: 14px;
+}
+
+.lisences .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 1541px;
+  margin-top: 51px;
+  min-width: 1409px;
+}
+
+.lisences .flex-col-7 {
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: 4px 4px 6px #00000040;
+  display: flex;
+  flex-direction: column;
+  min-height: 1541px;
+  padding: 14.5px 0;
+  width: 248px;
+}
+
+.lisences .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 55px;
+  margin-right: 50.0px;
+  min-width: 138px;
+}
+
+.lisences .unsplash-jo-m_l-c1-w-an-e {
+  align-self: flex-end;
+  height: 53px;
+  width: 46px;
+}
+
+.lisences .name-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  min-height: 50px;
+  width: 79px;
+}
+
+.lisences .name {
+  letter-spacing: 0;
+  min-height: 20px;
+  width: 79px;
+}
+
+.lisences .name-1 {
+  letter-spacing: 0;
+  margin-top: 10px;
+  min-height: 20px;
+  width: 37px;
+}
+
+.lisences .flex-col-8 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 84px;
+  min-height: 842px;
+  width: 192px;
+}
+
+.lisences .group-312 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 27px;
+  margin-left: 10px;
+  min-width: 121px;
+}
+
+.lisences .study-1 {
+  height: 28px;
+  margin-top: -0.63px;
+  object-fit: cover;
+  width: 24px;
+}
+
+.lisences .assesment {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 67px;
+}
+
+.lisences .group-313 {
+  align-items: flex-start;
+  display: flex;
+  height: 27px;
+  margin-left: 10px;
+  margin-top: 47px;
+  min-width: 128px;
+}
+
+.lisences .admin-tools {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 74px;
+}
+
+.lisences .group-314 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 10px;
+  margin-top: 49px;
+  min-width: 104px;
+}
+
+.lisences .study-2 {
+  height: 27px;
+  margin-top: -0.13px;
+  object-fit: cover;
+  width: 24px;
+}
+
+.lisences .courses {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 50px;
+}
+
+.lisences .group-315 {
+  align-items: flex-start;
+  display: flex;
+  height: 27px;
+  margin-left: 10px;
+  margin-top: 45px;
+  min-width: 123px;
+}
+
+.lisences .certificates {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 69px;
+}
+
+.lisences .group-316 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 10px;
+  margin-top: 47px;
+  min-width: 95px;
+}
+
+.lisences .history {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 41px;
+}
+
+.lisences .group-31 {
+  align-items: flex-start;
+  display: flex;
+  height: 27px;
+  margin-left: 10px;
+  margin-top: 47px;
+  min-width: 140px;
+}
+
+.lisences .announcment {
+  align-self: center;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  margin-left: 28px;
+  min-height: 20px;
+  width: 86px;
+}
+
+.lisences .group-318 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 10px;
+  margin-top: 47px;
+  min-width: 102px;
+}
+
+.lisences .support {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 48px;
+}
+
+.lisences .varified-profile {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 86px;
+}
+
+.lisences .group-320 {
+  align-items: flex-start;
+  display: flex;
+  height: 27px;
+  margin-left: 10px;
+  margin-top: 47px;
+  min-width: 115px;
+}
+
+.lisences .langauge {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 61px;
+}
+
+.lisences .courses-you-may-like {
+  letter-spacing: 0;
+  margin-top: 47px;
+  min-height: 30px;
+  width: 192px;
+}
+
+.lisences .group-321 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 10px;
+  margin-top: 49px;
+  min-width: 122px;
+}
+
+.lisences .block-chain {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 68px;
+}
+
+.lisences .group-322 {
+  align-items: flex-start;
+  display: flex;
+  height: 27px;
+  margin-left: 10px;
+  margin-top: 47px;
+  min-width: 118px;
+}
+
+.lisences .java-script {
+  align-self: center;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  margin-left: 28px;
+  min-height: 20px;
+  width: 64px;
+}
+
+.lisences .flex-col-9 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 17px;
+  margin-top: 1px;
+  min-height: 1317px;
+  width: 877px;
+}
+
+.lisences .unsplashi-zwm-kiy-od-mi {
+  height: 180px;
+  width: 877px;
+}
+
+.lisences .frame-218 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1px;
+  min-height: 232px;
+  padding: 0 28px;
+  width: 877px;
+}
+
+.lisences .unsplashryw-ey-xopm-m4 {
+  align-self: center;
+  height: 120px;
+  margin-left: 1.0px;
+  margin-top: -88px;
+  object-fit: cover;
+  width: 120px;
+}
+
+.lisences .yahoo {
+  letter-spacing: 0;
+  min-height: 36px;
+}
+
+.lisences .we-work-for-hr-solut {
+  letter-spacing: 0;
+  margin-top: 9px;
+  min-height: 63px;
+}
+
+.lisences .ranked-in-10-of-the-list-in-jobulary {
+  letter-spacing: 0;
+  margin-top: 12px;
+  min-height: 21px;
+}
+
+.lisences .frame-container {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 16px;
+  min-width: 429px;
+}
+
+.lisences .frame-359 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  min-width: 137px;
+  padding: 0 51px;
+}
+
+.lisences .follow {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 35px;
+}
+
+.lisences .frame-360 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  justify-content: flex-end;
+  margin-left: 9px;
+  min-width: 137px;
+  padding: 0 33px;
+}
+
+.lisences .visit-website {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 70px;
+}
+
+.lisences .frame-361 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  justify-content: flex-end;
+  margin-left: 9px;
+  min-width: 137px;
+  padding: 0 50px;
+}
+
+.lisences .see-all {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 36px;
+}
+
+.lisences .frame-358 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 21px;
+  min-height: 883px;
+  padding: 21px 11px;
+  width: 877px;
+}
+
+.lisences .frame-354 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 70px;
+  min-width: 852px;
+  padding: 20px 32px;
+}
+
+.lisences .frame-362 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  min-width: 137px;
+  padding: 0 45px;
+}
+
+.lisences .lisences-1 {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 47px;
+}
+
+.lisences .frame-363 {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 681px;
+  margin-top: 11px;
+  min-width: 852px;
+  padding: 10px 30px;
+}
+
+.lisences .flex-col-10 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 641px;
+  width: 255px;
+}
+
+.lisences .frame-363-1 {
+  align-items: center;
+  align-self: flex-start;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  min-width: 212px;
+  padding: 0 29px;
+}
+
+.lisences .title-of-the-accomplishment {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 154px;
+}
+
+.lisences .school {
+  align-self: flex-start;
+  letter-spacing: 0;
+  margin-left: 51px;
+  margin-top: 44px;
+  min-height: 21px;
+}
+
+.lisences .place-2 {
+  letter-spacing: 0;
+  margin-right: 83.0px;
+  margin-top: 30px;
+  min-height: 21px;
+  min-width: 68px;
+}
+
+.lisences .field-of-study {
+  letter-spacing: 0;
+  margin-right: 52.0px;
+  margin-top: 30px;
+  min-height: 24px;
+  width: 97px;
+}
+
+.lisences .location {
+  letter-spacing: 0;
+  margin-right: 87.0px;
+  margin-top: 30px;
+  min-height: 25px;
+  width: 62px;
+}
+
+.lisences .x-date-month {
+  letter-spacing: 0;
+  margin-right: 21.0px;
+  margin-top: 30px;
+  min-height: 25px;
+  width: 132px;
+}
+
+.lisences .grade {
+  align-self: flex-start;
+  letter-spacing: 0;
+  margin-left: 51px;
+  margin-top: 30px;
+  min-height: 21px;
+}
+
+.lisences .activities-societies-alumina {
+  align-self: flex-end;
+  letter-spacing: 0;
+  margin-top: 30px;
+  min-height: 21px;
+  min-width: 204px;
+}
+
+.lisences .description {
+  letter-spacing: 0;
+  margin-right: 74.0px;
+  margin-top: 30px;
+  min-height: 21px;
+  min-width: 79px;
+}
+
+.lisences .frame-379 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  justify-content: flex-end;
+  margin-left: 44.0px;
+  margin-top: 95px;
+  min-width: 137px;
+  padding: 0 38px;
+}
+
+.lisences .add-media {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 60px;
+}
+
+.lisences .frame-container-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 107px;
+  min-height: 569px;
+  width: 414px;
+}
+
+.lisences .frame-365 {
+  background-color: var(--white);
+  border-radius: 4px;
+  height: 29px;
+  width: 414px;
+}
+
+.lisences .frame-3 {
+  background-color: var(--white);
+  border-radius: 4px;
+  height: 29px;
+  margin-top: 25px;
+  width: 414px;
+}
+
+.lisences .frame-378 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  margin-right: 1.0px;
+  margin-top: 79px;
+  min-width: 137px;
+  padding: 0 36px;
+}
+
+.lisences .get-varified {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 65px;
+}
+
+.lisences .group-363 {
+  align-self: center;
+  height: 42px;
+  margin-right: 3.0px;
+  margin-top: 37px;
+  width: 152px;
+}
+
+.lisences .frame-container-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 34px;
+  min-height: 1053px;
+  width: 233px;
+}
+
+.lisences .frame-351 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 474px;
+  justify-content: flex-end;
+  min-width: 233px;
+  padding: 24px 26px;
+}
+
+.lisences .flex-col-11 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 420px;
+  width: 105px;
+}
+
+.lisences .network-1 {
+  letter-spacing: 0;
+  min-height: 36px;
+}
+
+.lisences .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 354px;
+  margin-top: 30px;
+  min-width: 105px;
+}
+
+.lisences .unsplash-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 354px;
+  width: 46px;
+}
+
+.lisences .unsplashuya-tt9u6-av-i {
+  height: 46px;
+  width: 46px;
+}
+
+.lisences .unsplash {
+  height: 46px;
+  margin-top: 31px;
+  object-fit: cover;
+  width: 46px;
+}
+
+.lisences .unsplash-container-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  min-height: 354px;
+  width: 46px;
+}
+
+.lisences .unsplashuya-tt9u6-av-i-1 {
+  height: 46px;
+  object-fit: cover;
+  width: 46px;
+}
+
+.lisences .flex-col-12 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  margin-top: 3.0px;
+  min-height: 411px;
+  width: 59px;
+}
+
+.lisences .see-all-1 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  min-height: 18px;
+  min-width: 38px;
+}
+
+.lisences .unsplashuya-tt9u6-av-i-2 {
+  height: 46px;
+  margin-top: 39px;
+  object-fit: cover;
+  width: 46px;
+}
+
+.lisences .frame-232 {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  min-height: 308px;
+  padding: 12px 10px;
+  width: 233px;
+}
+
+.lisences .analytics {
+  align-self: flex-start;
+  letter-spacing: 0;
+  margin-left: 5px;
+  min-height: 27px;
+}
+
+.lisences .group-332 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 27px;
+  min-height: 26px;
+  width: 204px;
+}
+
+.lisences .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 12px;
+  min-width: 200px;
+}
+
+.lisences .activity {
+  letter-spacing: 0;
+  min-height: 12px;
+  min-width: 30px;
+}
+
+.lisences .percent {
+  letter-spacing: 0;
+  margin-left: 153px;
+  min-height: 12px;
+}
+
+.lisences .progressbar-60100 {
+  align-items: center;
+  background-color: var(--black);
+  border-radius: 1px;
+  display: flex;
+  height: 8px;
+  margin-top: 6px;
+  overflow: hidden;
+  padding: 0 2px;
+  width: 200px;
+}
+
+.lisences .rectangle-1 {
+  background-color: var(--white);
+  border-radius: 1px;
+  height: 4px;
+  width: 162px;
+}
+
+.lisences .group-33 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 21px;
+  min-height: 26px;
+  width: 204px;
+}
+
+.lisences .visitors {
+  letter-spacing: 0;
+  min-height: 12px;
+  min-width: 29px;
+}
+
+.lisences .percent-1 {
+  letter-spacing: 0;
+  margin-left: 154px;
+  min-height: 12px;
+}
+
+.lisences .rectangle-2 {
+  background-color: var(--white);
+  border-radius: 1px;
+  height: 4px;
+  width: 105px;
+}
+
+.lisences .post-value {
+  letter-spacing: 0;
+  min-height: 12px;
+  min-width: 42px;
+}
+
+.lisences .percent-2 {
+  letter-spacing: 0;
+  margin-left: 141px;
+  min-height: 12px;
+}
+
+.lisences .rectangle {
+  background-color: var(--white);
+  border-radius: 1px;
+  height: 4px;
+  width: 137px;
+}
+
+.lisences .post-report {
+  letter-spacing: 0;
+  min-height: 12px;
+  min-width: 46px;
+}
+
+.lisences .percent-3 {
+  letter-spacing: 0;
+  margin-left: 137px;
+  min-height: 12px;
+}
+
+.lisences .job-post {
+  letter-spacing: 0;
+  min-height: 12px;
+  min-width: 34px;
+}
+
+.lisences .percent-4 {
+  letter-spacing: 0;
+  margin-left: 149px;
+  min-height: 12px;
+}
+
+.lisences .rectangle-3 {
+  background-color: var(--white);
+  border-radius: 1px;
+  height: 4px;
+  width: 126px;
+}
+
+.lisences .frame-351-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  min-height: 255px;
+  padding: 12px 14px;
+  width: 233px;
+}
+
+.lisences .kyc {
+  letter-spacing: 0;
+  margin-left: 1px;
+  min-height: 27px;
+}
+
+.lisences .frame-346 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  justify-content: flex-end;
+  margin-top: 16px;
+  min-width: 203px;
+  padding: 0 87px;
+}
+
+.lisences .place-3 {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 28px;
+}
+
+.lisences .frame-347 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  margin-top: 2px;
+  min-width: 203px;
+  padding: 0 80px;
+}
+
+.lisences .full-kyc {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 43px;
+}
+
+.lisences .frame-348 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  justify-content: flex-end;
+  margin-top: 2px;
+  min-width: 203px;
+  padding: 0 46px;
+}
+
+.lisences .career-councelling {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 110px;
+}
+
+.lisences .frame-349 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  justify-content: flex-end;
+  margin-top: 2px;
+  min-width: 203px;
+  padding: 0 66px;
+}
+
+.lisences .mentorship {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 62px;
+}
+
+.lisences .frame-350 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  margin-top: 2px;
+  min-width: 203px;
+  padding: 0 74px;
+}
+
+.lisences .internship {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 55px;
+}
+
+.lisences .frame-351-2 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  margin-top: 2px;
+  min-width: 203px;
+  padding: 0 75px;
+}
+
+.lisences .exprience {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 53px;
+}

@@ -1,15 +1,15 @@
-/* screen - certificates */
+/* screen - exprience */
 
-.certificates {
+.exprience {
   align-items: flex-start;
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  height: 1691px;
+  height: 1767px;
   width: 1440px;
 }
 
-.certificates .overlap-group2 {
+.exprience .overlap-group2 {
   align-items: center;
   background-color: var(--white);
   display: flex;
@@ -18,13 +18,13 @@
   padding: 7px 21px;
 }
 
-.certificates .avatar-12 {
+.exprience .avatar-12 {
   align-self: flex-end;
   height: 76px;
   width: 76px;
 }
 
-.certificates .sanni {
+.exprience .sanni {
   letter-spacing: 0;
   margin-left: 48px;
   margin-top: 9.0px;
@@ -32,7 +32,7 @@
   min-width: 34px;
 }
 
-.certificates .help {
+.exprience .help {
   letter-spacing: 0;
   margin-left: 31px;
   margin-top: 9.0px;
@@ -40,7 +40,7 @@
   min-width: 27px;
 }
 
-.certificates .account {
+.exprience .account {
   letter-spacing: 0;
   margin-left: 31px;
   margin-top: 9.0px;
@@ -48,7 +48,7 @@
   min-width: 51px;
 }
 
-.certificates .place {
+.exprience .place {
   letter-spacing: 0;
   margin-left: 31px;
   margin-top: 9.0px;
@@ -56,14 +56,14 @@
   min-width: 30px;
 }
 
-.certificates .bithree-dots-vertical {
+.exprience .bithree-dots-vertical {
   height: 24px;
   margin-left: 71px;
   margin-top: 7.0px;
   width: 24px;
 }
 
-.certificates .group-298 {
+.exprience .group-298 {
   align-self: flex-end;
   height: 55px;
   margin-bottom: 7px;
@@ -71,7 +71,7 @@
   width: 451px;
 }
 
-.certificates .group-323 {
+.exprience .group-323 {
   align-items: flex-start;
   align-self: flex-end;
   display: flex;
@@ -81,7 +81,7 @@
   min-width: 379px;
 }
 
-.certificates .flex-col {
+.exprience .flex-col {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -89,20 +89,20 @@
   width: 27px;
 }
 
-.certificates .study {
+.exprience .study {
   height: 24px;
   margin-left: 2px;
   object-fit: cover;
   width: 24px;
 }
 
-.certificates .place-1 {
+.exprience .place-1 {
   letter-spacing: 0;
   margin-top: 16px;
   min-height: 14px;
 }
 
-.certificates .flex-col-1 {
+.exprience .flex-col-1 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -111,20 +111,20 @@
   width: 27px;
 }
 
-.certificates .study-3 {
+.exprience .study-3 {
   height: 24px;
   margin-left: 1px;
   object-fit: cover;
   width: 24px;
 }
 
-.certificates .points {
+.exprience .points {
   letter-spacing: 0;
   margin-top: 16px;
   min-height: 14px;
 }
 
-.certificates .flex-col-2 {
+.exprience .flex-col-2 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -133,13 +133,13 @@
   width: 28px;
 }
 
-.certificates .profile {
+.exprience .profile {
   letter-spacing: 0;
   margin-top: 16px;
   min-height: 14px;
 }
 
-.certificates .flex-col-3 {
+.exprience .flex-col-3 {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -148,21 +148,21 @@
   width: 37px;
 }
 
-.certificates .study-4 {
+.exprience .study-4 {
   height: 24px;
   margin-left: 1.0px;
   object-fit: cover;
   width: 24px;
 }
 
-.certificates .network {
+.exprience .network {
   letter-spacing: 0;
   margin-top: 16px;
   min-height: 14px;
   min-width: 37px;
 }
 
-.certificates .flex-col-4 {
+.exprience .flex-col-4 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -171,20 +171,20 @@
   width: 30px;
 }
 
-.certificates .study-5 {
+.exprience .study-5 {
   height: 24px;
   margin-left: 3px;
   object-fit: cover;
   width: 24px;
 }
 
-.certificates .report {
+.exprience .report {
   letter-spacing: 0;
   margin-top: 16px;
   min-height: 14px;
 }
 
-.certificates .flex-col-5 {
+.exprience .flex-col-5 {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -193,27 +193,27 @@
   width: 52px;
 }
 
-.certificates .study-6 {
+.exprience .study-6 {
   height: 24px;
   object-fit: cover;
   width: 24px;
 }
 
-.certificates .notification-container {
+.exprience .notification-container {
   height: 14px;
   margin-top: 16px;
   position: relative;
   width: 52px;
 }
 
-.certificates .notification {
+.exprience .notification {
   left: 0;
   letter-spacing: 0;
   position: absolute;
   top: 0;
 }
 
-.certificates .flex-col-6 {
+.exprience .flex-col-6 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -222,305 +222,309 @@
   width: 32px;
 }
 
-.certificates .study-7 {
+.exprience .study-7 {
   height: 24px;
   margin-left: 4px;
   object-fit: cover;
   width: 24px;
 }
 
-.certificates .setting {
+.exprience .setting {
   letter-spacing: 0;
   margin-top: 16px;
   min-height: 14px;
 }
 
-.certificates .flex-row-1 {
+.exprience .flex-row-1 {
   align-items: flex-start;
   display: flex;
-  height: 1541px;
+  height: 1617px;
   margin-top: 51px;
   min-width: 1409px;
 }
 
-.certificates .flex-col-7 {
+.exprience .flex-col-7 {
   align-items: center;
   background-color: var(--white);
   box-shadow: 4px 4px 6px #00000040;
   display: flex;
   flex-direction: column;
-  min-height: 1541px;
-  padding: 14.5px 0;
+  min-height: 1617px;
+  padding: 13.8px 0;
   width: 248px;
 }
 
-.certificates .flex-row-2 {
+.exprience .flex-row-2 {
   align-items: flex-start;
   display: flex;
-  height: 55px;
+  height: 53px;
   margin-right: 50.0px;
   min-width: 138px;
 }
 
-.certificates .unsplash-jo-m_l-c1-w-an-e {
+.exprience .unsplash-jo-m_l-c1-w-an-e {
   align-self: flex-end;
-  height: 53px;
+  height: 50px;
   width: 46px;
 }
 
-.certificates .name-container {
+.exprience .name-container {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
   margin-left: 13px;
-  min-height: 50px;
+  min-height: 48px;
   width: 79px;
 }
 
-.certificates .name {
+.exprience .name {
   letter-spacing: 0;
-  min-height: 20px;
+  min-height: 19px;
   width: 79px;
 }
 
-.certificates .name-1 {
+.exprience .name-1 {
   letter-spacing: 0;
   margin-top: 10px;
-  min-height: 20px;
+  min-height: 19px;
   width: 37px;
 }
 
-.certificates .flex-col-8 {
+.exprience .flex-col-8 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  margin-top: 84px;
-  min-height: 842px;
+  margin-top: 80px;
+  min-height: 801px;
   width: 192px;
 }
 
-.certificates .group-312 {
+.exprience .group-312 {
   align-items: flex-start;
   cursor: pointer;
   display: flex;
-  height: 27px;
+  height: 25px;
   margin-left: 10px;
   min-width: 121px;
 }
 
-.certificates .study-1 {
-  height: 28px;
-  margin-top: -0.63px;
+.exprience .study-1 {
+  height: 26px;
+  margin-top: -0.26px;
   object-fit: cover;
   width: 24px;
 }
 
-.certificates .assesment {
+.exprience .assesment {
   align-self: center;
   letter-spacing: 0;
   margin-left: 28px;
   margin-top: 0;
-  min-height: 20px;
+  min-height: 19px;
   width: 67px;
 }
 
-.certificates .group-313 {
+.exprience .group-313 {
   align-items: flex-start;
   display: flex;
-  height: 27px;
+  height: 25px;
   margin-left: 10px;
-  margin-top: 47px;
+  margin-top: 45px;
   min-width: 128px;
 }
 
-.certificates .admin-tools {
-  align-self: center;
-  letter-spacing: 0;
-  margin-left: 28px;
-  margin-top: 0;
-  min-height: 20px;
-  width: 74px;
-}
-
-.certificates .group-314 {
-  align-items: flex-start;
-  display: flex;
-  margin-left: 10px;
-  margin-top: 49px;
-  min-width: 104px;
-}
-
-.certificates .study-2 {
+.exprience .study-2 {
   height: 27px;
-  margin-top: -0.13px;
+  margin-top: -0.76px;
   object-fit: cover;
   width: 24px;
 }
 
-.certificates .courses {
+.exprience .admin-tools {
   align-self: center;
   letter-spacing: 0;
   margin-left: 28px;
   margin-top: 0;
-  min-height: 20px;
+  min-height: 19px;
+  width: 74px;
+}
+
+.exprience .group-314 {
+  align-items: flex-start;
+  display: flex;
+  height: 25px;
+  margin-left: 10px;
+  margin-top: 47px;
+  min-width: 104px;
+}
+
+.exprience .courses {
+  align-self: center;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  margin-left: 28px;
+  min-height: 19px;
   width: 50px;
 }
 
-.certificates .group-315 {
+.exprience .group-315 {
   align-items: flex-start;
   display: flex;
-  height: 27px;
+  height: 25px;
   margin-left: 10px;
-  margin-top: 45px;
+  margin-top: 42px;
   min-width: 123px;
 }
 
-.certificates .certificates-1 {
+.exprience .certificates {
   align-self: center;
   letter-spacing: 0;
+  margin-bottom: 0;
   margin-left: 28px;
-  margin-top: 0;
-  min-height: 20px;
+  min-height: 19px;
   width: 69px;
 }
 
-.certificates .group-316 {
+.exprience .group-316 {
   align-items: flex-start;
   display: flex;
+  height: 25px;
   margin-left: 10px;
-  margin-top: 47px;
+  margin-top: 45px;
   min-width: 95px;
 }
 
-.certificates .history {
+.exprience .history {
   align-self: center;
   letter-spacing: 0;
   margin-left: 28px;
   margin-top: 0;
-  min-height: 20px;
+  min-height: 19px;
   width: 41px;
 }
 
-.certificates .group-31 {
+.exprience .group-31 {
   align-items: flex-start;
   display: flex;
-  height: 27px;
+  height: 25px;
   margin-left: 10px;
-  margin-top: 47px;
+  margin-top: 45px;
   min-width: 140px;
 }
 
-.certificates .announcment {
+.exprience .announcment {
   align-self: center;
   letter-spacing: 0;
-  margin-bottom: 0;
   margin-left: 28px;
-  min-height: 20px;
+  margin-top: 0;
+  min-height: 19px;
   width: 86px;
 }
 
-.certificates .group-318 {
+.exprience .group-318 {
   align-items: flex-start;
   display: flex;
+  height: 25px;
   margin-left: 10px;
-  margin-top: 47px;
+  margin-top: 45px;
   min-width: 102px;
 }
 
-.certificates .support {
+.exprience .support {
   align-self: center;
   letter-spacing: 0;
   margin-left: 28px;
   margin-top: 0;
-  min-height: 20px;
+  min-height: 19px;
   width: 48px;
 }
 
-.certificates .varified-profile {
+.exprience .varified-profile {
   align-self: center;
   letter-spacing: 0;
   margin-left: 28px;
   margin-top: 0;
-  min-height: 20px;
+  min-height: 19px;
   width: 86px;
 }
 
-.certificates .group-320 {
+.exprience .group-320 {
   align-items: flex-start;
   display: flex;
-  height: 27px;
+  height: 25px;
   margin-left: 10px;
-  margin-top: 47px;
+  margin-top: 45px;
   min-width: 115px;
 }
 
-.certificates .langauge {
+.exprience .langauge {
   align-self: center;
   letter-spacing: 0;
   margin-left: 28px;
   margin-top: 0;
-  min-height: 20px;
+  min-height: 19px;
   width: 61px;
 }
 
-.certificates .courses-you-may-like {
+.exprience .courses-you-may-like {
   letter-spacing: 0;
-  margin-top: 47px;
-  min-height: 30px;
+  margin-top: 45px;
+  min-height: 29px;
   width: 192px;
 }
 
-.certificates .group-321 {
+.exprience .group-321 {
   align-items: flex-start;
   display: flex;
+  height: 25px;
   margin-left: 10px;
-  margin-top: 49px;
+  margin-top: 47px;
   min-width: 122px;
 }
 
-.certificates .block-chain {
+.exprience .block-chain {
   align-self: center;
   letter-spacing: 0;
   margin-left: 28px;
   margin-top: 0;
-  min-height: 20px;
+  min-height: 19px;
   width: 68px;
 }
 
-.certificates .group-322 {
+.exprience .group-322 {
   align-items: flex-start;
   display: flex;
-  height: 27px;
+  height: 25px;
   margin-left: 10px;
-  margin-top: 47px;
+  margin-top: 45px;
   min-width: 118px;
 }
 
-.certificates .java-script {
+.exprience .java-script {
   align-self: center;
   letter-spacing: 0;
-  margin-bottom: 0;
   margin-left: 28px;
-  min-height: 20px;
+  margin-top: 0;
+  min-height: 19px;
   width: 64px;
 }
 
-.certificates .flex-col-9 {
+.exprience .flex-col-9 {
   align-items: flex-start;
+  align-self: flex-end;
   display: flex;
   flex-direction: column;
   margin-left: 17px;
-  margin-top: 1px;
-  min-height: 1317px;
+  min-height: 1616px;
   width: 877px;
 }
 
-.certificates .unsplashh2_3d-l9y-lp-u {
+.exprience .unsplashd-m317-cbtty-y {
   height: 180px;
   width: 877px;
 }
 
-.certificates .frame-218 {
+.exprience .frame-218 {
   align-items: flex-start;
   background-color: var(--white);
   border-radius: 4px;
@@ -532,7 +536,7 @@
   width: 877px;
 }
 
-.certificates .unsplash-bl-li-sj-onl-y {
+.exprience .unsplash4-n5hu-jd-oyd-q {
   align-self: center;
   height: 120px;
   margin-left: 1.0px;
@@ -541,31 +545,31 @@
   width: 120px;
 }
 
-.certificates .yahoo {
+.exprience .yahoo {
   letter-spacing: 0;
   min-height: 36px;
 }
 
-.certificates .we-work-for-hr-solut {
+.exprience .we-work-for-hr-solut {
   letter-spacing: 0;
   margin-top: 9px;
   min-height: 63px;
 }
 
-.certificates .ranked-in-10-of-the-list-in-jobulary {
+.exprience .ranked-in-10-of-the-list-in-jobulary {
   letter-spacing: 0;
   margin-top: 12px;
   min-height: 21px;
 }
 
-.certificates .frame-container {
+.exprience .frame-container {
   align-items: flex-start;
   display: flex;
   margin-top: 16px;
   min-width: 429px;
 }
 
-.certificates .frame-359 {
+.exprience .frame-359 {
   align-items: center;
   background-color: var(--white);
   border-radius: 4px;
@@ -575,13 +579,13 @@
   padding: 0 51px;
 }
 
-.certificates .follow {
+.exprience .follow {
   letter-spacing: 0;
   min-height: 17px;
   min-width: 35px;
 }
 
-.certificates .frame-360 {
+.exprience .frame-360 {
   align-items: center;
   background-color: var(--white);
   border-radius: 4px;
@@ -593,13 +597,13 @@
   padding: 0 33px;
 }
 
-.certificates .visit-website {
+.exprience .visit-website {
   letter-spacing: 0;
   min-height: 17px;
   min-width: 70px;
 }
 
-.certificates .frame-361 {
+.exprience .frame-361 {
   align-items: center;
   background-color: var(--white);
   border-radius: 4px;
@@ -611,25 +615,25 @@
   padding: 0 50px;
 }
 
-.certificates .see-all {
+.exprience .see-all {
   letter-spacing: 0;
   min-height: 17px;
   min-width: 36px;
 }
 
-.certificates .frame-358 {
+.exprience .frame-358 {
   align-items: flex-start;
   background-color: var(--white);
   border-radius: 4px;
   display: flex;
   flex-direction: column;
   margin-top: 21px;
-  min-height: 883px;
+  min-height: 1182px;
   padding: 21px 11px;
   width: 877px;
 }
 
-.certificates .frame-354 {
+.exprience .frame-354 {
   align-items: flex-start;
   background-color: var(--white);
   border-radius: 4px;
@@ -639,43 +643,42 @@
   padding: 20px 32px;
 }
 
-.certificates .frame-362 {
+.exprience .frame-362 {
   align-items: center;
   background-color: var(--white);
   border-radius: 4px;
   display: flex;
   height: 29px;
-  justify-content: flex-end;
   min-width: 137px;
-  padding: 0 36px;
+  padding: 0 37px;
 }
 
-.certificates .certificates-2 {
+.exprience .car-stories {
   letter-spacing: 0;
   min-height: 17px;
-  min-width: 64px;
+  min-width: 63px;
 }
 
-.certificates .frame-363 {
+.exprience .frame-363 {
   align-items: flex-end;
   background-color: var(--white);
   border-radius: 4px;
   display: flex;
-  height: 681px;
+  height: 558px;
   margin-top: 11px;
   min-width: 852px;
   padding: 10px 30px;
 }
 
-.certificates .flex-col-10 {
+.exprience .flex-col-10 {
   align-items: center;
   display: flex;
   flex-direction: column;
-  min-height: 641px;
-  width: 255px;
+  min-height: 518px;
+  width: 245px;
 }
 
-.certificates .frame-363-1 {
+.exprience .frame-363-1 {
   align-items: center;
   align-self: flex-start;
   background-color: var(--white);
@@ -686,146 +689,271 @@
   padding: 0 29px;
 }
 
-.certificates .title-of-the-accomplishment {
+.exprience .title-of-the-accomplishment {
   letter-spacing: 0;
   min-height: 17px;
   min-width: 154px;
 }
 
-.certificates .school {
-  align-self: flex-start;
+.exprience .company-name {
   letter-spacing: 0;
-  margin-left: 51px;
+  margin-right: 26.0px;
   margin-top: 44px;
   min-height: 21px;
+  min-width: 117px;
 }
 
-.certificates .place-2 {
+.exprience .employment-type {
   letter-spacing: 0;
-  margin-right: 83.0px;
-  margin-top: 30px;
+  margin-right: 15.0px;
+  margin-top: 31px;
   min-height: 21px;
-  min-width: 68px;
+  min-width: 126px;
 }
 
-.certificates .field-of-study {
+.exprience .location {
   letter-spacing: 0;
-  margin-right: 52.0px;
-  margin-top: 30px;
-  min-height: 24px;
-  width: 97px;
-}
-
-.certificates .location {
-  letter-spacing: 0;
-  margin-right: 87.0px;
-  margin-top: 30px;
-  min-height: 25px;
-  width: 62px;
-}
-
-.certificates .x-date-month {
-  letter-spacing: 0;
-  margin-right: 21.0px;
-  margin-top: 30px;
-  min-height: 25px;
-  width: 132px;
-}
-
-.certificates .grade {
-  align-self: flex-start;
-  letter-spacing: 0;
-  margin-left: 51px;
-  margin-top: 30px;
+  margin-right: 79.0px;
+  margin-top: 31px;
   min-height: 21px;
+  min-width: 60px;
 }
 
-.certificates .activities-societies-alumina {
+.exprience .start-date {
+  letter-spacing: 0;
+  margin-right: 67.0px;
+  margin-top: 31px;
+  min-height: 25px;
+  width: 72px;
+}
+
+.exprience .flex-col-item {
+  letter-spacing: 0;
+  margin-right: 71.0px;
+  margin-top: 31px;
+  min-height: 25px;
+  width: 72px;
+}
+
+.exprience .breif-company-description {
   align-self: flex-end;
   letter-spacing: 0;
-  margin-top: 30px;
-  min-height: 21px;
-  min-width: 204px;
+  margin-top: 31px;
+  min-height: 25px;
+  width: 194px;
 }
 
-.certificates .description {
-  letter-spacing: 0;
-  margin-right: 74.0px;
-  margin-top: 30px;
-  min-height: 21px;
-  min-width: 79px;
+.exprience .group-363 {
+  height: 42px;
+  margin-left: 1.0px;
+  margin-top: 54px;
+  width: 152px;
 }
 
-.certificates .frame-379 {
+.exprience .flex-col-11 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 182px;
+  min-height: 446px;
+  width: 349px;
+}
+
+.exprience .frame-365 {
+  background-color: var(--white);
+  border-radius: 4px;
+  height: 29px;
+  width: 349px;
+}
+
+.exprience .frame-3 {
+  background-color: var(--white);
+  border-radius: 4px;
+  height: 29px;
+  margin-top: 25px;
+  width: 349px;
+}
+
+.exprience .group-364 {
+  height: 42px;
+  margin-left: 21.0px;
+  margin-top: 51px;
+  width: 152px;
+}
+
+.exprience .frame-364 {
+  align-items: flex-end;
+  align-self: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 391px;
+  margin-left: 1.0px;
+  margin-top: 27px;
+  min-width: 852px;
+  padding: 30px;
+}
+
+.exprience .flex-col-12 {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 315px;
+  width: 212px;
+}
+
+.exprience .frame-363-2 {
   align-items: center;
   background-color: var(--white);
   border-radius: 4px;
   display: flex;
   height: 29px;
   justify-content: flex-end;
-  margin-left: 44.0px;
-  margin-top: 95px;
-  min-width: 137px;
-  padding: 0 38px;
+  min-width: 212px;
+  padding: 0 29px;
 }
 
-.certificates .add-media {
+.exprience .validate-the-work-exprience {
   letter-spacing: 0;
   min-height: 17px;
-  min-width: 60px;
+  min-width: 153px;
 }
 
-.certificates .frame-container-1 {
-  align-items: center;
+.exprience .place-2 {
+  letter-spacing: 0;
+  margin-right: 67.0px;
+  margin-top: 47px;
+  min-height: 21px;
+  min-width: 43px;
+}
+
+.exprience .place-3 {
+  letter-spacing: 0;
+  margin-right: 65.0px;
+  margin-top: 33px;
+  min-height: 21px;
+  min-width: 43px;
+}
+
+.exprience .place-4 {
+  letter-spacing: 0;
+  margin-right: 63.0px;
+  margin-top: 32px;
+  min-height: 21px;
+  min-width: 43px;
+}
+
+.exprience .place-5 {
+  letter-spacing: 0;
+  margin-right: 61.0px;
+  margin-top: 33px;
+  min-height: 25px;
+  width: 45px;
+}
+
+.exprience .place-6 {
+  letter-spacing: 0;
+  margin-right: 67.0px;
+  margin-top: 28px;
+  min-height: 25px;
+  width: 43px;
+}
+
+.exprience .frame-container-1 {
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
-  margin-left: 107px;
-  min-height: 569px;
-  width: 414px;
+  margin-bottom: 14px;
+  margin-left: 2px;
+  min-height: 245px;
+  width: 349px;
 }
 
-.certificates .frame-365 {
+.exprience .frame-369 {
   background-color: var(--white);
   border-radius: 4px;
   height: 29px;
-  width: 414px;
+  margin-top: 24px;
+  width: 349px;
 }
 
-.certificates .frame-3 {
+.exprience .frame-371 {
   background-color: var(--white);
   border-radius: 4px;
   height: 29px;
-  margin-top: 25px;
-  width: 414px;
+  margin-top: 26px;
+  width: 349px;
 }
 
-.certificates .frame-378 {
+.exprience .frame-container-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+  margin-left: 52px;
+  min-height: 245px;
+  width: 137px;
+}
+
+.exprience .frame-362-1 {
   align-items: center;
   background-color: var(--white);
   border-radius: 4px;
   display: flex;
   height: 29px;
-  margin-right: 1.0px;
-  margin-top: 79px;
   min-width: 137px;
   padding: 0 36px;
 }
 
-.certificates .get-varified {
+.exprience .get-varified {
   letter-spacing: 0;
   min-height: 17px;
   min-width: 65px;
 }
 
-.certificates .group-363 {
+.exprience .frame-37 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  margin-top: 25px;
+  min-width: 137px;
+  padding: 0 36px;
+}
+
+.exprience .frame-375 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  margin-top: 24px;
+  min-width: 137px;
+  padding: 0 36px;
+}
+
+.exprience .frame-376 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  margin-top: 26px;
+  min-width: 137px;
+  padding: 0 36px;
+}
+
+.exprience .group-363-1 {
   align-self: center;
   height: 42px;
-  margin-right: 3.0px;
-  margin-top: 37px;
+  margin-left: 1.0px;
+  margin-top: 36px;
   width: 152px;
 }
 
-.certificates .frame-container-2 {
+.exprience .frame-container-3 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -834,7 +962,7 @@
   width: 233px;
 }
 
-.certificates .frame-351 {
+.exprience .frame-351 {
   align-items: flex-start;
   background-color: var(--white);
   border-radius: 4px;
@@ -845,7 +973,7 @@
   padding: 24px 26px;
 }
 
-.certificates .flex-col-11 {
+.exprience .flex-col-13 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -853,12 +981,12 @@
   width: 105px;
 }
 
-.certificates .network-1 {
+.exprience .network-1 {
   letter-spacing: 0;
   min-height: 36px;
 }
 
-.certificates .flex-row-3 {
+.exprience .flex-row-3 {
   align-items: flex-start;
   display: flex;
   height: 354px;
@@ -866,7 +994,7 @@
   min-width: 105px;
 }
 
-.certificates .unsplash-container {
+.exprience .unsplash-container {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -874,19 +1002,19 @@
   width: 46px;
 }
 
-.certificates .unsplashuya-tt9u6-av-i {
+.exprience .unsplashuya-tt9u6-av-i {
   height: 46px;
   width: 46px;
 }
 
-.certificates .unsplash {
+.exprience .unsplash {
   height: 46px;
   margin-top: 31px;
   object-fit: cover;
   width: 46px;
 }
 
-.certificates .unsplash-container-1 {
+.exprience .unsplash-container-1 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -895,13 +1023,13 @@
   width: 46px;
 }
 
-.certificates .unsplashuya-tt9u6-av-i-1 {
+.exprience .unsplashuya-tt9u6-av-i-1 {
   height: 46px;
   object-fit: cover;
   width: 46px;
 }
 
-.certificates .flex-col-12 {
+.exprience .flex-col-14 {
   align-items: flex-start;
   align-self: center;
   display: flex;
@@ -912,21 +1040,21 @@
   width: 59px;
 }
 
-.certificates .see-all-1 {
+.exprience .see-all-1 {
   align-self: flex-end;
   letter-spacing: 0;
   min-height: 18px;
   min-width: 38px;
 }
 
-.certificates .unsplashuya-tt9u6-av-i-2 {
+.exprience .unsplashuya-tt9u6-av-i-2 {
   height: 46px;
   margin-top: 39px;
   object-fit: cover;
   width: 46px;
 }
 
-.certificates .frame-232 {
+.exprience .frame-232 {
   align-items: flex-end;
   background-color: var(--white);
   border-radius: 4px;
@@ -938,14 +1066,14 @@
   width: 233px;
 }
 
-.certificates .analytics {
+.exprience .analytics {
   align-self: flex-start;
   letter-spacing: 0;
   margin-left: 5px;
   min-height: 27px;
 }
 
-.certificates .group-332 {
+.exprience .group-332 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -954,26 +1082,26 @@
   width: 204px;
 }
 
-.certificates .flex-row {
+.exprience .flex-row {
   align-items: flex-start;
   display: flex;
   height: 12px;
   min-width: 200px;
 }
 
-.certificates .activity {
+.exprience .activity {
   letter-spacing: 0;
   min-height: 12px;
   min-width: 30px;
 }
 
-.certificates .percent {
+.exprience .percent {
   letter-spacing: 0;
   margin-left: 153px;
   min-height: 12px;
 }
 
-.certificates .progressbar-60100 {
+.exprience .progressbar-60100 {
   align-items: center;
   background-color: var(--black);
   border-radius: 1px;
@@ -985,14 +1113,14 @@
   width: 200px;
 }
 
-.certificates .rectangle-1 {
+.exprience .rectangle-1 {
   background-color: var(--white);
   border-radius: 1px;
   height: 4px;
   width: 162px;
 }
 
-.certificates .group-33 {
+.exprience .group-33 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -1001,76 +1129,76 @@
   width: 204px;
 }
 
-.certificates .visitors {
+.exprience .visitors {
   letter-spacing: 0;
   min-height: 12px;
   min-width: 29px;
 }
 
-.certificates .percent-1 {
+.exprience .percent-1 {
   letter-spacing: 0;
   margin-left: 154px;
   min-height: 12px;
 }
 
-.certificates .rectangle-2 {
+.exprience .rectangle-2 {
   background-color: var(--white);
   border-radius: 1px;
   height: 4px;
   width: 105px;
 }
 
-.certificates .post-value {
+.exprience .post-value {
   letter-spacing: 0;
   min-height: 12px;
   min-width: 42px;
 }
 
-.certificates .percent-2 {
+.exprience .percent-2 {
   letter-spacing: 0;
   margin-left: 141px;
   min-height: 12px;
 }
 
-.certificates .rectangle {
+.exprience .rectangle {
   background-color: var(--white);
   border-radius: 1px;
   height: 4px;
   width: 137px;
 }
 
-.certificates .post-report {
+.exprience .post-report {
   letter-spacing: 0;
   min-height: 12px;
   min-width: 46px;
 }
 
-.certificates .percent-3 {
+.exprience .percent-3 {
   letter-spacing: 0;
   margin-left: 137px;
   min-height: 12px;
 }
 
-.certificates .job-post {
+.exprience .job-post {
   letter-spacing: 0;
   min-height: 12px;
   min-width: 34px;
 }
 
-.certificates .percent-4 {
+.exprience .percent-4 {
   letter-spacing: 0;
   margin-left: 149px;
   min-height: 12px;
 }
 
-.certificates .rectangle-3 {
+.exprience .rectangle-3 {
   background-color: var(--white);
   border-radius: 1px;
   height: 4px;
   width: 126px;
 }
 
-.certificates .frame-351-1 {
+.exprience .frame-351-1 {
   align-items: flex-start;
   background-color: var(--white);
   border-radius: 4px;
@@ -1082,13 +1210,13 @@
   width: 233px;
 }
 
-.certificates .kyc {
+.exprience .kyc {
   letter-spacing: 0;
   margin-left: 1px;
   min-height: 27px;
 }
 
-.certificates .frame-346 {
+.exprience .frame-346 {
   align-items: center;
   background-color: var(--white);
   border-radius: 4px;
@@ -1100,13 +1228,13 @@
   padding: 0 87px;
 }
 
-.certificates .place-3 {
+.exprience .place-7 {
   letter-spacing: 0;
   min-height: 17px;
   min-width: 28px;
 }
 
-.certificates .frame-347 {
+.exprience .frame-347 {
   align-items: center;
   background-color: var(--white);
   border-radius: 4px;
@@ -1117,13 +1245,13 @@
   padding: 0 80px;
 }
 
-.certificates .full-kyc {
+.exprience .full-kyc {
   letter-spacing: 0;
   min-height: 17px;
   min-width: 43px;
 }
 
-.certificates .frame-348 {
+.exprience .frame-348 {
   align-items: center;
   background-color: var(--white);
   border-radius: 4px;
@@ -1135,13 +1263,13 @@
   padding: 0 46px;
 }
 
-.certificates .career-councelling {
+.exprience .career-councelling {
   letter-spacing: 0;
   min-height: 17px;
   min-width: 110px;
 }
 
-.certificates .frame-349 {
+.exprience .frame-349 {
   align-items: center;
   background-color: var(--white);
   border-radius: 4px;
@@ -1153,13 +1281,13 @@
   padding: 0 66px;
 }
 
-.certificates .mentorship {
+.exprience .mentorship {
   letter-spacing: 0;
   min-height: 17px;
   min-width: 62px;
 }
 
-.certificates .frame-350 {
+.exprience .frame-350 {
   align-items: center;
   background-color: var(--white);
   border-radius: 4px;
@@ -1170,13 +1298,13 @@
   padding: 0 74px;
 }
 
-.certificates .internship {
+.exprience .internship {
   letter-spacing: 0;
   min-height: 17px;
   min-width: 55px;
 }
 
-.certificates .frame-351-2 {
+.exprience .frame-351-2 {
   align-items: center;
   background-color: var(--white);
   border-radius: 4px;
@@ -1187,7 +1315,7 @@
   padding: 0 75px;
 }
 
-.certificates .exprience {
+.exprience .exprience-1 {
   letter-spacing: 0;
   min-height: 17px;
   min-width: 53px;

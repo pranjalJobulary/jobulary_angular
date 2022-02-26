@@ -58,6 +58,8 @@ import { ActivityComponent } from './Components/activity/activity.component';
 import { EmailVarificationComponent } from './Components/email-varification/email-varification.component';
 import { VerifyEmailComponent } from './Components/verify-email/verify-email.component';
 import { HotToastModule } from '@ngneat/hot-toast';
+import { ExprienceFormComponent } from './Components/exprience-form/exprience-form.component';
+import { ELearningFormComponent } from './Components/e-learning-form/e-learning-form.component';
 
 @NgModule({
   declarations: [
@@ -108,6 +110,8 @@ import { HotToastModule } from '@ngneat/hot-toast';
     ActivityComponent,
     EmailVarificationComponent,
     VerifyEmailComponent,
+    ExprienceFormComponent,
+    ELearningFormComponent,
   ],
   imports: [
     BrowserModule,

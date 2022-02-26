@@ -1,0 +1,1263 @@
+/* screen - career-goal */
+
+.career-goal {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1691px;
+  width: 1440px;
+}
+
+.career-goal .overlap-group2 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  height: 99px;
+  min-width: 1440px;
+  padding: 7px 21px;
+}
+
+.career-goal .avatar-12 {
+  align-self: flex-end;
+  height: 76px;
+  width: 76px;
+}
+
+.career-goal .sanni {
+  letter-spacing: 0;
+  margin-left: 48px;
+  margin-top: 9.0px;
+  min-height: 18px;
+  min-width: 34px;
+}
+
+.career-goal .help {
+  letter-spacing: 0;
+  margin-left: 31px;
+  margin-top: 9.0px;
+  min-height: 18px;
+  min-width: 27px;
+}
+
+.career-goal .account {
+  letter-spacing: 0;
+  margin-left: 31px;
+  margin-top: 9.0px;
+  min-height: 18px;
+  min-width: 51px;
+}
+
+.career-goal .place {
+  letter-spacing: 0;
+  margin-left: 31px;
+  margin-top: 9.0px;
+  min-height: 18px;
+  min-width: 30px;
+}
+
+.career-goal .bithree-dots-vertical {
+  height: 24px;
+  margin-left: 71px;
+  margin-top: 7.0px;
+  width: 24px;
+}
+
+.career-goal .group-298 {
+  align-self: flex-end;
+  height: 55px;
+  margin-bottom: 7px;
+  margin-left: 30px;
+  width: 451px;
+}
+
+.career-goal .group-323 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  height: 54px;
+  margin-bottom: 5px;
+  margin-left: 61px;
+  min-width: 379px;
+}
+
+.career-goal .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 54px;
+  width: 27px;
+}
+
+.career-goal .study {
+  height: 24px;
+  margin-left: 2px;
+  object-fit: cover;
+  width: 24px;
+}
+
+.career-goal .place-1 {
+  letter-spacing: 0;
+  margin-top: 16px;
+  min-height: 14px;
+}
+
+.career-goal .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  min-height: 54px;
+  width: 27px;
+}
+
+.career-goal .study-3 {
+  height: 24px;
+  margin-left: 1px;
+  object-fit: cover;
+  width: 24px;
+}
+
+.career-goal .points {
+  letter-spacing: 0;
+  margin-top: 16px;
+  min-height: 14px;
+}
+
+.career-goal .flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  min-height: 54px;
+  width: 28px;
+}
+
+.career-goal .profile {
+  letter-spacing: 0;
+  margin-top: 16px;
+  min-height: 14px;
+}
+
+.career-goal .flex-col-3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  min-height: 54px;
+  width: 37px;
+}
+
+.career-goal .study-4 {
+  height: 24px;
+  margin-left: 1.0px;
+  object-fit: cover;
+  width: 24px;
+}
+
+.career-goal .network {
+  letter-spacing: 0;
+  margin-top: 16px;
+  min-height: 14px;
+  min-width: 37px;
+}
+
+.career-goal .flex-col-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 23px;
+  min-height: 54px;
+  width: 30px;
+}
+
+.career-goal .study-5 {
+  height: 24px;
+  margin-left: 3px;
+  object-fit: cover;
+  width: 24px;
+}
+
+.career-goal .report {
+  letter-spacing: 0;
+  margin-top: 16px;
+  min-height: 14px;
+}
+
+.career-goal .flex-col-5 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 21px;
+  min-height: 54px;
+  width: 52px;
+}
+
+.career-goal .study-6 {
+  height: 24px;
+  object-fit: cover;
+  width: 24px;
+}
+
+.career-goal .notification-container {
+  height: 14px;
+  margin-top: 16px;
+  position: relative;
+  width: 52px;
+}
+
+.career-goal .notification {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+}
+
+.career-goal .flex-col-6 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  min-height: 54px;
+  width: 32px;
+}
+
+.career-goal .study-7 {
+  height: 24px;
+  margin-left: 4px;
+  object-fit: cover;
+  width: 24px;
+}
+
+.career-goal .setting {
+  letter-spacing: 0;
+  margin-top: 16px;
+  min-height: 14px;
+}
+
+.career-goal .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 1541px;
+  margin-top: 51px;
+  min-width: 1409px;
+}
+
+.career-goal .flex-col-7 {
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: 4px 4px 6px #00000040;
+  display: flex;
+  flex-direction: column;
+  min-height: 1541px;
+  padding: 14.5px 0;
+  width: 248px;
+}
+
+.career-goal .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 55px;
+  margin-right: 50.0px;
+  min-width: 138px;
+}
+
+.career-goal .unsplash-jo-m_l-c1-w-an-e {
+  align-self: flex-end;
+  height: 53px;
+  width: 46px;
+}
+
+.career-goal .name-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  min-height: 50px;
+  width: 79px;
+}
+
+.career-goal .name {
+  letter-spacing: 0;
+  min-height: 20px;
+  width: 79px;
+}
+
+.career-goal .name-1 {
+  letter-spacing: 0;
+  margin-top: 10px;
+  min-height: 20px;
+  width: 37px;
+}
+
+.career-goal .flex-col-8 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 84px;
+  min-height: 842px;
+  width: 192px;
+}
+
+.career-goal .group-312 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 27px;
+  margin-left: 10px;
+  min-width: 121px;
+}
+
+.career-goal .study-1 {
+  height: 28px;
+  margin-top: -0.63px;
+  object-fit: cover;
+  width: 24px;
+}
+
+.career-goal .assesment {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 67px;
+}
+
+.career-goal .group-313 {
+  align-items: flex-start;
+  display: flex;
+  height: 27px;
+  margin-left: 10px;
+  margin-top: 47px;
+  min-width: 128px;
+}
+
+.career-goal .admin-tools {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 74px;
+}
+
+.career-goal .group-314 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 10px;
+  margin-top: 49px;
+  min-width: 104px;
+}
+
+.career-goal .study-2 {
+  height: 27px;
+  margin-top: -0.13px;
+  object-fit: cover;
+  width: 24px;
+}
+
+.career-goal .courses {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 50px;
+}
+
+.career-goal .group-315 {
+  align-items: flex-start;
+  display: flex;
+  height: 27px;
+  margin-left: 10px;
+  margin-top: 45px;
+  min-width: 123px;
+}
+
+.career-goal .certificates {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 69px;
+}
+
+.career-goal .group-316 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 10px;
+  margin-top: 47px;
+  min-width: 95px;
+}
+
+.career-goal .history {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 41px;
+}
+
+.career-goal .group-31 {
+  align-items: flex-start;
+  display: flex;
+  height: 27px;
+  margin-left: 10px;
+  margin-top: 47px;
+  min-width: 140px;
+}
+
+.career-goal .announcment {
+  align-self: center;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  margin-left: 28px;
+  min-height: 20px;
+  width: 86px;
+}
+
+.career-goal .group-318 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 10px;
+  margin-top: 47px;
+  min-width: 102px;
+}
+
+.career-goal .support {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 48px;
+}
+
+.career-goal .varified-profile {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 86px;
+}
+
+.career-goal .group-320 {
+  align-items: flex-start;
+  display: flex;
+  height: 27px;
+  margin-left: 10px;
+  margin-top: 47px;
+  min-width: 115px;
+}
+
+.career-goal .langauge {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 61px;
+}
+
+.career-goal .courses-you-may-like {
+  letter-spacing: 0;
+  margin-top: 47px;
+  min-height: 30px;
+  width: 192px;
+}
+
+.career-goal .group-321 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 10px;
+  margin-top: 49px;
+  min-width: 122px;
+}
+
+.career-goal .block-chain {
+  align-self: center;
+  letter-spacing: 0;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 20px;
+  width: 68px;
+}
+
+.career-goal .group-322 {
+  align-items: flex-start;
+  display: flex;
+  height: 27px;
+  margin-left: 10px;
+  margin-top: 47px;
+  min-width: 118px;
+}
+
+.career-goal .java-script {
+  align-self: center;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  margin-left: 28px;
+  min-height: 20px;
+  width: 64px;
+}
+
+.career-goal .flex-col-9 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 17px;
+  margin-top: 1px;
+  min-height: 1317px;
+  width: 877px;
+}
+
+.career-goal .unsplashk-rn-zi-g-ktz48 {
+  height: 180px;
+  width: 877px;
+}
+
+.career-goal .frame-218 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1px;
+  min-height: 232px;
+  padding: 0 28px;
+  width: 877px;
+}
+
+.career-goal .unsplasho-ap-hds2y-egq {
+  align-self: center;
+  height: 120px;
+  margin-left: 1.0px;
+  margin-top: -88px;
+  object-fit: cover;
+  width: 120px;
+}
+
+.career-goal .yahoo {
+  letter-spacing: 0;
+  min-height: 36px;
+}
+
+.career-goal .we-work-for-hr-solut {
+  letter-spacing: 0;
+  margin-top: 9px;
+  min-height: 63px;
+}
+
+.career-goal .ranked-in-10-of-the-list-in-jobulary {
+  letter-spacing: 0;
+  margin-top: 12px;
+  min-height: 21px;
+}
+
+.career-goal .frame-container {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 16px;
+  min-width: 429px;
+}
+
+.career-goal .frame-359 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  min-width: 137px;
+  padding: 0 51px;
+}
+
+.career-goal .follow {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 35px;
+}
+
+.career-goal .frame-360 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  justify-content: flex-end;
+  margin-left: 9px;
+  min-width: 137px;
+  padding: 0 33px;
+}
+
+.career-goal .visit-website {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 70px;
+}
+
+.career-goal .frame-361 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  justify-content: flex-end;
+  margin-left: 9px;
+  min-width: 137px;
+  padding: 0 50px;
+}
+
+.career-goal .see-all {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 36px;
+}
+
+.career-goal .frame-358 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 21px;
+  min-height: 883px;
+  padding: 21px 11px;
+  width: 877px;
+}
+
+.career-goal .frame-354 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 70px;
+  min-width: 852px;
+  padding: 20px 32px;
+}
+
+.career-goal .frame-362 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  min-width: 137px;
+  padding: 0 32px;
+}
+
+.career-goal .career-goals {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 73px;
+}
+
+.career-goal .frame-363 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  margin-left: 10px;
+  min-width: 137px;
+  padding: 0 49px;
+}
+
+.career-goal .place-2 {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 39px;
+}
+
+.career-goal .frame-364 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  justify-content: flex-end;
+  margin-left: 10px;
+  min-width: 137px;
+  padding: 0 34px;
+}
+
+.career-goal .get-a-coach {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 68px;
+}
+
+.career-goal .frame-365 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  justify-content: flex-end;
+  margin-left: 10px;
+  min-width: 137px;
+  padding: 0 24px;
+}
+
+.career-goal .attend-an-event {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 88px;
+}
+
+.career-goal .frame-366 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  margin-left: 10px;
+  min-width: 137px;
+  padding: 0 12px;
+}
+
+.career-goal .take-an-assessment {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 113px;
+}
+
+.career-goal .frame-363-1 {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 681px;
+  margin-top: 11px;
+  min-width: 852px;
+  padding: 10px 30px;
+}
+
+.career-goal .flex-col-10 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 641px;
+  width: 255px;
+}
+
+.career-goal .frame-363-2 {
+  align-items: center;
+  align-self: flex-start;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  min-width: 212px;
+  padding: 0 25px;
+}
+
+.career-goal .title-of-the-accomplished-skill {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 162px;
+}
+
+.career-goal .school {
+  align-self: flex-start;
+  letter-spacing: 0;
+  margin-left: 51px;
+  margin-top: 44px;
+  min-height: 21px;
+}
+
+.career-goal .place-3 {
+  letter-spacing: 0;
+  margin-right: 83.0px;
+  margin-top: 30px;
+  min-height: 21px;
+  min-width: 68px;
+}
+
+.career-goal .field-of-study {
+  letter-spacing: 0;
+  margin-right: 52.0px;
+  margin-top: 30px;
+  min-height: 24px;
+  width: 97px;
+}
+
+.career-goal .location {
+  letter-spacing: 0;
+  margin-right: 87.0px;
+  margin-top: 30px;
+  min-height: 25px;
+  width: 62px;
+}
+
+.career-goal .x-date-month {
+  letter-spacing: 0;
+  margin-right: 21.0px;
+  margin-top: 30px;
+  min-height: 25px;
+  width: 132px;
+}
+
+.career-goal .grade {
+  align-self: flex-start;
+  letter-spacing: 0;
+  margin-left: 51px;
+  margin-top: 30px;
+  min-height: 21px;
+}
+
+.career-goal .activities-societies-alumina {
+  align-self: flex-end;
+  letter-spacing: 0;
+  margin-top: 30px;
+  min-height: 21px;
+  min-width: 204px;
+}
+
+.career-goal .description {
+  letter-spacing: 0;
+  margin-right: 74.0px;
+  margin-top: 30px;
+  min-height: 21px;
+  min-width: 79px;
+}
+
+.career-goal .frame-379 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  justify-content: flex-end;
+  margin-left: 44.0px;
+  margin-top: 95px;
+  min-width: 137px;
+  padding: 0 38px;
+}
+
+.career-goal .add-media {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 60px;
+}
+
+.career-goal .frame-container-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 107px;
+  min-height: 569px;
+  width: 414px;
+}
+
+.career-goal .frame-365-1 {
+  background-color: var(--white);
+  border-radius: 4px;
+  height: 29px;
+  width: 414px;
+}
+
+.career-goal .frame-3 {
+  background-color: var(--white);
+  border-radius: 4px;
+  height: 29px;
+  margin-top: 25px;
+  width: 414px;
+}
+
+.career-goal .frame-378 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  margin-right: 1.0px;
+  margin-top: 79px;
+  min-width: 137px;
+  padding: 0 36px;
+}
+
+.career-goal .get-varified {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 65px;
+}
+
+.career-goal .group-363 {
+  align-self: center;
+  height: 42px;
+  margin-right: 3.0px;
+  margin-top: 37px;
+  width: 152px;
+}
+
+.career-goal .frame-container-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 34px;
+  min-height: 1053px;
+  width: 233px;
+}
+
+.career-goal .frame-351 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 474px;
+  justify-content: flex-end;
+  min-width: 233px;
+  padding: 24px 26px;
+}
+
+.career-goal .flex-col-11 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 420px;
+  width: 105px;
+}
+
+.career-goal .network-1 {
+  letter-spacing: 0;
+  min-height: 36px;
+}
+
+.career-goal .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 354px;
+  margin-top: 30px;
+  min-width: 105px;
+}
+
+.career-goal .unsplash-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 354px;
+  width: 46px;
+}
+
+.career-goal .unsplashuya-tt9u6-av-i {
+  height: 46px;
+  width: 46px;
+}
+
+.career-goal .unsplash {
+  height: 46px;
+  margin-top: 31px;
+  object-fit: cover;
+  width: 46px;
+}
+
+.career-goal .unsplash-container-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  min-height: 354px;
+  width: 46px;
+}
+
+.career-goal .unsplashuya-tt9u6-av-i-1 {
+  height: 46px;
+  object-fit: cover;
+  width: 46px;
+}
+
+.career-goal .flex-col-12 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  margin-top: 3.0px;
+  min-height: 411px;
+  width: 59px;
+}
+
+.career-goal .see-all-1 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  min-height: 18px;
+  min-width: 38px;
+}
+
+.career-goal .unsplashuya-tt9u6-av-i-2 {
+  height: 46px;
+  margin-top: 39px;
+  object-fit: cover;
+  width: 46px;
+}
+
+.career-goal .frame-232 {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  min-height: 308px;
+  padding: 12px 10px;
+  width: 233px;
+}
+
+.career-goal .analytics {
+  align-self: flex-start;
+  letter-spacing: 0;
+  margin-left: 5px;
+  min-height: 27px;
+}
+
+.career-goal .group-332 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 27px;
+  min-height: 26px;
+  width: 204px;
+}
+
+.career-goal .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 12px;
+  min-width: 200px;
+}
+
+.career-goal .activity {
+  letter-spacing: 0;
+  min-height: 12px;
+  min-width: 30px;
+}
+
+.career-goal .percent {
+  letter-spacing: 0;
+  margin-left: 153px;
+  min-height: 12px;
+}
+
+.career-goal .progressbar-60100 {
+  align-items: center;
+  background-color: var(--black);
+  border-radius: 1px;
+  display: flex;
+  height: 8px;
+  margin-top: 6px;
+  overflow: hidden;
+  padding: 0 2px;
+  width: 200px;
+}
+
+.career-goal .rectangle-1 {
+  background-color: var(--white);
+  border-radius: 1px;
+  height: 4px;
+  width: 162px;
+}
+
+.career-goal .group-33 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 21px;
+  min-height: 26px;
+  width: 204px;
+}
+
+.career-goal .visitors {
+  letter-spacing: 0;
+  min-height: 12px;
+  min-width: 29px;
+}
+
+.career-goal .percent-1 {
+  letter-spacing: 0;
+  margin-left: 154px;
+  min-height: 12px;
+}
+
+.career-goal .rectangle-2 {
+  background-color: var(--white);
+  border-radius: 1px;
+  height: 4px;
+  width: 105px;
+}
+
+.career-goal .post-value {
+  letter-spacing: 0;
+  min-height: 12px;
+  min-width: 42px;
+}
+
+.career-goal .percent-2 {
+  letter-spacing: 0;
+  margin-left: 141px;
+  min-height: 12px;
+}
+
+.career-goal .rectangle {
+  background-color: var(--white);
+  border-radius: 1px;
+  height: 4px;
+  width: 137px;
+}
+
+.career-goal .post-report {
+  letter-spacing: 0;
+  min-height: 12px;
+  min-width: 46px;
+}
+
+.career-goal .percent-3 {
+  letter-spacing: 0;
+  margin-left: 137px;
+  min-height: 12px;
+}
+
+.career-goal .job-post {
+  letter-spacing: 0;
+  min-height: 12px;
+  min-width: 34px;
+}
+
+.career-goal .percent-4 {
+  letter-spacing: 0;
+  margin-left: 149px;
+  min-height: 12px;
+}
+
+.career-goal .rectangle-3 {
+  background-color: var(--white);
+  border-radius: 1px;
+  height: 4px;
+  width: 126px;
+}
+
+.career-goal .frame-351-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  min-height: 255px;
+  padding: 12px 14px;
+  width: 233px;
+}
+
+.career-goal .kyc {
+  letter-spacing: 0;
+  margin-left: 1px;
+  min-height: 27px;
+}
+
+.career-goal .frame-346 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  justify-content: flex-end;
+  margin-top: 16px;
+  min-width: 203px;
+  padding: 0 87px;
+}
+
+.career-goal .place-4 {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 28px;
+}
+
+.career-goal .frame-347 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  margin-top: 2px;
+  min-width: 203px;
+  padding: 0 80px;
+}
+
+.career-goal .full-kyc {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 43px;
+}
+
+.career-goal .frame-348 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  justify-content: flex-end;
+  margin-top: 2px;
+  min-width: 203px;
+  padding: 0 46px;
+}
+
+.career-goal .career-councelling {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 110px;
+}
+
+.career-goal .frame-349 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  justify-content: flex-end;
+  margin-top: 2px;
+  min-width: 203px;
+  padding: 0 66px;
+}
+
+.career-goal .mentorship {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 62px;
+}
+
+.career-goal .frame-350 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  margin-top: 2px;
+  min-width: 203px;
+  padding: 0 74px;
+}
+
+.career-goal .internship {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 55px;
+}
+
+.career-goal .frame-351-2 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 29px;
+  margin-top: 2px;
+  min-width: 203px;
+  padding: 0 75px;
+}
+
+.career-goal .exprience {
+  letter-spacing: 0;
+  min-height: 17px;
+  min-width: 53px;
+}
