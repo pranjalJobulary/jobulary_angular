@@ -1,4 +1,4 @@
-<input
+<!-- <input
   type="hidden"
   id="anPageName"
   name="page"
@@ -63,5 +63,39 @@
 <input type="text" name="country" [(ngModel)]="locationVar.country" #country />
 <input type="text" name="state" [(ngModel)]="locationVar.state" #state />
 <input type="text" name="city" [(ngModel)]="locationVar.city" #city />
-<button (click)="addLocation()">Add</button>
+<button (click)="addLocation()">Add</button> -->
 
+<!-- Sanni code -->
+
+<div class="container-center-horizontal">
+  <div class="where-you-are-located screen">
+    <div class="frame-359 border-1px-mist-gray">
+      <div class="frame-365 border-1px-mercury">
+        <div class="frame-364 border-1px-absolute-zero">
+          <div
+            class="where-you-are-located-1 poppins-normal-absolute-zero-11px"
+          >
+            Where you are located
+          </div>
+        </div>
+        <p class="we-will-recommend-yo poppins-normal-stack-14px">
+          We will recommend you to post and people near to help you
+        </p>
+        <div class="flex-row">
+          <div class="flex-col-7 poppins-normal-stack-14px">
+            <div class="country-region">Country/Region</div>
+            <div class="city-distict">City/Distict</div>
+            <div class="langauge">Langauge</div>
+          </div>
+          <div class="flex-col-8">
+            <input type="text" class="frame-367 border-1px-mist-gray" />
+            <input type="text" class="frame-369 border-1px-mist-gray" />
+            <input type="text" class="frame-371 border-1px-mist-gray" />
+            <button type="button"  class="group-363">Submit</button>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

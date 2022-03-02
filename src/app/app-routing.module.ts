@@ -14,19 +14,24 @@ import { AuthGuard } from './Services/auth.guard';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
-  { path: 'timeline', component: TimelinePostsComponent,canActivate: [AuthGuard]},
+  {
+    path: 'timeline',
+    component: TimelinePostsComponent,
+    canActivate: [AuthGuard],
+  },
   { path: 'located', component: WhereYouAreLocatedComponent },
-  { path: 'currentWork', component: CurrentWorkComponent},
-  { path: 'aboutMe', component: AboutMeComponent},
-  { path: 'registration', component: RegistrationComponent},
-  { path: 'verify-email', component: VerifyEmailComponent},
-  { path: 'profile', component: ProfileComponent},
-  { path: 'carstory1', component: CarStories1Component},
-  {path: 'most-recent-exprience', component: MostRecentExprienceComponent},
+  { path: 'currentWork', component: CurrentWorkComponent },
+  { path: 'aboutMe', component: AboutMeComponent },
+  { path: 'registration', component: RegistrationComponent },
+  { path: 'verify-email', component: VerifyEmailComponent },
+  { path: 'profile', component: ProfileComponent },
+  { path: 'carstory1', component: CarStories1Component },
+  { path: 'most-recent-exprience', component: MostRecentExprienceComponent },
+  { path: 'where-you-are-located', component: WhereYouAreLocatedComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
