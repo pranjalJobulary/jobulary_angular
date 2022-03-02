@@ -65,6 +65,8 @@ import { SearchComponent } from './Components/search/search.component';
 import { NgAisModule } from 'angular-instantsearch';
 import { TopNavBarComponent } from './Components/top-nav-bar/top-nav-bar.component';
 import { MostRecentExprienceComponent } from './Components/most-recent-exprience/most-recent-exprience.component';
+import { MostRecentJobTitleComponent } from './Components/most-recent-job-title/most-recent-job-title.component';
+import { BasicDetailsComponent } from './Components/basic-details/basic-details.component';
 
 @NgModule({
   declarations: [
@@ -120,6 +122,8 @@ import { MostRecentExprienceComponent } from './Components/most-recent-exprience
     SearchComponent,
     TopNavBarComponent,
     MostRecentExprienceComponent,
+    MostRecentJobTitleComponent,
+    BasicDetailsComponent,
   ],
   imports: [
     BrowserModule,
