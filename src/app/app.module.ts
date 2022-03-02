@@ -64,7 +64,7 @@ import { AngularFireFunctionsModule } from '@angular/fire/compat/functions';
 import { SearchComponent } from './Components/search/search.component';
 import { NgAisModule } from 'angular-instantsearch';
 import { TopNavBarComponent } from './Components/top-nav-bar/top-nav-bar.component';
-
+import { MostRecentExprienceComponent } from './Components/most-recent-exprience/most-recent-exprience.component';
 
 @NgModule({
   declarations: [
@@ -119,6 +119,7 @@ import { TopNavBarComponent } from './Components/top-nav-bar/top-nav-bar.compone
     ELearningFormComponent,
     SearchComponent,
     TopNavBarComponent,
+    MostRecentExprienceComponent,
   ],
   imports: [
     BrowserModule,

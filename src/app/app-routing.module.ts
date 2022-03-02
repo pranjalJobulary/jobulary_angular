@@ -4,6 +4,7 @@ import { AboutMeComponent } from './Components/about-me/about-me.component';
 import { CarStories1Component } from './Components/car-stories1/car-stories1.component';
 import { CurrentWorkComponent } from './Components/current-work/current-work.component';
 import { LoginComponent } from './Components/login/login.component';
+import { MostRecentExprienceComponent } from './Components/most-recent-exprience/most-recent-exprience.component';
 import { ProfileComponent } from './Components/profile/profile.component';
 import { RegistrationComponent } from './Components/registration/registration.component';
 import { TimelinePostsComponent } from './Components/timeline-posts/timeline-posts.component';
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'verify-email', component: VerifyEmailComponent},
   { path: 'profile', component: ProfileComponent},
   { path: 'carstory1', component: CarStories1Component},
+  {path: 'most-recent-exprience', component: MostRecentExprienceComponent},
 ];
 
 @NgModule({
