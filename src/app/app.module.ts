@@ -60,6 +60,8 @@ import { VerifyEmailComponent } from './Components/verify-email/verify-email.com
 import { HotToastModule } from '@ngneat/hot-toast';
 import { ExprienceFormComponent } from './Components/exprience-form/exprience-form.component';
 import { ELearningFormComponent } from './Components/e-learning-form/e-learning-form.component';
+import { TopNavBarComponent } from './Components/top-nav-bar/top-nav-bar.component';
+
 
 @NgModule({
   declarations: [
@@ -112,6 +114,7 @@ import { ELearningFormComponent } from './Components/e-learning-form/e-learning-
     VerifyEmailComponent,
     ExprienceFormComponent,
     ELearningFormComponent,
+    TopNavBarComponent,
   ],
   imports: [
     BrowserModule,

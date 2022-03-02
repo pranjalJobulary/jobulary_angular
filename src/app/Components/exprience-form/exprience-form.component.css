@@ -27,7 +27,7 @@
 .exprience .sanni {
   letter-spacing: 0;
   margin-left: 48px;
-  margin-top: 9.0px;
+  margin-top: 9px;
   min-height: 18px;
   min-width: 34px;
 }
@@ -35,7 +35,7 @@
 .exprience .help {
   letter-spacing: 0;
   margin-left: 31px;
-  margin-top: 9.0px;
+  margin-top: 9px;
   min-height: 18px;
   min-width: 27px;
 }
@@ -43,7 +43,7 @@
 .exprience .account {
   letter-spacing: 0;
   margin-left: 31px;
-  margin-top: 9.0px;
+  margin-top: 9px;
   min-height: 18px;
   min-width: 51px;
 }
@@ -51,7 +51,7 @@
 .exprience .place {
   letter-spacing: 0;
   margin-left: 31px;
-  margin-top: 9.0px;
+  margin-top: 9px;
   min-height: 18px;
   min-width: 30px;
 }
@@ -59,7 +59,7 @@
 .exprience .bithree-dots-vertical {
   height: 24px;
   margin-left: 71px;
-  margin-top: 7.0px;
+  margin-top: 7px;
   width: 24px;
 }
 
@@ -150,7 +150,7 @@
 
 .exprience .study-4 {
   height: 24px;
-  margin-left: 1.0px;
+  margin-left: 1px;
   object-fit: cover;
   width: 24px;
 }
@@ -258,7 +258,7 @@
   align-items: flex-start;
   display: flex;
   height: 53px;
-  margin-right: 50.0px;
+  margin-right: 50px;
   min-width: 138px;
 }
 
@@ -539,7 +539,7 @@
 .exprience .unsplash4-n5hu-jd-oyd-q {
   align-self: center;
   height: 120px;
-  margin-left: 1.0px;
+  margin-left: 1px;
   margin-top: -88px;
   object-fit: cover;
   width: 120px;
@@ -697,7 +697,7 @@
 
 .exprience .company-name {
   letter-spacing: 0;
-  margin-right: 26.0px;
+  margin-right: 26px;
   margin-top: 44px;
   min-height: 21px;
   min-width: 117px;
@@ -705,7 +705,7 @@
 
 .exprience .employment-type {
   letter-spacing: 0;
-  margin-right: 15.0px;
+  margin-right: 15px;
   margin-top: 31px;
   min-height: 21px;
   min-width: 126px;
@@ -713,7 +713,7 @@
 
 .exprience .location {
   letter-spacing: 0;
-  margin-right: 79.0px;
+  margin-right: 79px;
   margin-top: 31px;
   min-height: 21px;
   min-width: 60px;
@@ -721,7 +721,7 @@
 
 .exprience .start-date {
   letter-spacing: 0;
-  margin-right: 67.0px;
+  margin-right: 67px;
   margin-top: 31px;
   min-height: 25px;
   width: 72px;
@@ -729,7 +729,7 @@
 
 .exprience .flex-col-item {
   letter-spacing: 0;
-  margin-right: 71.0px;
+  margin-right: 71px;
   margin-top: 31px;
   min-height: 25px;
   width: 72px;
@@ -745,9 +745,11 @@
 
 .exprience .group-363 {
   height: 42px;
-  margin-left: 1.0px;
+  margin-left: 1px;
   margin-top: 54px;
   width: 152px;
+  color: white;
+  background-color: #0144e4;
 }
 
 .exprience .flex-col-11 {
@@ -776,9 +778,11 @@
 
 .exprience .group-364 {
   height: 42px;
-  margin-left: 21.0px;
+  margin-left: 21px;
   margin-top: 51px;
   width: 152px;
+  color: white;
+  background-color: #0144e4;
 }
 
 .exprience .frame-364 {
@@ -788,7 +792,7 @@
   border-radius: 4px;
   display: flex;
   height: 391px;
-  margin-left: 1.0px;
+  margin-left: 1px;
   margin-top: 27px;
   min-width: 852px;
   padding: 30px;
@@ -822,7 +826,7 @@
 
 .exprience .place-2 {
   letter-spacing: 0;
-  margin-right: 67.0px;
+  margin-right: 67px;
   margin-top: 47px;
   min-height: 21px;
   min-width: 43px;
@@ -830,7 +834,7 @@
 
 .exprience .place-3 {
   letter-spacing: 0;
-  margin-right: 65.0px;
+  margin-right: 65px;
   margin-top: 33px;
   min-height: 21px;
   min-width: 43px;
@@ -838,7 +842,7 @@
 
 .exprience .place-4 {
   letter-spacing: 0;
-  margin-right: 63.0px;
+  margin-right: 63px;
   margin-top: 32px;
   min-height: 21px;
   min-width: 43px;
@@ -846,7 +850,7 @@
 
 .exprience .place-5 {
   letter-spacing: 0;
-  margin-right: 61.0px;
+  margin-right: 61px;
   margin-top: 33px;
   min-height: 25px;
   width: 45px;
@@ -854,7 +858,7 @@
 
 .exprience .place-6 {
   letter-spacing: 0;
-  margin-right: 67.0px;
+  margin-right: 67px;
   margin-top: 28px;
   min-height: 25px;
   width: 43px;
@@ -948,9 +952,11 @@
 .exprience .group-363-1 {
   align-self: center;
   height: 42px;
-  margin-left: 1.0px;
+  margin-left: 1px;
   margin-top: 36px;
   width: 152px;
+  color: white;
+  background-color: #0144e4;
 }
 
 .exprience .frame-container-3 {
@@ -1035,7 +1041,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 13px;
-  margin-top: 3.0px;
+  margin-top: 3px;
   min-height: 411px;
   width: 59px;
 }
