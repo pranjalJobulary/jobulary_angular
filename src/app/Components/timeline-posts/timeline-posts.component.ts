@@ -29,31 +29,22 @@ export class TimelinePostsComponent implements OnInit {
 
   constructor(private timeline: TimelinePostServiceService) { }
 
-  ngOnInit(): void { 
+  ngOnInit(): void {
     this.timeline.getTimelinePost().subscribe(data => {
       this.timelinePosts = data.map(e => {
         return {
           id: e.payload.doc.id,
           ...e.payload.doc.data() as ITimeline
-        } 
+        }
       }
       )
     })
-    
+
     this.timeline.getUserExperience().subscribe(data => {
       this.userExperience = data.map(e => {
         return {
           id: e.payload.doc.id,
           ...e.payload.doc.data() as INewjob
-        }
-      })
-    })
-    
-    this.timeline.getUserBasicDetails().subscribe(data => {
-      this.userBasicDetails = data.map(e => {
-        return {
-          id: e.payload.doc.id,
-          ...e.payload.doc.data() as IBasicDetails
         }
       })
     })
@@ -88,10 +79,10 @@ debugger
 
      }
      this.postWritten =  '';
-     this.timeline.createPost(this.posts).then(function(docRef) {      
+     this.timeline.createPost(this.posts).then(function(docRef) {
        console.log('Added');
        console.log('Doc id:' + docRef.id);
-      }).catch(error => 
+      }).catch(error =>
         console.log(error))
    }
 
@@ -105,6 +96,6 @@ debugger
   //     console.log(this.timelinePosts);
   //     return this.timelinePosts;
   //   }
-  
+
 
 }

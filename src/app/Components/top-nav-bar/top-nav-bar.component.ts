@@ -21,6 +21,7 @@ export class TopNavBarComponent implements OnInit {
           ...e.payload.doc.data() as IBasicDetails
         }
       })
+      console.log(data)
     })
   }
 

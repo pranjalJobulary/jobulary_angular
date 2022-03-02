@@ -71,7 +71,7 @@ export class AuthService {
                 this.route.navigate(['aboutMe']);
                 console.log('aboutMe not present')
               } else {
-                this.route.navigate(['timeline']);
+                this.route.navigate(['profile']);
                 console.log(' timeline present')
                 console.log(data.size)
               }

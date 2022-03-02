@@ -1,9 +1,10 @@
 <div class="container-center-horizontal">
   <div class="profile screen">
-    <div class="frame-196" *ngFor="let item of  profileImage">
+
     <div class="overlap-group4 poppins-normal-black-12px">
-      <img class="avatar-12" src="{{item.profileImage}}" />
-      <div class="sanni">Sanni</div>
+     <img class="avatar-12" src="../../../assets/img/avatar-12@1x.png" />
+      <div class="frame-196" *ngFor="let item of  basicdetails">
+      <div class="sanni">{{item.firstName}}</div></div>
       <div class="help">Help</div>
       <div class="account">Account</div>
       <div class="place">More</div></div>>
@@ -12,10 +13,10 @@
         src="../../../assets/img/bi-three-dots-vertical@2x.svg"
       />
       <img class="group-298" src="../../../assets/img/group-298@2x.svg" />
-      
-    </div>
+
+
     <div class="flex-row-1">
-     
+
       <div class="flex-col-9">
         <img
           class="unsplashh5wv-m-cd-ov3w"
@@ -24,10 +25,11 @@
         <div class="overlap-group5">
           <div class="frame-218">
             <div class="flex-row-3">
+              <div class="frame-196" *ngFor="let item of  profileImage,">
               <img
-                class="unsplashw-no-ln-jo7t-s8"
-                src="../../../assets/img/unsplash-wnolnjo7ts8@1x.png"
-              />
+               class="unsplashw-no-ln-jo7t-s8"
+                src="{{item.profileImage}}"
+              /></div>
               <img
                 class="bxbx-message-square-edit-1"
                 src="../../../assets/img/bx-bx-message-square-edit@2x.svg"
@@ -38,9 +40,10 @@
                 <p class="mern-stack-ui-ux">
                   MERN Stack || UI-UX || DEVOPS || BLOCKCHAIN
                 </p>
+                <div class="frame-196" *ngFor="let item of  location">
                 <div class="chennai-tamil-nadu poppins-normal-stack-14px">
-                  Chennai, Tamil nadu,
-                </div>
+                  {{item.city}},{{item.state}}
+                </div></div>
                 <div class="frame-346 border-1px-mercury">
                   <div class="open-for-mentorship poppins-normal-stack-18px">
                     Open for Mentorship
@@ -76,24 +79,24 @@
               </div>
             </div>
           </div>
-          <h1 class="title">Lissa Kumar singh</h1>
+          <div class="frame-196" *ngFor="let item of  basicdetails">
+          <h1 class="title">{{item.firstName}}</h1></div>
         </div>
         <div class="frame-340 border-1px-mercury">
           <div class="flex-col-13">
+            <div class="frame-196" *ngFor="let item of  aboutMe">
             <div class="about-me poppins-semi-bold-absolute-zero-18px">
               About Me
             </div>
             <p class="working-as-an-associ">
               <span class="span0"
-                >Working as an Associate Programmer with the knowledge of Cloud,
-                javascript and and datascience and UI-UX<br />this will help me
-                to enhance the skiil and help to contribute to the
-                company.</span
+                >{{item.aboutme}}
+               </span
               ><span class="span1"
                 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;see more</span
               >
             </p>
-          </div>
+          </div></div>
           <img
             class="bxbx-message-square-edit-2"
             src="../../../assets/img/bx-bx-message-square-edit-1@2x.svg"
@@ -412,7 +415,7 @@
           </div>
         </div>
       </div>
-      
+
     </div>
   </div>
 </div>
