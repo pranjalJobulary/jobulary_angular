@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IBasicDetails } from 'src/app/Models/IBasicDetails';
+import { AngularFireFunctions } from '@angular/fire/compat/functions';
 import { AuthService } from 'src/app/Services/auth.service';
 import { BasicdetailsService } from 'src/app/Services/basicdetails.service';
 import { ImageuploadService } from 'src/app/Services/imageupload.service';
@@ -15,26 +15,30 @@ export class LoginComponent implements OnInit {
 
   email!: string;
   pass!: string;
-  constructor(private auth: AuthService,private imageUpload:ImageuploadService,private basicdetails:BasicdetailsService) { }
+  constructor(private auth: AuthService,private imageUpload:ImageuploadService,private basicdetails:BasicdetailsService,private fun: AngularFireFunctions) { }
 
   ngOnInit(): void {
   }
 
-  signIn() {
+signIn() {
     this.auth.signIn(this.email, this.pass);
-  }
-  upload(event:any){
+}
+
+upload(event:any){
    this.imageUpload.upload(event);
   }
 uploadProfileImage(){
 this.imageUpload.uploadProfileImage();
 }
+
 uploadBackgroundImage(){
   this.imageUpload.uploadBacgroundImage();
   }
+
 checkBasicDetailCollectionExist(){
 this.basicdetails.checkbasicDetails();
 }
+
 signInWithGoogle(){
   this.auth.signInWithGoogle()
 }
@@ -45,9 +49,11 @@ registration(){
 
 //reset password
 forgotPassword(){
-
   this.auth.ForgotPassword(this.email)
 }
-
+sendEmail() {
+  const callable = this.fun.httpsCallable('kycEmailVerification');
+  callable({to:'kumaresan64761@gmail.com',name:'kumaresan',phone:'8825885479',message:'Please verify my education details'}).subscribe();
+}
 
 }

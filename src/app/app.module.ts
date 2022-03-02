@@ -60,6 +60,9 @@ import { VerifyEmailComponent } from './Components/verify-email/verify-email.com
 import { HotToastModule } from '@ngneat/hot-toast';
 import { ExprienceFormComponent } from './Components/exprience-form/exprience-form.component';
 import { ELearningFormComponent } from './Components/e-learning-form/e-learning-form.component';
+import { AngularFireFunctionsModule } from '@angular/fire/compat/functions';
+import { SearchComponent } from './Components/search/search.component';
+import { NgAisModule } from 'angular-instantsearch';
 
 @NgModule({
   declarations: [
@@ -112,6 +115,7 @@ import { ELearningFormComponent } from './Components/e-learning-form/e-learning-
     VerifyEmailComponent,
     ExprienceFormComponent,
     ELearningFormComponent,
+    SearchComponent,
   ],
   imports: [
     BrowserModule,
@@ -120,8 +124,10 @@ import { ELearningFormComponent } from './Components/e-learning-form/e-learning-
     AngularFirestoreModule,
     AngularFireAuthModule,
     AngularFireStorageModule,
+    AngularFireFunctionsModule,
     FormsModule,
     HotToastModule.forRoot(),
+    NgAisModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent],

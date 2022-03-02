@@ -37,9 +37,12 @@ export class TimelinePostServiceService {
     return this.firestore.collection("users").snapshotChanges();
   }
 
-  addTimeLinePost(timelinePosts:ITimeline){
-   return this.firestore.collection('users').doc(this.auth.userId).collection('TimeLinePosts').add(timelinePosts).then(data=>{
-    console.log("Success" + data.id)
-  }).catch(error => console.log(error));
+  async addTimeLinePost(timelinePosts:ITimeline){
+   try {
+      const data_1 = await this.firestore.collection('users').doc(this.auth.userId).collection('TimeLinePosts').add(timelinePosts);
+      console.log("Success" + data_1.id);
+    } catch (error) {
+      return console.log(error);
+    }
   }
 }

@@ -71,7 +71,7 @@ export class AuthService {
                 this.route.navigate(['aboutMe']);
                 console.log('aboutMe not present')
               } else {
-                this.route.navigate(['profile']);
+                this.route.navigate(['timeline']);
                 console.log(' timeline present')
                 console.log(data.size)
               }
@@ -89,7 +89,7 @@ export class AuthService {
   }
 
     // Send email verfificaiton when new user sign up
-    SendVerificationEMail() {
+  async  SendVerificationEMail() {
       return this.authAngular.currentUser.then((user)=>{
         user!.sendEmailVerification()
         window.alert('We sent a verification link '+ user!.email)
@@ -103,7 +103,6 @@ export class AuthService {
     SetUserData(user: { uid: any; email: any; displayName: any; photoURL: any; emailVerified: any; }) {
       const userRef: AngularFirestoreDocument<any> = this.firestore.doc(`users/${user.uid}`);
       const userData: IUserDetails = {
-        emailId: user.email,
     id: user.uid,
     emailVerified:user.emailVerified
       }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AngularFireFunctions } from '@angular/fire/compat/functions';
 import { Router } from '@angular/router';
 import { ILocation } from 'src/app/Models/ILocation';
 import { AuthService } from 'src/app/Services/auth.service';
@@ -20,7 +21,7 @@ export class WhereYouAreLocatedComponent implements OnInit {
     userId: '',
     createdOn : new Date
   }
-  constructor(private locationservice: LocationService, private auth: AuthService, private route: Router) { }
+  constructor(private locationservice: LocationService, private auth: AuthService, private route: Router,private fun: AngularFireFunctions) { }
 
   ngOnInit(): void {
     this.locationservice.getLocation().subscribe(data => {
@@ -39,4 +40,6 @@ export class WhereYouAreLocatedComponent implements OnInit {
       this.route.navigate(['currentWork']);
     }).catch(error => console.log(error))
   }
+
+
 }
