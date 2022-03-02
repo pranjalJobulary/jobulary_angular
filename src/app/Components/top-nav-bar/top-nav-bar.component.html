@@ -1,8 +1,10 @@
 <div class="container-center-horizontal">
   <div class="top-nav-bar screen">
     <div class="overlap-group1 poppins-normal-black-12px">
+
       <img class="avatar-12" src="../../../assets/img/avatar-12@1x.png" />
-      <div class="sanni">Sanni</div>
+      <div class="frame-196" *ngFor="let item of  basicdetails">
+      <button routerLink="/profile" class="sanni">{{item.firstName}}</button>
       <div class="help">Help</div>
       <div class="account">Account</div>
       <div class="place">More</div>
@@ -45,4 +47,5 @@
       </div>
     </div>
   </div>
+</div>
 </div>
