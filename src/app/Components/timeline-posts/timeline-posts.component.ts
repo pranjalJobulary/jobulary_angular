@@ -39,28 +39,10 @@ export class TimelinePostsComponent implements OnInit {
       }
       )
     })
-
-    this.timeline.getUserExperience().subscribe(data => {
-      this.userExperience = data.map(e => {
-        return {
-          id: e.payload.doc.id,
-          ...e.payload.doc.data() as INewjob
-        }
-      })
-    })
-
-    this.timeline.getUserDetails().subscribe(data => {
-      this.userDetails = data.map(e => {
-        return{
-          ...e.payload.doc.data() as IUserDetails
-        }
-      })
-    })
    }
 
 
    addPost (post: string) {
-debugger
     this.myDate = new Date();
 
      this.posts = {
@@ -85,17 +67,5 @@ debugger
       }).catch(error =>
         console.log(error))
    }
-
-   async signIn () {
-    this.email = 'pranjal@jobulary.io';
-    this.password = 'Pranjal@1';
-    // this.timeline.signIn(this.email, this.password);
-   }
-  // getTimelinePosts(): Observable<any>{
-  //     this.timeline.getTimelinePost().subscribe(res => (this.timelinePosts = res));
-  //     console.log(this.timelinePosts);
-  //     return this.timelinePosts;
-  //   }
-
 
 }
