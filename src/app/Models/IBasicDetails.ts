@@ -1,6 +1,5 @@
 export interface IBasicDetails {
-    createdOn: Date,
-    dob: string
+    createdOn: Date
     firstName: string
     gender: string
     lastName: string

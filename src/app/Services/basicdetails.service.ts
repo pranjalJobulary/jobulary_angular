@@ -12,7 +12,7 @@ basicDetails!:IBasicDetails;
 
   async addBasicDetails(basicDetails:IBasicDetails){
     try {
-      const data_1 = await this.firestore.collection("users").doc(this.auth.userId).collection('basicdetails').add(this.basicDetails);
+      const data_1 = await this.firestore.collection("users").doc(this.auth.userId).collection('basicdetails').add(basicDetails);
       console.log("Success" + data_1.id);
     } catch (error) {
       return console.log(error);

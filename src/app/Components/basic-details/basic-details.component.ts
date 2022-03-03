@@ -17,7 +17,6 @@ export class BasicDetailsComponent implements OnInit {
   basicDetails!: IBasicDetails[]
 
   basicDetilsVar: IBasicDetails = {
-    dob: '',
     firstName: '',
     gender: '',
     lastName: '',
@@ -30,13 +29,13 @@ export class BasicDetailsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  async addBasicDetails() {
+   async addBasicDetails() {
     this.basicDetilsVar.userId = this.auth.userId;
     this.basicdetailService.addBasicDetails(this.basicDetilsVar).then(() => {
       this.route.navigate(['located']);
     }).catch(error => console.log(error))
-   await this.uploadProfileImage()
-   await this.uploadBackGroundImage()
+    await this.uploadProfileImage()
+    await this.uploadBackGroundImage()
   }
 
   upload1(event:any){
