@@ -67,6 +67,8 @@ import { TopNavBarComponent } from './Components/top-nav-bar/top-nav-bar.compone
 import { MostRecentExprienceComponent } from './Components/most-recent-exprience/most-recent-exprience.component';
 import { MostRecentJobTitleComponent } from './Components/most-recent-job-title/most-recent-job-title.component';
 import { BasicDetailsComponent } from './Components/basic-details/basic-details.component';
+import { SideNavBarLeftComponent } from './Components/side-nav-bar-left/side-nav-bar-left.component';
+import { SideNavBarRightComponent } from './Components/side-nav-bar-right/side-nav-bar-right.component';
 
 @NgModule({
   declarations: [
@@ -124,6 +126,8 @@ import { BasicDetailsComponent } from './Components/basic-details/basic-details.
     MostRecentExprienceComponent,
     MostRecentJobTitleComponent,
     BasicDetailsComponent,
+    SideNavBarLeftComponent,
+    SideNavBarRightComponent
   ],
   imports: [
     BrowserModule,
