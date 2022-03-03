@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutMeComponent } from './Components/about-me/about-me.component';
+import { BasicDetailsComponent } from './Components/basic-details/basic-details.component';
 import { CarStories1Component } from './Components/car-stories1/car-stories1.component';
 import { CurrentWorkComponent } from './Components/current-work/current-work.component';
 import { LoginComponent } from './Components/login/login.component';
@@ -28,6 +29,7 @@ const routes: Routes = [
   { path: 'carstory1', component: CarStories1Component },
   { path: 'most-recent-exprience', component: MostRecentExprienceComponent },
   { path: 'where-you-are-located', component: WhereYouAreLocatedComponent },
+  { path: 'basicdetails', component: BasicDetailsComponent},
 ];
 
 @NgModule({
