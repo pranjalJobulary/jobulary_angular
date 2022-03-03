@@ -6,6 +6,7 @@ import { INewjob } from 'src/app/Models/INewJob';
 import { IProfileImage } from 'src/app/Models/IProfileImage';
 import { ITimeline } from 'src/app/Models/ITimeline';
 import { IUserDetails } from 'src/app/Models/IUserDetails';
+import { BasicdetailsService } from 'src/app/Services/basicdetails.service';
 import { ImageuploadService } from 'src/app/Services/imageupload.service';
 import { TimelinePostServiceService } from 'src/app/Services/timeline-post-service.service';
 
@@ -29,7 +30,7 @@ export class TimelinePostsComponent implements OnInit {
   newdate = new Date('2010-10-04T00:00:00+00:00');
   postWritten!: string
 
-  constructor(private timeline: TimelinePostServiceService,private imageService:ImageuploadService,) { }
+  constructor(private timeline: TimelinePostServiceService,private imageService:ImageuploadService,private basicDetailsService:BasicdetailsService) { }
 
   ngOnInit(): void {
     this.timeline.getTimelinePost().subscribe(data => {
@@ -50,6 +51,14 @@ export class TimelinePostsComponent implements OnInit {
         }
       })
     })
+    this.basicDetailsService.getBasicDetails().subscribe(data => {
+      this.userBasicDetails = data.map(e =>{
+       return {
+         id: e.payload.doc.id,
+         ...e.payload.doc.data() as IBasicDetails
+       }
+      })
+     })
    }
 
 
@@ -64,9 +73,9 @@ export class TimelinePostsComponent implements OnInit {
        imageLocation: '',
        imageUrl: '',
        postContent: post ,
-       profileImage: 'https://firebasestorage.googleapis.com/v0/b/jobulary.appspot.com/o/kumar%40jobulary.io1643020057633?alt=media&token=6475b5ea-4cf9-4165-bb13-ca48cbc98f22',
-       userId: 'OObdeBoIdodZLcQtPk0E52qm4aj1',
-       userName: 'Kumaresan',
+       profileImage: '',
+       userId: '',
+       userName: '',
        videoLocation: '',
        videoUrl: ''
 
