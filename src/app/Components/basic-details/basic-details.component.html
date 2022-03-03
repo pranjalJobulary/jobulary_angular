@@ -19,18 +19,24 @@
 
         </div>
         <div class="flex-col-8">
-
-          <input type="text" class="frame-367 border-1px-mist-gray" />
-          <input type="text" class="frame-368 border-1px-mist-gray" />
-          <select class="frame-368 border-1px-mist-gray" >
+          <input type="text" class="frame-367 border-1px-mist-gray" name="firstname"
+          [(ngModel)]="basicDetilsVar.firstName"
+          #firstname/>
+          <input type="text" class="frame-368 border-1px-mist-gray" name="lastname"
+          [(ngModel)]="basicDetilsVar.lastName"
+          #lastname/>
+          <select class="frame-368 border-1px-mist-gray" name="firstname"
+          [(ngModel)]="basicDetilsVar.gender"
+          #gender>
             <option>Male</option>
             <option>Female</option>
             <option>Others</option>
             </select>
-          <input type="number" class="frame-368 border-1px-mist-gray" />
-          <input type="text" class="frame-368 border-1px-mist-gray" />
-          <input type="file" class="frame-368 border-1px-mist-gray" />
-          <input type="file" class="frame-368 border-1px-mist-gray" />
+          <input type="number" class="frame-368 border-1px-mist-gray" name="number"
+          [(ngModel)]="basicDetilsVar.mobileNumber"
+          #number/>
+          <input type="file"(change)="upload1($event)" accept=".png,.jpg" class="frame-368 border-1px-mist-gray" />
+          <input type="file" (change)="upload2($event)" accept=".png,.jpg"class="frame-368 border-1px-mist-gray" />
 
 
 
@@ -39,7 +45,7 @@
     </div>
     <button
     type="button"
-    img
+    (click)="addBasicDetails()"
     class="group-363"
     src="../../../assets/img/group-363-7@2x.svg"
   >

@@ -7,7 +7,7 @@
 
 <button (click)="addEdu()">Add Edu</button> -->
 
-          
+
 <div class="container-center-horizontal" >
     <div class="testprofile screen">
       <!-- Side Item -->
@@ -22,7 +22,7 @@
         <div *ngFor="let item of userBasicDetails" class="flex-col-9">
           <img
             class="unsplashh5wv-m-cd-ov3w"
-            src={{item.backGroundImage}}
+            src={{item.firstName}}
           />
           <div  class="overlap-group5">
             <!-- Bio Detail -->
@@ -31,11 +31,11 @@
                 <img
                   class="unsplashw-no-ln-jo7t-s8"
                   style="border-radius: 50px;"
-                  src={{item.profileImage}}
+                  src={{item.firstName}}
                 />
                 <img
                   class="bxbx-message-square-edit-1"
-                  src="{{item.profileImage}}"
+                  src="{{item.firstName}}"
                 />
               </div>
               <div class="flex-row-4">

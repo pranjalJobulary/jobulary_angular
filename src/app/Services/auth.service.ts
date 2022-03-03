@@ -56,9 +56,9 @@ export class AuthService {
 
 
   checkLocationDetails(){
-    this.firestore.collection("users").doc(this.userId).collection('location').get().subscribe(data=>{
+    this.firestore.collection("users").doc(this.userId).collection('basicdetails').get().subscribe(data=>{
       if (data.empty) {
-        this.route.navigate(['located']);
+        this.route.navigate(['basicdetails']);
         console.log('not present')
       } else {
         this.firestore.collection("users").doc(this.userId).collection('workExpereince').get().subscribe(data=>{

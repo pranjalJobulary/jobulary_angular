@@ -9,8 +9,7 @@ import { AuthService } from './auth.service';
   providedIn: 'root'
 })
 export class ImageuploadService {
-  filePath:String | undefined
-
+  filePath!:string
   constructor(private firestorage:AngularFireStorage,private firestore:AngularFirestore,private authService:AuthService,  private toast: HotToastService,){
   }
 
