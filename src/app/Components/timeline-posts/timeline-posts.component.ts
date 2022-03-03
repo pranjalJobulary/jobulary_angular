@@ -3,8 +3,10 @@ import { fromDocRef } from '@angular/fire/compat/firestore';
 import {identity, Observable} from 'rxjs';
 import { IBasicDetails } from 'src/app/Models/IBasicDetails';
 import { INewjob } from 'src/app/Models/INewJob';
+import { IProfileImage } from 'src/app/Models/IProfileImage';
 import { ITimeline } from 'src/app/Models/ITimeline';
 import { IUserDetails } from 'src/app/Models/IUserDetails';
+import { ImageuploadService } from 'src/app/Services/imageupload.service';
 import { TimelinePostServiceService } from 'src/app/Services/timeline-post-service.service';
 
 @Component({
@@ -13,7 +15,7 @@ import { TimelinePostServiceService } from 'src/app/Services/timeline-post-servi
   styleUrls: ['./timeline-posts.component.css']
 })
 export class TimelinePostsComponent implements OnInit {
-
+  profileImage!:IProfileImage[]
   timelinePosts!: ITimeline[];
   userExperience!: INewjob[];
   userBasicDetails!: IBasicDetails[];
@@ -27,7 +29,7 @@ export class TimelinePostsComponent implements OnInit {
   newdate = new Date('2010-10-04T00:00:00+00:00');
   postWritten!: string
 
-  constructor(private timeline: TimelinePostServiceService) { }
+  constructor(private timeline: TimelinePostServiceService,private imageService:ImageuploadService,) { }
 
   ngOnInit(): void {
     this.timeline.getTimelinePost().subscribe(data => {
@@ -38,6 +40,15 @@ export class TimelinePostsComponent implements OnInit {
         }
       }
       )
+    })
+
+    this.imageService.getProfileImage().subscribe( data=>{
+      this.profileImage = data. map( e =>{
+        return{
+          id:e.payload.doc.id,
+          ...e.payload.doc.data() as IProfileImage
+        }
+      })
     })
    }
 
