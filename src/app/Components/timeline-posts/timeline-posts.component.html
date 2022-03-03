@@ -8,11 +8,13 @@
           <div class="frame-container">
 
             <div class="frame-210 border-1px-mercury">
-                <!-- <img
+              <span *ngFor=" let image of profileImage">
+                <img
                   class="unsplashc5-xy-lljk-mr-y"
-                  src={{userBasicDetails[0].firstName}}
+                  src={{image.profileImage}}
                   style="border-radius: 50px;"
-                /> -->
+                />
+              </span>
                 <div class="flex-col-8 post">
                   <input class="title" placeholder="Post the Reality" name="post" [(ngModel)]="postWritten">
                   <div class="flex-row-5">
