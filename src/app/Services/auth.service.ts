@@ -63,7 +63,7 @@ export class AuthService {
       } else {
         this.firestore.collection("users").doc(this.userId).collection('workExpereince').get().subscribe(data=>{
           if (data.empty) {
-            this.route.navigate(['currentWork']);
+            this.route.navigate(['basicdetails']);
             console.log('currentWork not present')
           } else {
             this.firestore.collection("users").doc(this.userId).collection('aboutMe').get().subscribe(data=>{
