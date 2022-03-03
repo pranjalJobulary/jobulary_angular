@@ -18,13 +18,10 @@ import { TimelinePostServiceService } from 'src/app/Services/timeline-post-servi
 export class TimelinePostsComponent implements OnInit {
   profileImage!:IProfileImage[]
   timelinePosts!: ITimeline[];
-  userExperience!: INewjob[];
   userBasicDetails!: IBasicDetails[];
   posts!: ITimeline;
   userDetails!: IUserDetails[];
   users!: IUserDetails;
-  email!:string;
-  password!: string;
   myDate!: Date;
   userId!: string;
   newdate = new Date('2010-10-04T00:00:00+00:00');
@@ -63,6 +60,7 @@ export class TimelinePostsComponent implements OnInit {
 
 
    addPost (post: string) {
+     debugger
     this.myDate = new Date();
 
      this.posts = {
@@ -73,9 +71,9 @@ export class TimelinePostsComponent implements OnInit {
        imageLocation: '',
        imageUrl: '',
        postContent: post ,
-       profileImage: '',
-       userId: '',
-       userName: '',
+       profileImage: this.profileImage[this.profileImage.length -1].profileImage,
+       userId: this.userBasicDetails[this.userBasicDetails.length-1].userId,
+       userName: this.userBasicDetails[this.userBasicDetails.length-1].firstName + ' ' + this.userBasicDetails[this.userBasicDetails.length-1].lastName,
        videoLocation: '',
        videoUrl: ''
 
