@@ -67,16 +67,10 @@ import { TopNavBarComponent } from './Components/top-nav-bar/top-nav-bar.compone
 import { MostRecentExprienceComponent } from './Components/most-recent-exprience/most-recent-exprience.component';
 import { MostRecentJobTitleComponent } from './Components/most-recent-job-title/most-recent-job-title.component';
 import { BasicDetailsComponent } from './Components/basic-details/basic-details.component';
-<<<<<<< HEAD
 import { CompanyFormComponent } from './Components/company-form/company-form.component';
-=======
 import { SideNavBarLeftComponent } from './Components/side-nav-bar-left/side-nav-bar-left.component';
 import { SideNavBarRightComponent } from './Components/side-nav-bar-right/side-nav-bar-right.component';
-<<<<<<< HEAD
 import { TogglerComponent } from './Components/toggler/toggler.component';
-=======
->>>>>>> 57a619ce2a5b5afd5f6a95cc8777a18237e76668
->>>>>>> a7a9381b89a3139bb47810d6cbce865c5be9b4fb
 
 @NgModule({
   declarations: [
@@ -134,17 +128,11 @@ import { TogglerComponent } from './Components/toggler/toggler.component';
     MostRecentExprienceComponent,
     MostRecentJobTitleComponent,
     BasicDetailsComponent,
-<<<<<<< HEAD
     CompanyFormComponent,
-=======
     SideNavBarLeftComponent,
-<<<<<<< HEAD
     SideNavBarRightComponent,
-    TogglerComponent
-=======
+    TogglerComponent,
     SideNavBarRightComponent
->>>>>>> 57a619ce2a5b5afd5f6a95cc8777a18237e76668
->>>>>>> a7a9381b89a3139bb47810d6cbce865c5be9b4fb
   ],
   imports: [
     BrowserModule,
