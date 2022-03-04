@@ -67,6 +67,7 @@ import { TopNavBarComponent } from './Components/top-nav-bar/top-nav-bar.compone
 import { MostRecentExprienceComponent } from './Components/most-recent-exprience/most-recent-exprience.component';
 import { MostRecentJobTitleComponent } from './Components/most-recent-job-title/most-recent-job-title.component';
 import { BasicDetailsComponent } from './Components/basic-details/basic-details.component';
+import { CompanyFormComponent } from './Components/company-form/company-form.component';
 
 @NgModule({
   declarations: [
@@ -124,6 +125,7 @@ import { BasicDetailsComponent } from './Components/basic-details/basic-details.
     MostRecentExprienceComponent,
     MostRecentJobTitleComponent,
     BasicDetailsComponent,
+    CompanyFormComponent,
   ],
   imports: [
     BrowserModule,
