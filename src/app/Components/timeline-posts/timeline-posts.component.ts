@@ -3,8 +3,11 @@ import { fromDocRef } from '@angular/fire/compat/firestore';
 import {identity, Observable} from 'rxjs';
 import { IBasicDetails } from 'src/app/Models/IBasicDetails';
 import { INewjob } from 'src/app/Models/INewJob';
+import { IProfileImage } from 'src/app/Models/IProfileImage';
 import { ITimeline } from 'src/app/Models/ITimeline';
 import { IUserDetails } from 'src/app/Models/IUserDetails';
+import { BasicdetailsService } from 'src/app/Services/basicdetails.service';
+import { ImageuploadService } from 'src/app/Services/imageupload.service';
 import { TimelinePostServiceService } from 'src/app/Services/timeline-post-service.service';
 
 @Component({
@@ -13,63 +16,51 @@ import { TimelinePostServiceService } from 'src/app/Services/timeline-post-servi
   styleUrls: ['./timeline-posts.component.css']
 })
 export class TimelinePostsComponent implements OnInit {
-
+  profileImage!:IProfileImage[]
   timelinePosts!: ITimeline[];
-  userExperience!: INewjob[];
   userBasicDetails!: IBasicDetails[];
   posts!: ITimeline;
   userDetails!: IUserDetails[];
   users!: IUserDetails;
-  email!:string;
-  password!: string;
   myDate!: Date;
   userId!: string;
   newdate = new Date('2010-10-04T00:00:00+00:00');
   postWritten!: string
 
-  constructor(private timeline: TimelinePostServiceService) { }
+  constructor(private timeline: TimelinePostServiceService,private imageService:ImageuploadService,private basicDetailsService:BasicdetailsService) { }
 
-  ngOnInit(): void { 
+  ngOnInit(): void {
     this.timeline.getTimelinePost().subscribe(data => {
       this.timelinePosts = data.map(e => {
         return {
           id: e.payload.doc.id,
           ...e.payload.doc.data() as ITimeline
-        } 
+        }
       }
       )
     })
-    
-    this.timeline.getUserExperience().subscribe(data => {
-      this.userExperience = data.map(e => {
-        return {
-          id: e.payload.doc.id,
-          ...e.payload.doc.data() as INewjob
-        }
-      })
-    })
-    
-    this.timeline.getUserBasicDetails().subscribe(data => {
-      this.userBasicDetails = data.map(e => {
-        return {
-          id: e.payload.doc.id,
-          ...e.payload.doc.data() as IBasicDetails
-        }
-      })
-    })
 
-    this.timeline.getUserDetails().subscribe(data => {
-      this.userDetails = data.map(e => {
+    this.imageService.getProfileImage().subscribe( data=>{
+      this.profileImage = data. map( e =>{
         return{
-          ...e.payload.doc.data() as IUserDetails
+          id:e.payload.doc.id,
+          ...e.payload.doc.data() as IProfileImage
         }
       })
     })
+    this.basicDetailsService.getBasicDetails().subscribe(data => {
+      this.userBasicDetails = data.map(e =>{
+       return {
+         id: e.payload.doc.id,
+         ...e.payload.doc.data() as IBasicDetails
+       }
+      })
+     })
    }
 
 
    addPost (post: string) {
-debugger
+     debugger
     this.myDate = new Date();
 
      this.posts = {
@@ -80,31 +71,19 @@ debugger
        imageLocation: '',
        imageUrl: '',
        postContent: post ,
-       profileImage: 'https://firebasestorage.googleapis.com/v0/b/jobulary.appspot.com/o/kumar%40jobulary.io1643020057633?alt=media&token=6475b5ea-4cf9-4165-bb13-ca48cbc98f22',
-       userId: 'OObdeBoIdodZLcQtPk0E52qm4aj1',
-       userName: 'Kumaresan',
+       profileImage: this.profileImage[this.profileImage.length -1].profileImage,
+       userId: this.userBasicDetails[this.userBasicDetails.length-1].userId,
+       userName: this.userBasicDetails[this.userBasicDetails.length-1].firstName + ' ' + this.userBasicDetails[this.userBasicDetails.length-1].lastName,
        videoLocation: '',
        videoUrl: ''
 
      }
      this.postWritten =  '';
-     this.timeline.createPost(this.posts).then(function(docRef) {      
+     this.timeline.createPost(this.posts).then(function(docRef) {
        console.log('Added');
        console.log('Doc id:' + docRef.id);
-      }).catch(error => 
+      }).catch(error =>
         console.log(error))
    }
-
-   async signIn () {
-    this.email = 'pranjal@jobulary.io';
-    this.password = 'Pranjal@1';
-    // this.timeline.signIn(this.email, this.password);
-   }
-  // getTimelinePosts(): Observable<any>{
-  //     this.timeline.getTimelinePost().subscribe(res => (this.timelinePosts = res));
-  //     console.log(this.timelinePosts);
-  //     return this.timelinePosts;
-  //   }
-  
 
 }

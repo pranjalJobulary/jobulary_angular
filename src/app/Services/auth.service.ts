@@ -56,30 +56,37 @@ export class AuthService {
 
 
   checkLocationDetails(){
-    this.firestore.collection("users").doc(this.userId).collection('location').get().subscribe(data=>{
+    this.firestore.collection("users").doc(this.userId).collection('basicdetails').get().subscribe(data=>{
       if (data.empty) {
-        this.route.navigate(['located']);
-        console.log('not present')
+        this.route.navigate(['basicdetails']);
+        console.log('basic details not present')
       } else {
-        this.firestore.collection("users").doc(this.userId).collection('workExpereince').get().subscribe(data=>{
+        this.firestore.collection("users").doc(this.userId).collection('location').get().subscribe(data=>{
           if (data.empty) {
-            this.route.navigate(['currentWork']);
-            console.log('currentWork not present')
+            this.route.navigate(['located']);
+            console.log('location not present')
           } else {
-            this.firestore.collection("users").doc(this.userId).collection('aboutMe').get().subscribe(data=>{
+            this.firestore.collection("users").doc(this.userId).collection('workExpereince').get().subscribe(data=>{
               if (data.empty) {
-                this.route.navigate(['aboutMe']);
-                console.log('aboutMe not present')
+                this.route.navigate(['currentWork']);
+                console.log('currentWork not present')
               } else {
-                this.route.navigate(['timeline']);
-                console.log(' timeline present')
-                console.log(data.size)
+                this.firestore.collection("users").doc(this.userId).collection('aboutMe').get().subscribe(data=>{
+                  if (data.empty) {
+                    this.route.navigate(['aboutMe']);
+                    console.log('aboutMe not present')
+                  } else {
+                    this.route.navigate(['timeline']);
+                    console.log('timeline present')
+                    console.log(data.size)
+                  }
+                });
               }
             });
           }
         });
 
-        console.log('location present')
+        console.log('BasicDetils present')
         console.log(data.size)
       }
     });

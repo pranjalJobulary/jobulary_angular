@@ -13,7 +13,6 @@ export class TopNavBarComponent implements OnInit {
   constructor( private basicdetailsService:BasicdetailsService) { }
 
   ngOnInit(): void {
-
     this.basicdetailsService.getBasicDetails().subscribe( data=>{
       this.basicdetails = data. map( e =>{
         return{
@@ -21,6 +20,7 @@ export class TopNavBarComponent implements OnInit {
           ...e.payload.doc.data() as IBasicDetails
         }
       })
+      console.log(data)
     })
   }
 

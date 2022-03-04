@@ -4,7 +4,7 @@
   align-items: flex-start;
   background-color: var(--white);
   display: flex;
-  height: 1691px;
+  height: 140px;
   width: 1440px;
 }
 
@@ -29,6 +29,7 @@
   margin-top: 9px;
   min-height: 18px;
   min-width: 34px;
+  cursor: pointer;
 }
 
 .top-nav-bar .help {

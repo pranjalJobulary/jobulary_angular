@@ -1,4 +1,5 @@
 <div class="container-center-horizontal">
+
   <div class="skill-develpoment screen">
     <div class="flex-row-1">
       <div class="flex-col-9">
@@ -29,6 +30,7 @@
             </div>
             <div class="frame-container-1">
               <input type="text" class="frame-365 border-1px-mist-gray" />
+
               <input type="text" class="frame-3 border-1px-mist-gray" />
               <input type="text" class="frame-3 border-1px-mist-gray" />
               <input type="text" class="frame-3 border-1px-mist-gray" />
@@ -45,8 +47,58 @@
           >
             Submit
           </button>
+
+  <div class="most-recent-exprience screen">
+    <div class="frame-364 border-1px-absolute-zero" style="margin-top: 80px">
+      <div
+        class="your-most-rescent-exprience poppins-normal-absolute-zero-11px"
+      >
+        Basic Details
+      </div>
+    </div>
+    <div class="frame-359 border-1px-mist-gray">
+      <div class="frame-365 border-1px-mercury">
+        <div class="flex-col-7 poppins-normal-stack-14px">
+          <div class="most-recent-job-title">First Name</div>
+          <div class="employment-type">Last Name</div>
+          <div class="employment-type">Gender</div>
+          <div class="employment-type">Mobile No</div>
+          <div class="employment-type">Profile</div>
+          <div class="employment-type">Background</div>
+
+        </div>
+        <div class="flex-col-8">
+          <input type="text" class="frame-367 border-1px-mist-gray" name="firstname"
+          [(ngModel)]="basicDetilsVar.firstName"
+          #firstname/>
+          <input type="text" class="frame-368 border-1px-mist-gray" name="lastname"
+          [(ngModel)]="basicDetilsVar.lastName"
+          #lastname/>
+          <select class="frame-368 border-1px-mist-gray" name="firstname"
+          [(ngModel)]="basicDetilsVar.gender"
+          #gender>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Others</option>
+            </select>
+          <input type="number" class="frame-368 border-1px-mist-gray" name="number"
+          [(ngModel)]="basicDetilsVar.mobileNumber"
+          #number/>
+          <input type="file"(change)="upload1($event)" accept=".png,.jpg" class="frame-368 border-1px-mist-gray" />
+          <input type="file" (change)="upload2($event)" accept=".png,.jpg"class="frame-368 border-1px-mist-gray" />
+
+
+
         </div>
       </div>
     </div>
+    <button
+    type="button"
+    (click)="addBasicDetails()"
+    class="group-363"
+    src="../../../assets/img/group-363-7@2x.svg"
+  >
+    Submit
+  </button>
   </div>
 </div>

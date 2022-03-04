@@ -1,66 +1,22 @@
-<!-- <p>timeline-posts works!</p>
-<div class="container">
-    <p *ngFor="let item of timelinePosts">
-        <span>{{item.postContent}}</span>
-        <span>{{item.userId}}</span>
-        <img src={{item.imageUrl}} alt="">
-    </p>
-</div> -->
-<!-- 
-<div class="container">
-    <p *ngFor="let item of userExperience">
-        <span>{{item.newJob}}</span>
-        <span>{{item.state}}</span>
-        <img src={{item.imageUrl}} alt="">
-    </p>
-</div> -->
+<app-top-nav-bar></app-top-nav-bar>
 
-
-<!-- <div class="sidenav">
-    <a href="">New</a>
-</div>
-
-<div class="container">
-    <p *ngFor="let item of userBasicDetails">
-        <span>{{item.firstName}}</span>
-        <span>{{item.gender}}</span>
-    </p>
-</div> -->
-
-<!-- <div class="userDetails">
-    <span *ngFor="let item of userDetails">
-            <span>{{item.createdOn}}</span><br>
-            <span>{{item.emailId}}</span><br>
-            <span>{{item.id}}</span><br>
-    </span><br>
-</div>
-
-<div>
-    {{users.emailId}}
-</div> -->
-
-<!-- <button (click)="signIn()">Add Post</button> -->
-
-
-<body style="margin: 0; background: #ffffff; margin-top: 80px">
+<body style="margin: 0; background: #ffffff; margin-top: 20px">
     <input type="hidden" id="anPageName" name="page" value="feed" />
     <div class="container-center-horizontal">
       <div class="feed screen">
         <div class="flex-row-4">
-          <!-- SideNavBAr -->
-
-          
-
           <!-- Middle content and timeline post -->
 
           <div class="frame-container">
-           
+
             <div class="frame-210 border-1px-mercury">
+              <span *ngFor="let image of profileImage">
                 <img
                   class="unsplashc5-xy-lljk-mr-y"
-                  src={{userBasicDetails[0].profileImage}}
+                  src={{image.profileImage}}
                   style="border-radius: 50px;"
                 />
+              </span>
                 <div class="flex-col-8 post">
                   <input class="title" placeholder="Post the Reality" name="post" [(ngModel)]="postWritten">
                   <div class="flex-row-5">
@@ -123,76 +79,6 @@
             </div>
 
           </div>
-
-                    <!-- Rightmost content -->
-                    <div class="frame-container-1">
-                        <!-- Network section -->
-                        <div class="frame-190 border-1px-mercury-2" *ngFor="let item of userBasicDetails">
-                          <div class="overlap-group-2">
-                            <div class="network-1 poppins-semi-bold-absolute-zero-24px">
-                              Network
-                            </div>
-                            <div class="online">Online</div>
-                          </div>
-                          <div class="flex-row-6">
-                            <div class="unsplashuyattuavi-container-1">
-                              <img
-                                class="unsplashuya-tt9u6-av-i-4"
-                                src={{item.profileImage}}
-                                style="border-radius: 50px;"
-                              />
-                              <img
-                                class="unsplashuya-tt9u6-av-i"
-                                src="../../../assets/img/unsplash-uyatt9u6avi-1@1x.png"
-                              />
-                              <img
-                                class="unsplashuya-tt9u6-av-i"
-                                src="../../../assets/img/unsplash-uyatt9u6avi-8@1x.png"
-                              />
-                              <img
-                                class="unsplashuya-tt9u6-av-i"
-                                src="../../../assets/img/unsplash-uyatt9u6avi-9@1x.png"
-                              />
-                            </div>
-                            <div class="unsplashuyattuavi-container">
-                              <img
-                                class="unsplashuya-tt9u6-av-i-1"
-                                src="../../../assets/img/unsplash-uyatt9u6avi-10@1x.png"
-                              />
-                              <img
-                                class="unsplashuya-tt9u6-av-i"
-                                src="../../../assets/img/unsplash-uyatt9u6avi-2@1x.png"
-                              />
-                              <img
-                                class="unsplashuya-tt9u6-av-i"
-                                src="../../../assets/img/unsplash-uyatt9u6avi-3@1x.png"
-                              />
-                              <img
-                                class="unsplashuya-tt9u6-av-i"
-                                src="../../../assets/img/unsplash-uyatt9u6avi-5@1x.png"
-                              />
-                            </div>
-                            <div class="unsplashuyattuavi-container">
-                              <img
-                                class="unsplashuya-tt9u6-av-i-1"
-                                src="../../../assets/img/unsplash-uyatt9u6avi-11@1x.png"
-                              />
-                              <img
-                                class="unsplashuya-tt9u6-av-i"
-                                src="../../../assets/img/unsplash-uyatt9u6avi-7@1x.png"
-                              />
-                              <img
-                                class="unsplashuya-tt9u6-av-i"
-                                src="../../../assets/img/unsplash-uyatt9u6avi-4@1x.png"
-                              />
-                              <img
-                                class="unsplashuya-tt9u6-av-i"
-                                src="../../../assets/img/unsplash-uyatt9u6avi-6@1x.png"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
         </div>
       </div>
     </div>

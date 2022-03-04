@@ -9,8 +9,7 @@ import { AuthService } from './auth.service';
   providedIn: 'root'
 })
 export class ImageuploadService {
-  filePath:String | undefined
-
+  filePath!:string
   constructor(private firestorage:AngularFireStorage,private firestore:AngularFirestore,private authService:AuthService,  private toast: HotToastService,){
   }
 
@@ -19,19 +18,20 @@ export class ImageuploadService {
   }
 
   // Image upload Functionality
-  uploadProfileImage(){
+  async uploadProfileImage(){
     console.log(this.filePath)
-  return  this.firestorage.upload('/profile'+Math.random()+this.filePath, this.filePath).then((data)=>{
-      data.ref.getDownloadURL().then((url)=>{
-         this.firestore.collection('users').doc(this.authService.userId).collection('profileImage').add({
-           profileImage:url,
-           uploadedOn:new Date
-         })
+  try {
+      const data = await this.firestorage.upload('/profile' + Math.random() + this.filePath, this.filePath);
+      data.ref.getDownloadURL().then((url) => {
+        this.firestore.collection('users').doc(this.authService.userId).collection('profileImage').add({
+          profileImage: url,
+          uploadedOn: new Date
+        });
 
-      })
-    }).catch((error)=>
-    window.alert(error)
-    )
+      });
+    } catch (error) {
+      return window.alert(error);
+    }
   }
 
 
