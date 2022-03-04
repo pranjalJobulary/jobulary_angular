@@ -158,13 +158,13 @@
               src="../../../assets/img/clarity-add-line@2x.svg"
             />
           </div>
-          <div class="flex-row-9">
+          <div class="flex-row-9" *ngFor="let item of  experience" style="margin-bottom: 10px;">
             <img
               class="unsplash-2"
               src="../../../assets/img/unsplash-fyd3owbuxny-1@2x.svg"
             />
             <div class="flex-col-17">
-              <span class="frame-196" *ngFor="let item of  experience">
+              <span class="frame-196" >
               <div class="associate-programmer poppins-normal-black-18px">
                 {{item.company}}
               </div>
@@ -193,11 +193,11 @@
               </div>
             </div>
           </div>
-          <div class="frame-345-2 border-1px-mercury">
-            <div class="see-more poppins-normal-stack-18px">see more</div>
+          <div class="frame-345-2 border-1px-mercury" *ngIf="!experience">
+            <div class="see-more poppins-normal-stack-18px">No Data Availabel</div>
           </div>
         </div>
-        <div class="frame-346-1 border-1px-mercury">
+        <div class="frame-346-1 border-1px-mercury" *ngFor="let item of  eduDetails">
           <div class="flex-row-12">
             <div class="flex-col-19">
               <div class="education poppins-semi-bold-absolute-zero-18px">
@@ -209,7 +209,7 @@
                   src="../../../assets/img/unsplash-fyd3owbuxny-2@2x.svg"
                 />
                 <div class="flex-col-20">
-                  <span class="frame-196" *ngFor="let item of  eduDetails">
+                  <span class="frame-196">
                   <div
                     class="uttrakhand-technical-university-1 poppins-normal-black-18px"
                   >
@@ -222,42 +222,6 @@
                   </div>
                   <div class="address-1 poppins-normal-stack-14px">{{item.typeOfEdu}}</div>
                 </span>
-              </div>
-              <div class="group-366">
-                <img
-                  class="unsplash-2"
-                  src="../../../assets/img/unsplash-s9cc2skysjm@2x.svg"
-                />
-                <div class="flex-col-21">
-                  <div class="central-institute-of poppins-normal-black-18px">
-                    Central institute of polymer engineering and technology
-                  </div>
-                  <div
-                    class="d-iploma-of-engineering poppins-normal-stack-14px"
-                  >
-                    DIploma of engineering
-                  </div>
-                  <div class="address-2 poppins-normal-stack-14px">3 years</div>
-                </div>
-              </div>
-              <div class="group-367">
-                <img
-                  class="unsplash-2"
-                  src="../../../assets/img/unsplash--so3jte3gzo@2x.svg"
-                />
-                <div class="flex-col-22">
-                  <div class="kendriya-vidiyalaya poppins-normal-black-18px">
-                    Kendriya Vidiyalaya Bailey road patna 14
-                  </div>
-                  <div
-                    class="d-iploma-of-engineering-1 poppins-normal-stack-14px"
-                  >
-                    DIploma of engineering
-                  </div>
-                  <div class="address-3 poppins-normal-stack-14px">
-                    12 years
-                  </div>
-                </div>
               </div>
             </div>
             <div class="flex-col-23">
@@ -274,7 +238,7 @@
                 <div
                   class="varify valign-text-middle metrophobic-normal-white-14px"
                 >
-                  Varify
+                  Verify
                 </div>
               </div>
               <img
@@ -301,8 +265,8 @@
               </div>
             </div>
           </div>
-          <div class="frame-345-3 border-1px-mercury">
-            <div class="see-more poppins-normal-stack-18px">see more</div>
+          <div class="frame-345-3 border-1px-mercury" *ngIf="!eduDetails">
+            <div class="see-more poppins-normal-stack-18px">No Data Available</div>
           </div>
         </div>
         <div class="frame-34 border-1px-mercury">
