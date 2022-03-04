@@ -23,6 +23,7 @@ import { WorkExperienceService } from 'src/app/Services/work-experience.service'
 export class ProfileComponent implements OnInit {
 
 
+  flag: number = 0;
   eduDetails!: IEducationDetails[]
   experience!:IExperience[]
   workExpereince!: IWorkExperience[]
@@ -104,6 +105,10 @@ export class ProfileComponent implements OnInit {
       })
     })
 
+  }
+
+  openVerification() {
+    this.flag = 1
   }
   }
 

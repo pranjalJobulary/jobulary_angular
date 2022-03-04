@@ -57,8 +57,8 @@
                     <div class="leather-sector-skill-council">
                      {{item.company}}
                     </div></div>
-                    <div class="uttrakhand-technical-university">
-                      Uttrakhand technical University
+                    <div class="uttrakhand-technical-university" *ngFor="let item of eduDetails">
+                      {{item.instituteName}}
                     </div>
                   </div>
                 </div>
@@ -185,14 +185,21 @@
                 src="../../../assets/img/bx-bx-message-square-edit-1@2x.svg"
               />
               <div class="overlap-group-2">
-                <div
+                <div (click)="openVerification()"
                   class="varify valign-text-middle metrophobic-normal-white-14px"
                 >
-                  Varify
+                  Verify
                 </div>
               </div>
             </div>
+            <span *ngIf="flag == 1">
+              <div class="company-name">Email</div>
+              <input type="text" class="frame-3 border-1px-mist-gray"name="state"
+              #location>
+              <button>Add</button>
+            </span>
           </div>
+
           <div class="frame-345-2 border-1px-mercury" *ngIf="!experience">
             <div class="see-more poppins-normal-stack-18px">No Data Availabel</div>
           </div>
@@ -244,6 +251,9 @@
                   Verify
                 </div>
               </div>
+            </div>
+            <div>
+
             </div>
           </div>
           </span>
