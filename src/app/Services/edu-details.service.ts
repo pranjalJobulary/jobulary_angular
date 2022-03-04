@@ -11,16 +11,17 @@ export class EduDetailsService {
   eduDetails!: IEducationDetails;
   constructor(private firestore: AngularFirestore,private auth:AuthService) { }
 
-  addEdu(eduDetails: IEducationDetails) {
-
-
-    return this.firestore.collection("users").doc(this.auth.userId).collection('educationDetails').add(this.eduDetails).then(data=>{
-      console.log("Success" + data.id)
-    }).catch(error => console.log(error));
+  async addEdu(eduDetails: IEducationDetails) {
+    try {
+      const data_1 = await this.firestore.collection("users").doc(this.auth.userId).collection('educationDetails').add(this.eduDetails);
+      console.log("Success" + data_1.id);
+    } catch (error) {
+      return console.log(error);
+    }
   }
 
   getEdu() {
-    return this.firestore.collection("users").doc('OObdeBoIdodZLcQtPk0E52qm4aj1').collection('educationDetails').snapshotChanges();
+    return this.firestore.collection("users").doc(this.auth.userId).collection('educationDetails').snapshotChanges();
   }
 
   // updateEdu(eduDetail: IEducationDetails) {

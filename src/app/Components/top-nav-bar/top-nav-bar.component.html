@@ -11,7 +11,28 @@
         class="bithree-dots-vertical"
         src="../../../assets/img/bi-three-dots-vertical@2x.svg"
       />
-      <img class="group-298" src="../../../assets/img/group-298@2x.svg" />
+      <div class="modal-overlay" [class.modal-show]="visible">
+
+        <div class="algolia-hits">
+
+          <div class="algolia-form-wrap">
+            <input
+              placeholder="explore..." class="algolia-input" type="text" #searchInput (keyup)="handleSearch(searchInput.value)">
+
+              <span (click)="hide()" class="algolia-close btn btn-sm btn-red">close</span>
+          </div>
+
+            <a class="algolia-hit" [href]="hit.relpermalink" *ngFor="let hit of hits">
+                <h4>
+                  <span>{{ [hit.email,hit.firstName,hit.company,hit.designation] }} </span>
+                  <span class="hit-title" [innerHtml]="hit._highlightResult.title.value"></span>
+                  <span class="hit-type" [ngClass]=" 'hit-' + hit.type"> in {{ hit.type }}</span>
+                </h4>
+                <!-- <p class="hit-description" [innerHtml]="hit._highlightResult.firstName"></p> -->
+            </a>
+        </div>
+
+      </div>
       <div class="group-323">
         <div class="flex-col">
           <img class="study" src="../../../assets/img/study-6@2x.png" />

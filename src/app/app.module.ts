@@ -69,6 +69,7 @@ import { MostRecentJobTitleComponent } from './Components/most-recent-job-title/
 import { BasicDetailsComponent } from './Components/basic-details/basic-details.component';
 import { SideNavBarLeftComponent } from './Components/side-nav-bar-left/side-nav-bar-left.component';
 import { SideNavBarRightComponent } from './Components/side-nav-bar-right/side-nav-bar-right.component';
+import { TogglerComponent } from './Components/toggler/toggler.component';
 
 @NgModule({
   declarations: [
@@ -127,7 +128,8 @@ import { SideNavBarRightComponent } from './Components/side-nav-bar-right/side-n
     MostRecentJobTitleComponent,
     BasicDetailsComponent,
     SideNavBarLeftComponent,
-    SideNavBarRightComponent
+    SideNavBarRightComponent,
+    TogglerComponent
   ],
   imports: [
     BrowserModule,

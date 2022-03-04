@@ -30,5 +30,7 @@ export class BackgroundimageserviceService {
     }
   }
 
-
+  getBackgroundImage(){
+    return this.firestore.collection('users').doc(this.authService.userId).collection('backgroundImage').snapshotChanges();
+  }
 }
