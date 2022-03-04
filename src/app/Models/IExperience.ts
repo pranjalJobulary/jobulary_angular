@@ -4,8 +4,6 @@ export interface IExperience {
   employmentType:string
   location: string
   start_date: string
-  heading: string
-  industry: string
   briefDescripition: string
   verified:null,
   createdON: Date,

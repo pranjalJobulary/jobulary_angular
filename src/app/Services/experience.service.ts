@@ -28,8 +28,6 @@ export class ExperienceService {
   employmentType:experience.employmentType,
   location: experience.location,
   start_date: experience.start_date,
-  heading: experience.heading,
-  industry: experience.industry,
   briefDescripition: experience.briefDescripition,
   documentUrl:url,
   verified:null,

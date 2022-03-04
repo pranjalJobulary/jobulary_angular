@@ -17,8 +17,6 @@ export class ExprienceFormComponent implements OnInit {
   employmentType:'',
   location: '',
   start_date: '',
-  heading: '',
-  industry: '',
   briefDescripition: '',
   verified:null,
   createdON: new Date
