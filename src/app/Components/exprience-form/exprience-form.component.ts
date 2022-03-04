@@ -19,7 +19,8 @@ export class ExprienceFormComponent implements OnInit {
   start_date: '',
   briefDescripition: '',
   verified:null,
-  createdON: new Date
+  createdON: new Date,
+  documentUrl:''
   }
 
   constructor(private auth: AuthService, private route: Router,private experience:ExperienceService) { }
@@ -33,7 +34,7 @@ export class ExprienceFormComponent implements OnInit {
   addExperience() {
     this.experienceVar.userId = this.auth.userId;
     this.experience.addExperience(this.experienceVar).then(() => {
-      this.route.navigate(['currentWork']);
+      this.route.navigate(['profile']);
     }).catch(error => console.log(error))
   }
 }
