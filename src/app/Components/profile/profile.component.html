@@ -197,7 +197,65 @@
             <div class="see-more poppins-normal-stack-18px">No Data Availabel</div>
           </div>
         </div>
-        <div class="frame-346-1 border-1px-mercury" *ngFor="let item of  eduDetails">
+
+        <div class="frame-345-1 border-1px-mercury">
+          <div class="flex-row-8">
+            <div class="exprience poppins-semi-bold-absolute-zero-18px">
+              Education
+            </div>
+            <img
+              class="clarityadd-line"
+              routerLink="/edu-details"
+              src="../../../assets/img/clarity-add-line@2x.svg"
+            />
+          </div>
+          <span *ngIf="eduDetails != null">
+
+          <div class="flex-row-9" *ngFor="let item of  eduDetails" style="margin-bottom: 10px;">
+            <img
+              class="unsplash-2"
+              src="../../../assets/img/unsplash-fyd3owbuxny-1@2x.svg"
+            />
+            <div class="flex-col-17">
+              <span class="frame-196" >
+              <div class="associate-programmer poppins-normal-black-18px">
+                {{item.instituteName}}
+              </div>
+              <div class="flex-row-10 poppins-normal-stack-12px">
+                <div class="leather-sector-skill-council-1">
+                  {{item.qualifications}}
+                </div>
+                <div class="full-time"> {{item.typeOfEdu}}</div>
+              </div>
+              <div class="flex-row-11 poppins-normal-stack-12px">
+                <div class="december-2020-present">{{item.startYear}}</div></div>
+
+              <div class="place-2 poppins-normal-stack-12px">{{item.description}}</div></span>
+            </div>
+            <div class="flex-col-18">
+              <img
+                class="bxbx-message-square-edit-3"
+                src="../../../assets/img/bx-bx-message-square-edit-1@2x.svg"
+              />
+              <div class="overlap-group-2">
+                <div
+                  class="varify valign-text-middle metrophobic-normal-white-14px"
+                >
+                  Verify
+                </div>
+              </div>
+            </div>
+          </div>
+          </span>
+          <div class="frame-345-2 border-1px-mercury" *ngIf="eduDetails === null">
+            <div class="see-more poppins-normal-stack-18px">No Data Availabel</div>
+          </div>
+        </div>
+
+
+
+<!-- 
+        <div class="frame-346-1 border-1px-mercury">
           <div class="flex-row-12">
             <div class="flex-col-19">
               <div class="education poppins-semi-bold-absolute-zero-18px">
@@ -209,7 +267,7 @@
                   src="../../../assets/img/unsplash-fyd3owbuxny-2@2x.svg"
                 />
                 <div class="flex-col-20">
-                  <span class="frame-196">
+                  <span class="frame-196" *ngFor="let item of  eduDetails">
                   <div
                     class="uttrakhand-technical-university-1 poppins-normal-black-18px"
                   >
@@ -222,6 +280,42 @@
                   </div>
                   <div class="address-1 poppins-normal-stack-14px">{{item.typeOfEdu}}</div>
                 </span>
+              </div>
+              <div class="group-366">
+                <img
+                  class="unsplash-2"
+                  src="../../../assets/img/unsplash-s9cc2skysjm@2x.svg"
+                />
+                <div class="flex-col-21">
+                  <div class="central-institute-of poppins-normal-black-18px">
+                    Central institute of polymer engineering and technology
+                  </div>
+                  <div
+                    class="d-iploma-of-engineering poppins-normal-stack-14px"
+                  >
+                    DIploma of engineering
+                  </div>
+                  <div class="address-2 poppins-normal-stack-14px">3 years</div>
+                </div>
+              </div>
+              <div class="group-367">
+                <img
+                  class="unsplash-2"
+                  src="../../../assets/img/unsplash--so3jte3gzo@2x.svg"
+                />
+                <div class="flex-col-22">
+                  <div class="kendriya-vidiyalaya poppins-normal-black-18px">
+                    Kendriya Vidiyalaya Bailey road patna 14
+                  </div>
+                  <div
+                    class="d-iploma-of-engineering-1 poppins-normal-stack-14px"
+                  >
+                    DIploma of engineering
+                  </div>
+                  <div class="address-3 poppins-normal-stack-14px">
+                    12 years
+                  </div>
+                </div>
               </div>
             </div>
             <div class="flex-col-23">
@@ -265,8 +359,8 @@
               </div>
             </div>
           </div>
-          <div class="frame-345-3 border-1px-mercury" *ngIf="!eduDetails">
-            <div class="see-more poppins-normal-stack-18px">No Data Available</div>
+          <div class="frame-345-3 border-1px-mercury">
+            <div class="see-more poppins-normal-stack-18px">see more</div>
           </div>
         </div>
         <div class="frame-34 border-1px-mercury">
@@ -372,7 +466,7 @@
             <div class="see-more poppins-normal-stack-18px">see more</div>
           </div>
         </div>
-      </div>
+      </div> -->
 
     </div>
   </div>
