@@ -10,7 +10,7 @@ import { AuthService } from './auth.service';
 export class ExperienceService {
   experience!:IExperience;
   filePath!:string
-  docUrl!:string
+
   constructor(private firestore:AngularFirestore, private auth: AuthService,private firestorage:AngularFireStorage,) { }
 
 

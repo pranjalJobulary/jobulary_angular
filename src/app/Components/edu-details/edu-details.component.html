@@ -35,27 +35,31 @@
             </div>
             <div class="flex-col-11">
               <input type="text" class="frame-365 border-1px-mist-gray"name="state"
-              [(ngModel)]="experienceVar.company"
+              [(ngModel)]="educationdetailsVar.instituteName"
               #company>
               <select type="text" class="frame-3 border-1px-mist-gray"name="state"
-              [(ngModel)]="experienceVar.employmentType"
-              #employmentType> 
+              [(ngModel)]="educationdetailsVar.typeOfEdu"
+              #employmentType>
               <option>PG</option>
               <option>UG</option>
               <option>12th</option>
               <option>10th</option>
             </select>
               <input type="text" class="frame-3 border-1px-mist-gray"name="state"
-              [(ngModel)]="experienceVar.location"
+              [(ngModel)]="educationdetailsVar.qualifications"
               #location>
-              <input type="date" class="frame-3 border-1px-mist-gray"  [(ngModel)]="experienceVar.start_date"
+              <input type="date" class="frame-3 border-1px-mist-gray"  [(ngModel)]="educationdetailsVar.startYear"
               #start_date>
-              <input type="text" class="frame-3 border-1px-mist-gray"   [(ngModel)]="experienceVar.briefDescripition"
+              <input type="text" class="frame-3 border-1px-mist-gray"   [(ngModel)]="educationdetailsVar.endYear"
+              #briefDescripition>
+              <input type="text" class="frame-3 border-1px-mist-gray"   [(ngModel)]="educationdetailsVar.description"
+              #briefDescripition>
+              <input type="text" class="frame-3 border-1px-mist-gray"   [(ngModel)]="educationdetailsVar.percentage"
               #briefDescripition>
               <input type="file" (change)="upload($event)" accept=".png,.jpg,.pdf" class="frame-3 border-1px-mist-gray" />
               <button type="button" img
                 class="group-364"
-                (click)="addExperience()"
+                (click)="addEducations()"
                 src="../../../assets/img/group-364@2x.svg"
               >Get this verified</button>
             </div>
