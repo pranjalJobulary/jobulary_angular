@@ -1,1 +1,23 @@
-<p>company-homepage works!</p>
+
+<span *ngFor="let item of employer">
+<div class="school">{{item.companyname}}</div>
+              <div class="place-2">{{item.companytype}}</div>
+              <div class="field-of-study">{{item.companysummary}}</div>
+              <div class="location">{{item.companydescription}}</div>
+              <div class="x-date-month">{{item.companywebsite}}</div>
+              <div class="x-date-month">{{item.companysize}}</div>
+              <div class="grade">{{item.headquaters}}</div>
+              <div class="activities-societies-alumina">
+                {{item.companyfounded}}
+              </div>
+              <div class="description">{{item.companyEmail}}</div>
+              <img
+
+              src={{item.profileImage}}
+              style="border-radius: 50px;"
+            />
+            <img
+
+            src={{item.backGroundImage}}
+            style="border-radius: 50px;"
+          /></span>

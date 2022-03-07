@@ -53,15 +53,9 @@ export class EmployerService {
       return console.log(error);
     }
   }
-  //To get all employer deatils
-  getAllEmployer(){
-    return this.firestore.collection('employer').snapshotChanges;
-  }
-
   //To get specific employer details
-  //pass employerID through  using usermodel  Eg:usermodel.employerID
   getspecificEmployer(){
-    return this.firestore.collection('employer').doc('employerID').snapshotChanges;
+    return this.firestore.collection('users').doc(this.auth.userId).collection('employers').snapshotChanges();
   }
 
 }
