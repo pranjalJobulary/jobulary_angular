@@ -1,7 +1,5 @@
 export interface IEmployer {
-   documentId:string
    userId:string
-   //This will have create,update,delete,read functionality
    companyname:string
    companytype:string
    companysummary:string
@@ -10,9 +8,9 @@ export interface IEmployer {
    companysize:string
    headquaters:string
    companyfounded:string
-   createdatetime:Date
+   createOn:Date
    profileImage:string
    backGroundImage:string
    companyEmail:string
-   verified:boolean
+   verified:null
 }

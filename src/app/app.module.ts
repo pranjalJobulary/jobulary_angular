@@ -51,7 +51,6 @@ import { CompanyDashboardComponent } from './Components/company-dashboard/compan
 import { CompanyHomepageComponent } from './Components/company-homepage/company-homepage.component';
 import { ELearningDashboardComponent } from './Components/e-learning-dashboard/e-learning-dashboard.component';
 import { JosComponent } from './Components/jos/jos.component';
-
 import { ActivityComponent } from './Components/activity/activity.component';
 import { EmailVarificationComponent } from './Components/email-varification/email-varification.component';
 import { VerifyEmailComponent } from './Components/verify-email/verify-email.component';
@@ -68,11 +67,12 @@ import { BasicDetailsComponent } from './Components/basic-details/basic-details.
 import { CompanyFormComponent } from './Components/company-form/company-form.component';
 import { SideNavBarLeftComponent } from './Components/side-nav-bar-left/side-nav-bar-left.component';
 import { SideNavBarRightComponent } from './Components/side-nav-bar-right/side-nav-bar-right.component';
+
 //import { CompanyFormComponent } from './Components/company-form/company-form.component';
 //import { SideNavBarLeftComponent } from './Components/side-nav-bar-left/side-nav-bar-left.component';
 //import { SideNavBarRightComponent } from './Components/side-nav-bar-right/side-nav-bar-right.component';
-import { TogglerComponent } from './Components/toggler/toggler.component';
 
+import { TogglerComponent } from './Components/toggler/toggler.component';
 
 @NgModule({
   declarations: [
@@ -134,11 +134,7 @@ import { TogglerComponent } from './Components/toggler/toggler.component';
     SideNavBarLeftComponent,
     SideNavBarRightComponent,
     TogglerComponent,
-    SideNavBarRightComponent
-
-
-
-
+    SideNavBarRightComponent,
   ],
   imports: [
     BrowserModule,
