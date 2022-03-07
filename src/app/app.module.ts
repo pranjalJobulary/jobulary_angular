@@ -68,9 +68,9 @@ import { BasicDetailsComponent } from './Components/basic-details/basic-details.
 import { CompanyFormComponent } from './Components/company-form/company-form.component';
 import { SideNavBarLeftComponent } from './Components/side-nav-bar-left/side-nav-bar-left.component';
 import { SideNavBarRightComponent } from './Components/side-nav-bar-right/side-nav-bar-right.component';
-import { CompanyFormComponent } from './Components/company-form/company-form.component';
-import { SideNavBarLeftComponent } from './Components/side-nav-bar-left/side-nav-bar-left.component';
-import { SideNavBarRightComponent } from './Components/side-nav-bar-right/side-nav-bar-right.component';
+//import { CompanyFormComponent } from './Components/company-form/company-form.component';
+//import { SideNavBarLeftComponent } from './Components/side-nav-bar-left/side-nav-bar-left.component';
+//import { SideNavBarRightComponent } from './Components/side-nav-bar-right/side-nav-bar-right.component';
 import { TogglerComponent } from './Components/toggler/toggler.component';
 
 
