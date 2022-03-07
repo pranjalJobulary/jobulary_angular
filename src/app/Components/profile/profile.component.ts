@@ -113,9 +113,9 @@ export class ProfileComponent implements OnInit {
     this.flag = 1
   }
 
-  sendEmail() {
+  sendEmail(docId:string) {
     const callable = this.fun.httpsCallable('workExperienceVerification');
-    callable({userId:this.auth.userId,docId:'J1i2SIdtCP4PAuNOZMZF',to:'kumaresan64761@gmail.com',name:'kumaresan',phone:'8825885479',message:'Please verify my education details',}).subscribe();
+    callable({userId:this.auth.userId,docId:docId,to:'kumaresan64761@gmail.com',name:'kumaresan',phone:'8825885479',message:'Please verify my education details'}).subscribe();
   }
   }
 

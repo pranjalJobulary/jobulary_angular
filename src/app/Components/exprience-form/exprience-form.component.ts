@@ -12,15 +12,16 @@ import { ExperienceService } from 'src/app/Services/experience.service';
 export class ExprienceFormComponent implements OnInit {
 
   experienceVar: IExperience = {
-    userId:'',
-  company: '',
-  employmentType:'',
-  location: '',
-  start_date: '',
-  briefDescripition: '',
-  verified:null,
-  createdON: new Date,
-  documentUrl:''
+    userId: '',
+    company: '',
+    employmentType: '',
+    location: '',
+    start_date: '',
+    briefDescripition: '',
+    verified: null,
+    createdON: new Date,
+    documentUrl: '',
+    documentId: ''
   }
 
   constructor(private auth: AuthService, private route: Router,private experience:ExperienceService) { }

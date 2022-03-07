@@ -1,6 +1,6 @@
 export interface IExperience {
   userId:string
-  company: string
+  company: string,
   employmentType:string
   location: string
   start_date: string
@@ -8,5 +8,6 @@ export interface IExperience {
   verified:null,
   createdON: Date,
   documentUrl?:any,
+  documentId:string
 }
 
