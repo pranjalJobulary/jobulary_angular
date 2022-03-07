@@ -331,3 +331,101 @@
   color: white;
   background-color: #0144e4;
 }
+
+
+
+
+
+
+input[type="email"]::placeholder { 
+  text-align: center;
+  margin-right: 2%;
+}
+
+input[type="password"]::placeholder { 
+  text-align: center;
+  margin-right: 2%;
+}
+
+.sign-in {
+  width: 344px;
+  height: 52px;
+  background: #0144E4;
+}
+
+.pop-up {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border: 0px solid;
+  width: 344px;
+  height: 52px;
+  margin-bottom: 10px;
+  font-family: Poppins;
+}
+
+input{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border: 0px solid;
+  width: 344px;
+  height: 52px;
+}
+
+.icon{
+  padding-right: 10px;
+}
+
+.general {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.popup-sign-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sign-in-methods{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  height: fit-content;
+}
+
+.sign-in-title {
+  color: #0144E4;
+  padding-bottom: 10px;
+  font-family: Poppins;
+}
+
+.cont{
+  padding-bottom: 40px;
+  font-family: Poppins;
+}
+
+.forget{
+  padding-top: 50px;
+}
+
+.sign-in-common{
+  margin-bottom: 10px;
+  font-family: Poppins;
+}
+
+@media (max-width: 800px){
+ .sign-in-methods {
+     flex-direction: column;
+     text-align: center;
+ } 
+}

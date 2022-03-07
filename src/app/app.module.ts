@@ -1,11 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { AngularFireStorageModule } from '@angular/fire/compat/storage';
-
 import { environment } from 'src/environments/environment';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
@@ -67,10 +65,13 @@ import { TopNavBarComponent } from './Components/top-nav-bar/top-nav-bar.compone
 import { MostRecentExprienceComponent } from './Components/most-recent-exprience/most-recent-exprience.component';
 import { MostRecentJobTitleComponent } from './Components/most-recent-job-title/most-recent-job-title.component';
 import { BasicDetailsComponent } from './Components/basic-details/basic-details.component';
-
 import { CompanyFormComponent } from './Components/company-form/company-form.component';
 import { SideNavBarLeftComponent } from './Components/side-nav-bar-left/side-nav-bar-left.component';
 import { SideNavBarRightComponent } from './Components/side-nav-bar-right/side-nav-bar-right.component';
+import { CompanyFormComponent } from './Components/company-form/company-form.component';
+import { SideNavBarLeftComponent } from './Components/side-nav-bar-left/side-nav-bar-left.component';
+import { SideNavBarRightComponent } from './Components/side-nav-bar-right/side-nav-bar-right.component';
+import { TogglerComponent } from './Components/toggler/toggler.component';
 
 
 @NgModule({
@@ -131,7 +132,12 @@ import { SideNavBarRightComponent } from './Components/side-nav-bar-right/side-n
     BasicDetailsComponent,
     CompanyFormComponent,
     SideNavBarLeftComponent,
+    SideNavBarRightComponent,
+    TogglerComponent,
     SideNavBarRightComponent
+
+
+
 
   ],
   imports: [

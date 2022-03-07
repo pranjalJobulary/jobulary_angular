@@ -9,10 +9,13 @@ import { AuthService } from './auth.service';
 export class LocationService {
   location!:ILocation;
   constructor(private firestore:AngularFirestore, private auth: AuthService,) { }
-  addLocation(location:ILocation){
-    return this.firestore.collection('users').doc(this.auth.userId).collection('location').add(location).then(data =>{
-      console.log("Success" + data.id)
-    }).catch(error => console.log(error));
+  async addLocation(location:ILocation){
+    try {
+      const data_1 = await this.firestore.collection('users').doc(this.auth.userId).collection('location').add(location);
+      console.log("Success" + data_1.id);
+    } catch (error) {
+      return console.log(error);
+    }
   }
   getLocation(){
     return this.firestore.collection('users').doc(this.auth.userId).collection('location').snapshotChanges();

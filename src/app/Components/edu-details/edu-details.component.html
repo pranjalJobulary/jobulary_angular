@@ -1,433 +1,125 @@
-<!-- <p>edu-details works!</p>
-
-<span *ngFor = "let item of eduDetails">
-    {{item.instituteName}}
-    {{item.percentage}}
-</span>
-
-<button (click)="addEdu()">Add Edu</button> -->
-
-
-<div class="container-center-horizontal" >
-    <div class="testprofile screen">
-      <!-- Side Item -->
-      <div class="flex-row-1">
-        <div class="flex-col-7">
-          <!-- Sidenavbar -->
-
-          <!-- Side nav Bar -->
-          <div class="flex-col-8"></div>
-        </div>
-        <!-- Middle Content -->
-        <div *ngFor="let item of userBasicDetails" class="flex-col-9">
-          <img
-            class="unsplashh5wv-m-cd-ov3w"
-            src={{item.firstName}}
-          />
-          <div  class="overlap-group5">
-            <!-- Bio Detail -->
-            <div class="frame-218 border-1px-mercury-2">
-              <div class="flex-row-3">
-                <img
-                  class="unsplashw-no-ln-jo7t-s8"
-                  style="border-radius: 50px;"
-                  src={{item.firstName}}
-                />
-                <img
-                  class="bxbx-message-square-edit-1"
-                  src="{{item.firstName}}"
-                />
-              </div>
-              <div class="flex-row-4">
-                <div class="flex-col-10">
-                  <p class="mern-stack-ui-ux">
-                    MERN Stack || UI-UX || DEVOPS || BLOCKCHAIN
-                  </p>
-                  <div class="chennai-tamil-nadu poppins-normal-stack-14px">
-                    Chennai, Tamil nadu,
-                  </div>
-                  <div class="frame-346 border-1px-mercury">
-                    <div
-                      class="open-for-mentorship poppins-normal-stack-18px"
-                    >
-                      Open for Mentorship
-                    </div>
-                  </div>
-                </div>
-                <div class="flex-col-11">
-                  <div class="flex-row-5">
-                    <div class="unsplashf-container">
-                      <img
-                        class="unsplash-fy-d3-ow-bu-xn-y"
-                        src="../../../assets/img/unsplash-fyd3owbuxny@2x.svg"
-                      />
-                      <img
-                        class="unsplashf-vaimgno3dw"
-                        src="../../../assets/img/unsplash-fvaimgno3dw@2x.svg"
-                      />
-                    </div>
-                    <div class="flex-col-12 poppins-normal-black-12px">
-                      <div class="leather-sector-skill-council">
-                        Leather sector skill council
-                      </div>
-                      <div class="uttrakhand-technical-university">
-                        Uttrakhand technical University
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-347 border-1px-mercury">
-                    <div
-                      class="open-for-assessment poppins-normal-stack-18px"
-                    >
-                      Open for assessment
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h1 class="title">{{item.firstName}} {{item.lastName}}</h1>
-          </div>
-          <!-- About me section -->
-          <div class="frame-340 border-1px-mercury">
-            <div class="flex-col-13">
-              <div class="about-me poppins-semi-bold-absolute-zero-18px">
-                About Me
-              </div>
-              <p class="working-as-an-associ">
-                <span class="span0"
-                  >Working as an Associate Programmer with the knowledge of
-                  Cloud, javascript and and datascience and UI-UX<br />this
-                  will help me to enhance the skiil and help to contribute to
-                  the company.</span
-                ><span class="span1"
-                  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;see
-                  more</span
-                >
-              </p>
-            </div>
-            <img
-              class="bxbx-message-square-edit-2"
-              src="../../../assets/img/bx-bx-message-square-edit-1@2x.svg"
-            />
-          </div>
-          <!-- Activity -->
-          <div class="frame-341 border-1px-mercury">
-            <div class="flex-row-6">
-              <div class="flex-row-7">
-                <div class="flex-col-14">
-                  <div class="activity poppins-semi-bold-absolute-zero-18px">
-                    Activity
-                  </div>
-                  <img
-                    class="unsplashf6-hb-vn-gt-nn-y"
-                    src="../../../assets/img/unsplash-f6hbvngtnny@2x.png"
-                  />
-                  <img
-                    class="unsplash"
-                    src="../../../assets/img/unsplash-zawar1fkomw@2x.png"
-                  />
-                </div>
-                <div class="flex-col-15">
-                  <div
-                    class="what-an-achivment-keep-going poppins-normal-black-18px"
-                  >
-                    What an achivment keep going
-                  </div>
-                  <div class="name poppins-normal-stack-12px">
-                    Lisa commented
-                  </div>
-                  <div class="what-an-achivment poppins-normal-black-18px">
-                    What an achivment.
-                  </div>
-                  <div class="name poppins-normal-stack-12px">
-                    Lisa commented
-                  </div>
-                </div>
-                <div class="unsplash-container">
-                  <img
-                    class="unsplash-1"
-                    src="../../../assets/img/unsplash-at--ekm5pge@2x.png"
-                  />
-                  <img
-                    class="unsplash"
-                    src="../../../assets/img/unsplash-7ikub62cqbu@2x.png"
-                  />
-                </div>
-              </div>
-              <div class="flex-col-16">
-                <div class="comments-for-the-help poppins-normal-black-18px">
-                  Comments for the help
-                </div>
-                <div class="name poppins-normal-stack-12px">
-                  Lisa commented
-                </div>
-                <div class="name-4 poppins-normal-black-18px">
-                  Hope you are doing well
-                </div>
-                <div class="name poppins-normal-stack-12px">
-                  Lisa commented
-                </div>
-              </div>
-            </div>
-            <div class="frame-345 border-1px-mercury">
-              <div class="see-more poppins-normal-stack-18px">see more</div>
-            </div>
-          </div>
-          <!-- Exprience -->
-          <div class="frame-345-1 border-1px-mercury" >
-            <div class="flex-row-8">
-              <div class="exprience poppins-semi-bold-absolute-zero-18px">
+<div class="container-center-horizontal">
+  <div class="exprience screen">
+    <div class="flex-row-1">
+      <div class="flex-col-9">
+        <div class="frame-358 border-1px-mist-gray">
+          <div class="frame-354 border-1px-mercury-2">
+            <div class="frame-362 border-1px-absolute-zero">
+              <div class="car-stories poppins-normal-absolute-zero-11px">
                 Exprience
               </div>
-              <img
-                class="clarityadd-line"
-                src="../../../assets/img/clarity-add-line@2x.svg"
-              />
-            </div>
-            <div style="margin-bottom: 10px;" class="flex-row-9" *ngFor="let items of workExp">
-              <img
-                class="unsplash-2"
-                src="../../../assets/img/unsplash-fyd3owbuxny-1@2x.svg"
-              />
-              <div class="flex-col-17">
-                <div class="associate-programmer poppins-normal-black-18px">
-                  {{items.designation}}
-                </div>
-                <div class="flex-row-10 poppins-normal-stack-12px">
-                  <div class="leather-sector-skill-council-1">
-                    {{items.company}}
-                  </div>
-                  <div class="full-time">Full time</div>
-                </div>
-                <div class="flex-row-11 poppins-normal-stack-12px">
-                  <div class="december-2020-present">
-                    {{items.start_date}} - Present
-                  </div>
-                  <div class="address">1 year 2 month</div>
-                </div>
-                <div class="place-2 poppins-normal-stack-12px">{{items.verified}}</div>
-              </div>
-              <div class="flex-col-18">
-                <img
-                  class="bxbx-message-square-edit-3"
-                  src="../../../assets/img/bx-bx-message-square-edit-1@2x.svg"
-                />
-                <div class="overlap-group-2">
-                  <div
-                    class="varify valign-text-middle metrophobic-normal-white-14px"
-                  >
-                    Verify
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- <div class="frame-345-2 border-1px-mercury">
-              <div class="see-more poppins-normal-stack-18px">see more</div>
-            </div> -->
-          </div>
-          <!-- Education -->
-          <div class="frame-346-1 border-1px-mercury">
-            <div class="flex-row-12">
-              <div class="flex-col-19">
-                <div class="education poppins-semi-bold-absolute-zero-18px">
-                  Education
-                </div>
-                <div class="group-365" *ngFor="let itemss of eduDetails">
-                  <img
-                    class="unsplash-2"
-                    src="../../../assets/img/unsplash-fyd3owbuxny-2@2x.svg"
-                  />
-                  <div class="flex-col-20">
-                    <div
-                      class="uttrakhand-technical-university-1 poppins-normal-black-18px"
-                    >
-                      {{itemss.instituteName}}
-                    </div>
-                    <div
-                      class="bacholere-of-engineering poppins-normal-stack-14px"
-                    >
-                      {{itemss.qualifications}}
-                    </div>
-                    <div class="address-1 poppins-normal-stack-14px">
-                      {{itemss.major}}
-                    </div>
-                  </div>
-                </div>
-                <!-- <div class="group-366">
-                  <img
-                    class="unsplash-2"
-                    src="../../../assets/img/unsplash-s9cc2skysjm@2x.svg"
-                  />
-                  <div class="flex-col-21">
-                    <div
-                      class="central-institute-of poppins-normal-black-18px"
-                    >
-                      Central institute of polymer engineering and technology
-                    </div>
-                    <div
-                      class="d-iploma-of-engineering poppins-normal-stack-14px"
-                    >
-                      DIploma of engineering
-                    </div>
-                    <div class="address-2 poppins-normal-stack-14px">
-                      3 years
-                    </div>
-                  </div>
-                </div>
-                <div class="group-367">
-                  <img
-                    class="unsplash-2"
-                    src="../../../assets/img/unsplash--so3jte3gzo@2x.svg"
-                  />
-                  <div class="flex-col-22">
-                    <div
-                      class="kendriya-vidiyalaya poppins-normal-black-18px"
-                    >
-                      Kendriya Vidiyalaya Bailey road patna 14
-                    </div>
-                    <div
-                      class="d-iploma-of-engineering-1 poppins-normal-stack-14px"
-                    >
-                      DIploma of engineering
-                    </div>
-                    <div class="address-3 poppins-normal-stack-14px">
-                      12 years
-                    </div>
-                  </div>
-                </div> -->
-              </div>
-              <div class="flex-col-23">
-                <img
-                  class="clarityadd-line-1"
-                  src="../../../assets/img/clarity-add-line@2x.svg"
-                />
-                <img
-                  class="bxbx-message-square-edit-4"
-                  src="../../../assets/img/bx-bx-message-square-edit-1@2x.svg"
-                />
-                <div class="overlap-group-3">
-                  <div
-                    class="varify valign-text-middle metrophobic-normal-white-14px"
-                  >
-                    Verify
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="frame-345-3 border-1px-mercury">
-              <div class="see-more poppins-normal-stack-18px">see more</div>
             </div>
           </div>
-          <!-- Skill -->
-          <div class="frame-34 border-1px-mercury">
-            <div class="flex-row-13">
-              <div class="flex-col-24">
-                <div class="skills poppins-semi-bold-absolute-zero-18px">
-                  Skills
-                </div>
-                <div class="engineering poppins-normal-black-24px">
-                  Engineering
-                </div>
-                <div class="flex-col-item poppins-normal-black-24px">
-                  Training
-                </div>
-                <div class="flex-col-item poppins-normal-black-24px">
-                  Problem solving
-                </div>
-              </div>
-              <div class="flex-col-25">
-                <div class="flex-row-14">
-                  <div class="add-new-skill poppins-normal-stack-18px">
-                    Add new skill
-                  </div>
-                  <img
-                    class="clarityadd-line-2"
-                    src="../../../assets/img/clarity-add-line@2x.svg"
-                  />
-                </div>
-                <div class="overlap-group-1">
-                  <div
-                    class="varify valign-text-middle metrophobic-normal-white-14px"
-                  >
-                    Verify
-                  </div>
-                </div>
-                <div class="overlap-group-1">
-                  <div
-                    class="varify valign-text-middle metrophobic-normal-white-14px"
-                  >
-                    Verify
-                  </div>
-                </div>
-                <div class="overlap-group-1">
-                  <div
-                    class="varify valign-text-middle metrophobic-normal-white-14px"
-                  >
-                    Verify
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="frame-345-4 border-1px-mercury">
-              <div class="see-more poppins-normal-stack-18px">see more</div>
-            </div>
-          </div>
-          <!-- Intrest area -->
-          <div class="frame-34 border-1px-mercury">
-            <div class="flex-row-15">
-              <div class="flex-col-26">
+          <div class="frame-363 border-1px-mercury">
+            <div class="flex-col-10 poppins-normal-stack-14px">
+              <div class="frame-363-1 border-1px-absolute-zero">
                 <div
-                  class="intrest-area poppins-semi-bold-absolute-zero-18px"
+                  class="title-of-the-accomplishment poppins-normal-absolute-zero-11px"
                 >
-                  Intrest area
-                </div>
-                <div class="group-368">
-                  <img
-                    class="unsplash-2"
-                    src="../../../assets/img/unsplash-yj1m5rickk4@2x.svg"
-                  />
-                  <div class="cloud-computing poppins-normal-black-18px">
-                    Cloud computing
-                  </div>
-                </div>
-                <div class="group-370">
-                  <img
-                    class="unsplash-2"
-                    src="../../../assets/img/unsplash-yj1m5rickk4-1@2x.svg"
-                  />
-                  <div class="we-devlopment poppins-normal-black-18px">
-                    We devlopment
-                  </div>
+                  Add Educational Details
                 </div>
               </div>
-              <div class="group-container">
-                <div class="group-369">
-                  <img
-                    class="unsplash-2"
-                    src="../../../assets/img/unsplash-eusvweosble@2x.svg"
-                  />
-                  <div class="block-chain-1 poppins-normal-black-18px">
-                    Block chain
-                  </div>
-                </div>
-                <div class="group-371">
-                  <img
-                    class="unsplash-2"
-                    src="../../../assets/img/unsplash-eusvweosble-1@2x.svg"
-                  />
-                  <div
-                    class="full-stack-development poppins-normal-black-18px"
-                  >
-                    Full stack development
-                  </div>
-                </div>
+              <div class="company-name">Institute Name</div>
+              <div class="employment-type">Education Type</div>
+              <div class="location">Qualification</div>
+              <div class="start-date">Start Date</div>
+              <div class="end-date">End Date</div>
+              <div class="breif-company-description">
+                Description
               </div>
+              <div class="flex-col-item">Percentage</div>
+              <button type="button" img
+                class="group-363"
+                src="../../../assets/img/group-363-5@2x.svg"
+              >Next</button>
             </div>
-            <div class="frame-345-5 border-1px-mercury">
-              <div class="see-more poppins-normal-stack-18px">see more</div>
+            <div class="flex-col-11">
+              <input type="text" class="frame-365 border-1px-mist-gray"name="state"
+              [(ngModel)]="educationdetailsVar.instituteName"
+              #company>
+              <select type="text" class="frame-3 border-1px-mist-gray"name="state"
+              [(ngModel)]="educationdetailsVar.typeOfEdu"
+              #employmentType>
+              <option>PG</option>
+              <option>UG</option>
+              <option>12th</option>
+              <option>10th</option>
+            </select>
+              <input type="text" class="frame-3 border-1px-mist-gray"name="state"
+              [(ngModel)]="educationdetailsVar.qualifications"
+              #location>
+              <input type="date" class="frame-3 border-1px-mist-gray"  [(ngModel)]="educationdetailsVar.startYear"
+              #start_date>
+              <input type="text" class="frame-3 border-1px-mist-gray"   [(ngModel)]="educationdetailsVar.endYear"
+              #briefDescripition>
+              <input type="text" class="frame-3 border-1px-mist-gray"   [(ngModel)]="educationdetailsVar.description"
+              #briefDescripition>
+              <input type="text" class="frame-3 border-1px-mist-gray"   [(ngModel)]="educationdetailsVar.percentage"
+              #briefDescripition>
+              <input type="file" (change)="upload($event)" accept=".png,.jpg,.pdf" class="frame-3 border-1px-mist-gray" />
+              <button type="button" img
+                class="group-364"
+                (click)="addEducations()"
+                src="../../../assets/img/group-364@2x.svg"
+              >Get this verified</button>
             </div>
           </div>
+          <div class="frame-364 border-1px-mercury">
+            <div class="flex-col-12 poppins-normal-stack-14px">
+              <div class="frame-363-2 border-1px-absolute-zero">
+                <div
+                  class="validate-the-work-exprience poppins-normal-absolute-zero-11px"
+                >
+                  Validate the Work Exprience
+                </div>
+              </div>
+              <div class="place-2">Name</div>
+              <div class="place-3">Name</div>
+              <div class="place-4">Name</div>
+              <div class="place-5">Name</div>
+              <div class="place-6">Name</div>
+            </div>
+            <div class="frame-container-1">
+              <input type="text" class="frame-365 border-1px-mist-gray">
+              <input type="text" class="frame-3 border-1px-mist-gray">
+              <input type="text" class="frame-369 border-1px-mist-gray">
+              <input type="text" class="frame-371 border-1px-mist-gray">
+              <input type="text" class="frame-3 border-1px-mist-gray">
+            </div>
+            <div class="frame-container-2">
+              <button type="button" class="frame-362-1 border-1px-absolute-zero">
+                <div class="get-varified poppins-normal-absolute-zero-11px">
+                  Get Varified
+                </div>
+              </button>
+              <button type="button" class="frame-37 border-1px-absolute-zero">
+                <div class="get-varified poppins-normal-absolute-zero-11px">
+                  Get Varified
+                </div>
+              </button>
+              <button type="button" class="frame-375 border-1px-absolute-zero">
+                <div class="get-varified poppins-normal-absolute-zero-11px">
+                  Get Varified
+                </div>
+              </button>
+              <button type="button" class="frame-376 border-1px-absolute-zero">
+                <div class="get-varified poppins-normal-absolute-zero-11px">
+                  Get Varified
+                </div>
+              </button>
+              <button type="button" class="frame-37 border-1px-absolute-zero">
+                <div class="get-varified poppins-normal-absolute-zero-11px">
+                  Get Varified
+                </div>
+              </button>
+            </div>
+          </div>
+          <button type="button" img
+            class="group-363-1"
+            src="../../../assets/img/group-363-4@2x.svg"
+          >Submit</button>
         </div>
       </div>
     </div>
   </div>
+</div>
