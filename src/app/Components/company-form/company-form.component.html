@@ -19,32 +19,37 @@
                   Company Details
                 </div>
               </div>
-              <div class="school">School</div>
-              <div class="place-2">University</div>
-              <div class="field-of-study">Field of Study</div>
-              <div class="location">Location</div>
-              <div class="x-date-month">Start Date: Month</div>
-              <div class="x-date-month">End Date: Month</div>
-              <div class="grade">Grade</div>
+              <div class="school">Company Name</div>
+              <div class="place-2">Company Type</div>
+              <div class="field-of-study">Company Summary</div>
+              <div class="location">Company Description</div>
+              <div class="x-date-month">Company Website</div>
+              <div class="x-date-month">Company Size</div>
+              <div class="grade">Headquaters</div>
               <div class="activities-societies-alumina">
-                Activities/ Societies/ Alumina
+                Company Founded
               </div>
-              <div class="description">Description</div>
+              <div class="description">Company Email</div>
+              <div class="description">Profile Image</div>
+              <div class="description">Background Image</div>
             </div>
             <div class="frame-container-1">
-              <input type="text" class="frame-365 border-1px-mist-gray" />
-              <input type="text" class="frame-3 border-1px-mist-gray" />
-              <input type="text" class="frame-3 border-1px-mist-gray" />
-              <input type="text" class="frame-3 border-1px-mist-gray" />
-              <input type="text" class="frame-3 border-1px-mist-gray" />
-              <input type="text" class="frame-3 border-1px-mist-gray" />
-              <input type="text" class="frame-3 border-1px-mist-gray" />
-              <input type="text" class="frame-3 border-1px-mist-gray" />
-              <input type="text" class="frame-3 border-1px-mist-gray" />
+              <input type="text" class="frame-365 border-1px-mist-gray" [(ngModel)]="employerVar.companyname"/>
+              <input type="text" class="frame-3 border-1px-mist-gray" [(ngModel)]="employerVar.companytype"/>
+              <input type="text" class="frame-3 border-1px-mist-gray" [(ngModel)]="employerVar.companysummary"/>
+              <input type="text" class="frame-3 border-1px-mist-gray" [(ngModel)]="employerVar.companydescription"/>
+              <input type="text" class="frame-3 border-1px-mist-gray" [(ngModel)]="employerVar.companywebsite"/>
+              <input type="text" class="frame-3 border-1px-mist-gray" [(ngModel)]="employerVar.companysize"/>
+              <input type="text" class="frame-3 border-1px-mist-gray" [(ngModel)]="employerVar.headquaters"/>
+              <input type="text" class="frame-3 border-1px-mist-gray" [(ngModel)]="employerVar.companyfounded"/>
+              <input type="text" class="frame-3 border-1px-mist-gray" [(ngModel)]="employerVar.companyEmail"/>
+              <input type="file" (change)="upload1($event)"  accept=".png,.jpg," class="frame-3 border-1px-mist-gray" />
+              <input type="file" (change)="upload2($event)" accept=".png,.jpg," class="frame-3 border-1px-mist-gray" />
             </div>
           </div>
           <button
             type="button"
+            (click)="addEmployer()"
             class="group-363"
             src="../../../assets/img/group-363-14@2x.svg"
           >

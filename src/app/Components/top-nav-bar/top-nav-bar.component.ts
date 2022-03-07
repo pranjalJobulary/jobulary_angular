@@ -2,6 +2,9 @@ import { Component,ChangeDetectorRef, ElementRef, Input, HostListener, ViewChild
 import { IBasicDetails } from 'src/app/Models/IBasicDetails';
 import { BasicdetailsService } from 'src/app/Services/basicdetails.service';
 import algoliasearch from 'algoliasearch/lite';
+import { AuthService } from 'src/app/Services/auth.service';
+import { AngularFirestore } from '@angular/fire/compat/firestore';
+import { Router } from '@angular/router';
 
 
 
@@ -28,7 +31,7 @@ export class TopNavBarComponent implements OnInit {
    // Public toggles
    @Input() show = () => this.toggle(true);
    @Input() hide = () => this.toggle(false);
-  constructor( private basicdetailsService:BasicdetailsService,private cd: ChangeDetectorRef, private el: ElementRef) { }
+  constructor( private basicdetailsService:BasicdetailsService, private route:Router,private cd: ChangeDetectorRef, private el: ElementRef,private auth:AuthService,private firestore:AngularFirestore) { }
 
   ngOnInit(): void {
     this.basicdetailsService.getBasicDetails().subscribe( data=>{
@@ -66,5 +69,17 @@ export class TopNavBarComponent implements OnInit {
     this.hits = this.results.hits;
 
     this.cd.detectChanges();
+  }
+
+  checkEmployer(){
+    this.firestore.collection("users").doc(this.auth.userId).collection('employers').get().subscribe(data=>{
+    if (data.empty) {
+      this.route.navigate(['company-form']);
+      console.log('company-homepage not present')
+    }else{
+      this.route.navigate(['company-homepage']);
+      console.log('company-homepage present')
+    }
+   })
   }
 }

@@ -14,6 +14,7 @@ import { CarStories3Component } from './Components/car-stories3/car-stories3.com
 import { CareerGoalsComponent } from './Components/career-goals/career-goals.component';
 import { CertificatesComponent } from './Components/certificates/certificates.component';
 import { CompanyDashboardComponent } from './Components/company-dashboard/company-dashboard.component';
+import { CompanyFormComponent } from './Components/company-form/company-form.component';
 import { CompanyHomepageComponent } from './Components/company-homepage/company-homepage.component';
 import { CompanyProfileComponent } from './Components/company-profile/company-profile.component';
 import { CompanyComponent } from './Components/company/company.component';
@@ -82,6 +83,7 @@ const routes: Routes = [
   { path: 'forms', component:FormsComponent},
   { path: 'honors-awards', component:HonorsAwardsComponent},
   { path: 'jos', component:JosComponent},
+  { path: 'company-form', component:CompanyFormComponent},
 
 
 ];
