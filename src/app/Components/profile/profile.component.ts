@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AngularFireFunctions } from '@angular/fire/compat/functions';
 import { IAboutMe } from 'src/app/Models/IAboutme';
 import { IBasicDetails } from 'src/app/Models/IBasicDetails';
 import { IEducationDetails } from 'src/app/Models/IEducationDetails';
@@ -7,6 +8,7 @@ import { ILocation } from 'src/app/Models/ILocation';
 import { IProfileImage } from 'src/app/Models/IProfileImage';
 import { IWorkExperience } from 'src/app/Models/IWorkExpereince';
 import { AboutMeService } from 'src/app/Services/about-me.service';
+import { AuthService } from 'src/app/Services/auth.service';
 import { BackgroundimageserviceService } from 'src/app/Services/backgroundimageservice.service';
 import { BasicdetailsService } from 'src/app/Services/basicdetails.service';
 import { EduDetailsService } from 'src/app/Services/edu-details.service';
@@ -32,7 +34,7 @@ export class ProfileComponent implements OnInit {
   basicdetails!:IBasicDetails[]
   aboutMe!:IAboutMe[]
   location!:ILocation[]
-  constructor(private imageService:ImageuploadService,private basicdetailsService:BasicdetailsService,private aboutMeService:AboutMeService,private locationService:LocationService,private backgroundImageService:BackgroundimageserviceService,private workExperienceService:WorkExperienceService,private educationWorkExperiance:EduDetailsService,private experiencService:ExperienceService) { }
+  constructor(private fun: AngularFireFunctions,private imageService:ImageuploadService,private basicdetailsService:BasicdetailsService,private aboutMeService:AboutMeService,private locationService:LocationService,private backgroundImageService:BackgroundimageserviceService,private workExperienceService:WorkExperienceService,private educationWorkExperiance:EduDetailsService,private experiencService:ExperienceService, private auth:AuthService) { }
   ngOnInit(): void {
     this.imageService.getProfileImage().subscribe( data=>{
       this.profileImage = data. map( e =>{
@@ -109,6 +111,11 @@ export class ProfileComponent implements OnInit {
 
   openVerification() {
     this.flag = 1
+  }
+
+  sendEmail() {
+    const callable = this.fun.httpsCallable('workExperienceVerification');
+    callable({userId:this.auth.userId,docId:'J1i2SIdtCP4PAuNOZMZF',to:'kumaresan64761@gmail.com',name:'kumaresan',phone:'8825885479',message:'Please verify my education details',}).subscribe();
   }
   }
 
